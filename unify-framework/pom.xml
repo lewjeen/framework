@@ -98,4 +98,8 @@
 		<aopalliance.version>1.0</aopalliance.version>
 		<xstream.version>1.4.4</xstream.version>
 	</properties>
+  <modules>
+  	<module>unify-framework-core</module>
+  	<module>unify-framework-tag</module>
+  </modules>
 </project>
