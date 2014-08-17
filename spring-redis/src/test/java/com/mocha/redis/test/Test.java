@@ -33,7 +33,7 @@ public class Test {
 //        redisClient.set("a", "abc");
         
 //        redisClient.blpop("liujun");
-        System.out.println(redisClient.blpop(0,"liujun"));
+        System.out.println(redisClient.blpop(0,"1111"));
 //        System.out.println(redisClient.get("a"));
     }
 

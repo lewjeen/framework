@@ -3135,7 +3135,7 @@ public class RedisClientTemplateImpl implements RedisClientTemplate {
 		List<String> multiBulkReply = null;
 		boolean broken = false;
 		try {
-			multiBulkReply = shardedJedis.blpop(timeout,key);
+			multiBulkReply = shardedJedis.blpop(key,timeout);
 		} catch (Exception e) {
 			log.error(e.getMessage(), e);
 			broken = true;
