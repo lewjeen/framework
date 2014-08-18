@@ -1067,5 +1067,35 @@ public abstract interface RedisClientTemplate {
 
 	public abstract long pfcount(String paramString);
 
+	/**
+	 * 
+	 * 取出队列中的数据
+	 * 
+	 * @param timeout
+	 *            超时时间
+	 * @param key
+	 *            队列key值
+	 * @return 返回List对象
+	 */
 	public List<String> blpop(int timeout, String key);
+
+	/**
+	 * 
+	 * 设置对象
+	 * 
+	 * @param key
+	 * @param object
+	 * @return
+	 */
+	public String set(String key, Object object);
+
+	/**
+	 * 
+	 * 获取对象
+	 * 
+	 * @param key
+	 * @return
+	 */
+	public Object getObject(String key);
+
 }

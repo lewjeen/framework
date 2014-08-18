@@ -22,6 +22,7 @@ import redis.clients.jedis.SortingParams;
 import redis.clients.jedis.Tuple;
 
 import com.alibaba.fastjson.JSON;
+import com.mocha.redis.commons.Cons;
 import com.mocha.redis.source.RedisDataSource;
 
 /**
@@ -81,6 +82,22 @@ public class RedisClientTemplateImpl implements RedisClientTemplate {
 		return result;
 	}
 
+	public String set(String key, Object object) {
+		String result = null;
+		try {
+			if (object != null) {
+				result = set(key, JSON.toJSON(object));
+			} else {
+				result = Cons.REDIS_NO;
+			}
+		} catch (Exception e) {
+			log.error(e.getMessage(), e);
+			result = Cons.REDIS_NO;
+		}
+		return key;
+
+	}
+
 	/**
 	 * GET key 返回 key 所关联的字符串值。 如果 key 不存在那么返回特殊值 nil 。 假如 key
 	 * 储存的值不是字符串类型，返回一个错误，因为 GET 只能用于处理字符串值。
@@ -104,6 +121,19 @@ public class RedisClientTemplateImpl implements RedisClientTemplate {
 			broken = true;
 		} finally {
 			redisDataSource.returnResource(shardedJedis, broken);
+		}
+		return result;
+	}
+
+	public Object getObject(String key) {
+		Object result = null;
+		try {
+			String str = get(key);
+			if (StringUtils.isNotEmpty(str)) {
+				result = JSON.parseObject(str, result.getClass());
+			}
+		} catch (Exception e) {
+			log.error(e.getMessage(), e);
 		}
 		return result;
 	}
