@@ -481,6 +481,8 @@ public abstract interface RedisClientTemplate {
 	 */
 	public abstract Long lpush(String key, String[] value);
 
+	public abstract Long lpush(String key, Object object);
+
 	/**
 	 * 
 	 * 返回列表 key 的长度。 <br>
@@ -570,6 +572,16 @@ public abstract interface RedisClientTemplate {
 	 * @return 列表的头元素。 当 key 不存在时，返回 nil 。
 	 */
 	public abstract String lpop(String key);
+
+	/**
+	 * 
+	 * LPOP key <br>
+	 * 移除并返回列表 key 的头元素。 <br>
+	 * 
+	 * @param key
+	 * @return 列表的头元素。 当 key 不存在时，返回 nil 。
+	 */
+	public abstract Object lpopObject(String key);
 
 	/**
 	 * 
@@ -1054,6 +1066,6 @@ public abstract interface RedisClientTemplate {
 	public abstract Long pfadd(String paramString, String[] paramArrayOfString);
 
 	public abstract long pfcount(String paramString);
-	
-	public List<String> blpop(int timeout,String key);
+
+	public List<String> blpop(int timeout, String key);
 }

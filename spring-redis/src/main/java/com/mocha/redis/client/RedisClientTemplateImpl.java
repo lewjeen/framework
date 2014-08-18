@@ -6,6 +6,7 @@ import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Set;
 
+import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -20,6 +21,7 @@ import redis.clients.jedis.ShardedJedisPipeline;
 import redis.clients.jedis.SortingParams;
 import redis.clients.jedis.Tuple;
 
+import com.alibaba.fastjson.JSON;
 import com.mocha.redis.source.RedisDataSource;
 
 /**
@@ -716,6 +718,25 @@ public class RedisClientTemplateImpl implements RedisClientTemplate {
 		return result;
 	}
 
+	public Long lpush(String key, Object object) {
+		Long result = null;
+		ShardedJedis shardedJedis = redisDataSource.getRedisClient();
+		if (shardedJedis == null) {
+			return result;
+		}
+		boolean broken = false;
+		try {
+			result = shardedJedis.lpush(key, JSON.toJSONString(object));
+
+		} catch (Exception e) {
+			log.error(e.getMessage(), e);
+			broken = true;
+		} finally {
+			redisDataSource.returnResource(shardedJedis, broken);
+		}
+		return result;
+	}
+
 	public Long llen(String key) {
 		Long result = null;
 		ShardedJedis shardedJedis = redisDataSource.getRedisClient();
@@ -847,6 +868,23 @@ public class RedisClientTemplateImpl implements RedisClientTemplate {
 			redisDataSource.returnResource(shardedJedis, broken);
 		}
 		return result;
+	}
+
+	public Object lpopObject(String key) {
+		Object result = null;
+		ShardedJedis shardedJedis = redisDataSource.getRedisClient();
+		String str = lpop(key);
+		System.out.println("=================" + str);
+		try {
+			if (StringUtils.isNotEmpty(str) || str.equals("nil")) {
+				result = JSON.parseObject(str, Object.class);
+			}
+		} catch (Exception e) {
+			log.error(e.getMessage(), e);
+		}
+
+		return result;
+
 	}
 
 	public String rpop(String key) {
@@ -3130,12 +3168,13 @@ public class RedisClientTemplateImpl implements RedisClientTemplate {
 
 		return multiBulkReply;
 	}
-	public List<String> blpop(int timeout,String key) {
+
+	public List<String> blpop(int timeout, String key) {
 		ShardedJedis shardedJedis = redisDataSource.getRedisClient();
 		List<String> multiBulkReply = null;
 		boolean broken = false;
 		try {
-			multiBulkReply = shardedJedis.blpop(key,timeout);
+			multiBulkReply = shardedJedis.blpop(timeout, key);
 		} catch (Exception e) {
 			log.error(e.getMessage(), e);
 			broken = true;
@@ -3145,6 +3184,7 @@ public class RedisClientTemplateImpl implements RedisClientTemplate {
 
 		return multiBulkReply;
 	}
+
 	/**
 	 * 
 	 * 列表的阻塞式
@@ -3172,7 +3212,7 @@ public class RedisClientTemplateImpl implements RedisClientTemplate {
 	public String set(String key, String value, String nxxx, String expx,
 			long time) {
 		ShardedJedis shardedJedis = redisDataSource.getRedisClient();
-		String result=null;
+		String result = null;
 		boolean broken = false;
 		try {
 			result = shardedJedis.set(key, value, nxxx, expx, time);
@@ -3189,7 +3229,7 @@ public class RedisClientTemplateImpl implements RedisClientTemplate {
 	public Long persist(String key) {
 		// TODO Auto-generated method stub
 		ShardedJedis shardedJedis = redisDataSource.getRedisClient();
-		Long result=null;
+		Long result = null;
 		boolean broken = false;
 		try {
 			result = shardedJedis.persist(key);
@@ -3206,7 +3246,7 @@ public class RedisClientTemplateImpl implements RedisClientTemplate {
 	public Boolean setbit(String key, long offset, boolean value) {
 		// TODO Auto-generated method stub
 		ShardedJedis shardedJedis = redisDataSource.getRedisClient();
-		Boolean result=false;
+		Boolean result = false;
 		boolean broken = false;
 		try {
 			result = shardedJedis.setbit(key, offset, value);
@@ -3223,7 +3263,7 @@ public class RedisClientTemplateImpl implements RedisClientTemplate {
 	public Boolean setbit(String key, long offset, String value) {
 		// TODO Auto-generated method stub
 		ShardedJedis shardedJedis = redisDataSource.getRedisClient();
-		Boolean result=false;
+		Boolean result = false;
 		boolean broken = false;
 		try {
 			result = shardedJedis.setbit(key, offset, value);
@@ -3240,7 +3280,7 @@ public class RedisClientTemplateImpl implements RedisClientTemplate {
 	public Boolean getbit(String key, long offset) {
 		// TODO Auto-generated method stub
 		ShardedJedis shardedJedis = redisDataSource.getRedisClient();
-		Boolean result=false;
+		Boolean result = false;
 		boolean broken = false;
 		try {
 			result = shardedJedis.getbit(key, offset);
@@ -3256,7 +3296,7 @@ public class RedisClientTemplateImpl implements RedisClientTemplate {
 	@Override
 	public Long setrange(String key, long offset, String value) {
 		ShardedJedis shardedJedis = redisDataSource.getRedisClient();
-		Long result=null;
+		Long result = null;
 		boolean broken = false;
 		try {
 			result = shardedJedis.setrange(key, offset, value);
@@ -3273,7 +3313,7 @@ public class RedisClientTemplateImpl implements RedisClientTemplate {
 	public Long hdel(String key, String[] field) {
 		// TODO Auto-generated method stub
 		ShardedJedis shardedJedis = redisDataSource.getRedisClient();
-		Long result=null;
+		Long result = null;
 		boolean broken = false;
 		try {
 			result = shardedJedis.hdel(key, field);
@@ -3290,7 +3330,7 @@ public class RedisClientTemplateImpl implements RedisClientTemplate {
 	public Long rpush(String key, String[] value) {
 		// TODO Auto-generated method stub
 		ShardedJedis shardedJedis = redisDataSource.getRedisClient();
-		Long result=null;
+		Long result = null;
 		boolean broken = false;
 		try {
 			result = shardedJedis.rpush(key, value);
@@ -3307,7 +3347,7 @@ public class RedisClientTemplateImpl implements RedisClientTemplate {
 	public Long lpush(String key, String[] value) {
 		// TODO Auto-generated method stub
 		ShardedJedis shardedJedis = redisDataSource.getRedisClient();
-		Long result=null;
+		Long result = null;
 		boolean broken = false;
 		try {
 			result = shardedJedis.lpush(key, value);
@@ -3324,7 +3364,7 @@ public class RedisClientTemplateImpl implements RedisClientTemplate {
 	public Long sadd(String key, String[] member) {
 		// TODO Auto-generated method stub
 		ShardedJedis shardedJedis = redisDataSource.getRedisClient();
-		Long result=null;
+		Long result = null;
 		boolean broken = false;
 		try {
 			result = shardedJedis.sadd(key, member);
@@ -3341,7 +3381,7 @@ public class RedisClientTemplateImpl implements RedisClientTemplate {
 	public Long srem(String key, String[] member) {
 		// TODO Auto-generated method stub
 		ShardedJedis shardedJedis = redisDataSource.getRedisClient();
-		Long result=null;
+		Long result = null;
 		boolean broken = false;
 		try {
 			result = shardedJedis.srem(key, member);
@@ -3358,7 +3398,7 @@ public class RedisClientTemplateImpl implements RedisClientTemplate {
 	public Long strlen(String key) {
 		// TODO Auto-generated method stub
 		ShardedJedis shardedJedis = redisDataSource.getRedisClient();
-		Long result=null;
+		Long result = null;
 		boolean broken = false;
 		try {
 			result = shardedJedis.strlen(key);
@@ -3375,7 +3415,7 @@ public class RedisClientTemplateImpl implements RedisClientTemplate {
 	public Long zadd(String key, Map<String, Double> member) {
 		// TODO Auto-generated method stub
 		ShardedJedis shardedJedis = redisDataSource.getRedisClient();
-		Long result=null;
+		Long result = null;
 		boolean broken = false;
 		try {
 			result = shardedJedis.zadd(key, member);
@@ -3392,7 +3432,7 @@ public class RedisClientTemplateImpl implements RedisClientTemplate {
 	public Set<String> zrange(String key, long start, long stop) {
 		// TODO Auto-generated method stub
 		ShardedJedis shardedJedis = redisDataSource.getRedisClient();
-		Set<String>  result=null;
+		Set<String> result = null;
 		boolean broken = false;
 		try {
 			result = shardedJedis.zrange(key, start, stop);
@@ -3409,7 +3449,7 @@ public class RedisClientTemplateImpl implements RedisClientTemplate {
 	public Long zrem(String key, String[] member) {
 		// TODO Auto-generated method stub
 		ShardedJedis shardedJedis = redisDataSource.getRedisClient();
-		Long result=null;
+		Long result = null;
 		boolean broken = false;
 		try {
 			result = shardedJedis.zrem(key, member);
@@ -3426,7 +3466,7 @@ public class RedisClientTemplateImpl implements RedisClientTemplate {
 	public Set<String> zrevrange(String key, long start, long stop) {
 		// TODO Auto-generated method stub
 		ShardedJedis shardedJedis = redisDataSource.getRedisClient();
-		Set<String> result=null;
+		Set<String> result = null;
 		boolean broken = false;
 		try {
 			result = shardedJedis.zrevrange(key, start, stop);
@@ -3443,7 +3483,7 @@ public class RedisClientTemplateImpl implements RedisClientTemplate {
 	public Set<Tuple> zrangeWithScores(String key, long start, long stop) {
 		// TODO Auto-generated method stub
 		ShardedJedis shardedJedis = redisDataSource.getRedisClient();
-		Set<Tuple> result=null;
+		Set<Tuple> result = null;
 		boolean broken = false;
 		try {
 			result = shardedJedis.zrangeWithScores(key, start, stop);
@@ -3457,11 +3497,10 @@ public class RedisClientTemplateImpl implements RedisClientTemplate {
 	}
 
 	@Override
-	public Set<Tuple> zrevrangeWithScores(String key, long start,
-			long end) {
+	public Set<Tuple> zrevrangeWithScores(String key, long start, long end) {
 		// TODO Auto-generated method stub
 		ShardedJedis shardedJedis = redisDataSource.getRedisClient();
-		Set<Tuple> result=null;
+		Set<Tuple> result = null;
 		boolean broken = false;
 		try {
 			result = shardedJedis.zrevrangeWithScores(key, start, end);
@@ -3475,11 +3514,10 @@ public class RedisClientTemplateImpl implements RedisClientTemplate {
 	}
 
 	@Override
-	public Long zcount(String key, String min,
-			String max) {
+	public Long zcount(String key, String min, String max) {
 		// TODO Auto-generated method stub
 		ShardedJedis shardedJedis = redisDataSource.getRedisClient();
-		Long result=null;
+		Long result = null;
 		boolean broken = false;
 		try {
 			result = shardedJedis.zcount(key, min, max);
@@ -3493,11 +3531,10 @@ public class RedisClientTemplateImpl implements RedisClientTemplate {
 	}
 
 	@Override
-	public Set<String> zrangeByScore(String key, String min,
-			String max) {
+	public Set<String> zrangeByScore(String key, String min, String max) {
 		// TODO Auto-generated method stub
 		ShardedJedis shardedJedis = redisDataSource.getRedisClient();
-		Set<String> result=null;
+		Set<String> result = null;
 		boolean broken = false;
 		try {
 			result = shardedJedis.zrangeByScore(key, min, max);
@@ -3511,11 +3548,10 @@ public class RedisClientTemplateImpl implements RedisClientTemplate {
 	}
 
 	@Override
-	public Set<String> zrevrangeByScore(String key,
-			String max, String min) {
+	public Set<String> zrevrangeByScore(String key, String max, String min) {
 		// TODO Auto-generated method stub
 		ShardedJedis shardedJedis = redisDataSource.getRedisClient();
-		Set<String> result=null;
+		Set<String> result = null;
 		boolean broken = false;
 		try {
 			result = shardedJedis.zrevrangeByScore(key, max, min);
@@ -3529,11 +3565,11 @@ public class RedisClientTemplateImpl implements RedisClientTemplate {
 	}
 
 	@Override
-	public Set<String> zrangeByScore(String key, String min,
-			String max, int offset, int count) {
+	public Set<String> zrangeByScore(String key, String min, String max,
+			int offset, int count) {
 		// TODO Auto-generated method stub
 		ShardedJedis shardedJedis = redisDataSource.getRedisClient();
-		Set<String> result=null;
+		Set<String> result = null;
 		boolean broken = false;
 		try {
 			result = shardedJedis.zrangeByScore(key, min, max, offset, count);
@@ -3547,15 +3583,15 @@ public class RedisClientTemplateImpl implements RedisClientTemplate {
 	}
 
 	@Override
-	public Set<String> zrevrangeByScore(String key,
-			String max, String min, int offset,
-			int count) {
+	public Set<String> zrevrangeByScore(String key, String max, String min,
+			int offset, int count) {
 		// TODO Auto-generated method stub
 		ShardedJedis shardedJedis = redisDataSource.getRedisClient();
-		Set<String> result=null;
+		Set<String> result = null;
 		boolean broken = false;
 		try {
-			result = shardedJedis.zrevrangeByScore(key, max, min, offset, count);
+			result = shardedJedis
+					.zrevrangeByScore(key, max, min, offset, count);
 		} catch (Exception e) {
 			log.error(e.getMessage(), e);
 			broken = true;
@@ -3566,11 +3602,10 @@ public class RedisClientTemplateImpl implements RedisClientTemplate {
 	}
 
 	@Override
-	public Set<Tuple> zrangeByScoreWithScores(String key,
-			String min, String max) {
+	public Set<Tuple> zrangeByScoreWithScores(String key, String min, String max) {
 		// TODO Auto-generated method stub
 		ShardedJedis shardedJedis = redisDataSource.getRedisClient();
-		Set<Tuple> result=null;
+		Set<Tuple> result = null;
 		boolean broken = false;
 		try {
 			result = shardedJedis.zrangeByScoreWithScores(key, min, max);
@@ -3584,11 +3619,11 @@ public class RedisClientTemplateImpl implements RedisClientTemplate {
 	}
 
 	@Override
-	public Set<Tuple> zrevrangeByScoreWithScores(String key,
-			String max, String min) {
+	public Set<Tuple> zrevrangeByScoreWithScores(String key, String max,
+			String min) {
 		// TODO Auto-generated method stub
 		ShardedJedis shardedJedis = redisDataSource.getRedisClient();
-		Set<Tuple> result=null;
+		Set<Tuple> result = null;
 		boolean broken = false;
 		try {
 			result = shardedJedis.zrevrangeByScoreWithScores(key, max, min);
@@ -3602,15 +3637,15 @@ public class RedisClientTemplateImpl implements RedisClientTemplate {
 	}
 
 	@Override
-	public Set<Tuple> zrangeByScoreWithScores(String key,
-			String min, String max, int offset,
-			int count) {
+	public Set<Tuple> zrangeByScoreWithScores(String key, String min,
+			String max, int offset, int count) {
 		// TODO Auto-generated method stub
 		ShardedJedis shardedJedis = redisDataSource.getRedisClient();
-		Set<Tuple>  result=null;
+		Set<Tuple> result = null;
 		boolean broken = false;
 		try {
-			result = shardedJedis.zrangeByScoreWithScores(key, min, max, offset, count);
+			result = shardedJedis.zrangeByScoreWithScores(key, min, max,
+					offset, count);
 		} catch (Exception e) {
 			log.error(e.getMessage(), e);
 			broken = true;
@@ -3621,15 +3656,15 @@ public class RedisClientTemplateImpl implements RedisClientTemplate {
 	}
 
 	@Override
-	public Set<Tuple> zrevrangeByScoreWithScores(String key,
-			String max, String min, int offset,
-			int count) {
+	public Set<Tuple> zrevrangeByScoreWithScores(String key, String max,
+			String min, int offset, int count) {
 		// TODO Auto-generated method stub
 		ShardedJedis shardedJedis = redisDataSource.getRedisClient();
-		Set<Tuple>  result=null;
+		Set<Tuple> result = null;
 		boolean broken = false;
 		try {
-			result = shardedJedis.zrevrangeByScoreWithScores(key, max, min, offset, count);
+			result = shardedJedis.zrevrangeByScoreWithScores(key, max, min,
+					offset, count);
 		} catch (Exception e) {
 			log.error(e.getMessage(), e);
 			broken = true;
@@ -3640,11 +3675,10 @@ public class RedisClientTemplateImpl implements RedisClientTemplate {
 	}
 
 	@Override
-	public Long zremrangeByRank(String key, long start,
-			long end) {
+	public Long zremrangeByRank(String key, long start, long end) {
 		// TODO Auto-generated method stub
 		ShardedJedis shardedJedis = redisDataSource.getRedisClient();
-		Long result=null;
+		Long result = null;
 		boolean broken = false;
 		try {
 			result = shardedJedis.zremrangeByRank(key, start, end);
@@ -3658,11 +3692,10 @@ public class RedisClientTemplateImpl implements RedisClientTemplate {
 	}
 
 	@Override
-	public Long zremrangeByScore(String key, String start,
-			String end) {
+	public Long zremrangeByScore(String key, String start, String end) {
 		// TODO Auto-generated method stub
 		ShardedJedis shardedJedis = redisDataSource.getRedisClient();
-		Long result=null;
+		Long result = null;
 		boolean broken = false;
 		try {
 			result = shardedJedis.zremrangeByScore(key, start, end);
@@ -3679,7 +3712,7 @@ public class RedisClientTemplateImpl implements RedisClientTemplate {
 	public Long lpushx(String key, String[] value) {
 		// TODO Auto-generated method stub
 		ShardedJedis shardedJedis = redisDataSource.getRedisClient();
-		Long result=null;
+		Long result = null;
 		boolean broken = false;
 		try {
 			result = shardedJedis.lpushx(key, value);
@@ -3696,7 +3729,7 @@ public class RedisClientTemplateImpl implements RedisClientTemplate {
 	public Long rpushx(String key, String[] value) {
 		// TODO Auto-generated method stub
 		ShardedJedis shardedJedis = redisDataSource.getRedisClient();
-		Long result=null;
+		Long result = null;
 		boolean broken = false;
 		try {
 			result = shardedJedis.rpushx(key, value);
@@ -3713,7 +3746,7 @@ public class RedisClientTemplateImpl implements RedisClientTemplate {
 	public String echo(String message) {
 		// TODO Auto-generated method stub
 		ShardedJedis shardedJedis = redisDataSource.getRedisClient();
-		String result=null;
+		String result = null;
 		boolean broken = false;
 		try {
 			result = shardedJedis.echo(message);
@@ -3730,7 +3763,7 @@ public class RedisClientTemplateImpl implements RedisClientTemplate {
 	public Long move(String key, int db) {
 		// TODO Auto-generated method stub
 		ShardedJedis shardedJedis = redisDataSource.getRedisClient();
-		Long result=null;
+		Long result = null;
 		boolean broken = false;
 		try {
 			result = shardedJedis.move(key, db);
@@ -3747,7 +3780,7 @@ public class RedisClientTemplateImpl implements RedisClientTemplate {
 	public Long bitcount(String key) {
 		// TODO Auto-generated method stub
 		ShardedJedis shardedJedis = redisDataSource.getRedisClient();
-		Long result=null;
+		Long result = null;
 		boolean broken = false;
 		try {
 			result = shardedJedis.bitcount(key);
@@ -3764,7 +3797,7 @@ public class RedisClientTemplateImpl implements RedisClientTemplate {
 	public Long bitcount(String key, long start, long end) {
 		// TODO Auto-generated method stub
 		ShardedJedis shardedJedis = redisDataSource.getRedisClient();
-		Long result=null;
+		Long result = null;
 		boolean broken = false;
 		try {
 			result = shardedJedis.bitcount(key, start, end);
@@ -3779,11 +3812,10 @@ public class RedisClientTemplateImpl implements RedisClientTemplate {
 
 	@SuppressWarnings("deprecation")
 	@Override
-	public ScanResult<Entry<String, String>> hscan(String key,
-			int cursor) {
+	public ScanResult<Entry<String, String>> hscan(String key, int cursor) {
 		// TODO Auto-generated method stub
 		ShardedJedis shardedJedis = redisDataSource.getRedisClient();
-		ScanResult<Entry<String, String>> result=null;
+		ScanResult<Entry<String, String>> result = null;
 		boolean broken = false;
 		try {
 			result = shardedJedis.hscan(key, cursor);
@@ -3801,7 +3833,7 @@ public class RedisClientTemplateImpl implements RedisClientTemplate {
 	public ScanResult<String> sscan(String key, int cursor) {
 		// TODO Auto-generated method stub
 		ShardedJedis shardedJedis = redisDataSource.getRedisClient();
-		ScanResult<String> result=null;
+		ScanResult<String> result = null;
 		boolean broken = false;
 		try {
 			result = shardedJedis.sscan(key, cursor);
@@ -3818,7 +3850,7 @@ public class RedisClientTemplateImpl implements RedisClientTemplate {
 	@Override
 	public ScanResult<Tuple> zscan(String key, int cursor) {
 		ShardedJedis shardedJedis = redisDataSource.getRedisClient();
-		ScanResult<Tuple> result=null;
+		ScanResult<Tuple> result = null;
 		boolean broken = false;
 		try {
 			result = shardedJedis.zscan(key, cursor);
@@ -3832,10 +3864,9 @@ public class RedisClientTemplateImpl implements RedisClientTemplate {
 	}
 
 	@Override
-	public ScanResult<Entry<String, String>> hscan(String key,
-			String cursor) {
+	public ScanResult<Entry<String, String>> hscan(String key, String cursor) {
 		ShardedJedis shardedJedis = redisDataSource.getRedisClient();
-		ScanResult<Entry<String, String>> result=null;
+		ScanResult<Entry<String, String>> result = null;
 		boolean broken = false;
 		try {
 			result = shardedJedis.hscan(key, cursor);
@@ -3852,7 +3883,7 @@ public class RedisClientTemplateImpl implements RedisClientTemplate {
 	public ScanResult<String> sscan(String key, String cursor) {
 		// TODO Auto-generated method stub
 		ShardedJedis shardedJedis = redisDataSource.getRedisClient();
-		ScanResult<String> result=null;
+		ScanResult<String> result = null;
 		boolean broken = false;
 		try {
 			result = shardedJedis.sscan(key, cursor);
@@ -3869,7 +3900,7 @@ public class RedisClientTemplateImpl implements RedisClientTemplate {
 	public ScanResult<Tuple> zscan(String key, String cursor) {
 		// TODO Auto-generated method stub
 		ShardedJedis shardedJedis = redisDataSource.getRedisClient();
-		ScanResult<Tuple> result=null;
+		ScanResult<Tuple> result = null;
 		boolean broken = false;
 		try {
 			result = shardedJedis.zscan(key, cursor);
@@ -3886,7 +3917,7 @@ public class RedisClientTemplateImpl implements RedisClientTemplate {
 	public Long pfadd(String key, String[] elements) {
 		// TODO Auto-generated method stub
 		ShardedJedis shardedJedis = redisDataSource.getRedisClient();
-		long result=0;
+		long result = 0;
 		boolean broken = false;
 		try {
 			result = shardedJedis.pfadd(key, elements);
@@ -3903,7 +3934,7 @@ public class RedisClientTemplateImpl implements RedisClientTemplate {
 	public long pfcount(String key) {
 		// TODO Auto-generated method stub
 		ShardedJedis shardedJedis = redisDataSource.getRedisClient();
-		long result=0;
+		long result = 0;
 		boolean broken = false;
 		try {
 			result = shardedJedis.pfcount(key);
@@ -3915,7 +3946,5 @@ public class RedisClientTemplateImpl implements RedisClientTemplate {
 		}
 		return result;
 	}
-
-	
 
 }
