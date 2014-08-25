@@ -137,7 +137,8 @@ public class MinaRequestDecoder extends CumulativeProtocolDecoder {
 		// 3. 一个ip包中包含一个消息的一部分
 		// 4. 一个ip包中包含两个完整的数据消息或更多（循环处理在父类的decode中）
 		// logger.info("in.remaining()======" + in.remaining());
-		System.out.println("in.remaining()== doDecode====" + in.remaining());
+		System.out.println("in.remaining()=   MinaRequestDecoder= doDecode===="
+				+ in.remaining());
 		if (in.remaining() > 4) {
 			logger.info("resv msg " + in.toString());
 			in.mark();
@@ -154,14 +155,20 @@ public class MinaRequestDecoder extends CumulativeProtocolDecoder {
 			ByteBuffer buffer = new ByteBuffer();
 			buffer.appendInt(length);
 			buffer.appendBytes(bytedata);
-			System.out.println("=======doDecode======length====" + length);
-			System.out.println("=======doDecode======bytedata===="
-					+ bytedata.toString());
+			System.out
+					.println("====MinaRequestDecoder===doDecode======length===="
+							+ length);
+			System.out
+					.println("===MinaRequestDecoder====doDecode======bytedata===="
+							+ bytedata.toString());
 
 			MinaPDU pdu = MinaPDUParser.createPDUFromBuffer(buffer);
-			System.out.println("=======doDecode======buffer===="
-					+ buffer.toString());
-			System.out.println("=======doDecode======MinaPDU====" + pdu);
+			System.out
+					.println("===MinaRequestDecoder====doDecode======buffer===="
+							+ buffer.toString());
+			System.out
+					.println("===MinaRequestDecoder====doDecode======MinaPDU===="
+							+ pdu);
 			if (pdu == null)
 				return false;
 			logger.info(pdu.dump());

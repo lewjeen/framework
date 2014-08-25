@@ -16,7 +16,6 @@ import org.apache.log4j.Logger;
 import org.apache.mina.core.service.IoHandlerAdapter;
 import org.apache.mina.core.session.IoSession;
 
-import com.mocha.tydb_common.entity.TodoEntity;
 import com.mocha.unitcode.mina.common.MinaConstant;
 import com.mocha.unitcode.mina.pdu.MinaPDU;
 import com.mocha.unitcode.mina.pdu.TodoEntityMessage;
@@ -100,9 +99,12 @@ public class MinaIoHandler extends IoHandlerAdapter {
 		}
 	}
 
+	@SuppressWarnings("static-access")
 	@Override
 	public void messageReceived(IoSession session, Object message)
 			throws Exception {
+		System.out.println("==========messageReceived================="
+				+ message.toString().getBytes().length);
 		MinaPDU pdu = (MinaPDU) message;
 		Logger.getLogger(MinaConstant.LOG_CONNECT).info(
 				"MESSAGE: " + pdu.header.getCommandId() + ":"
@@ -152,20 +154,35 @@ public class MinaIoHandler extends IoHandlerAdapter {
 				Logger.getLogger(MinaConstant.LOG_TODO).warn(
 						"MinaConstant.UNITE_TODO_SUBMIT Header: "
 								+ MinaConstant.UNITE_TODO_SUBMIT);
-				com.mocha.unitcode.mina.pdu.SubmitItem submitItem = (com.mocha.unitcode.mina.pdu.SubmitItem) pdu;
+				@SuppressWarnings("rawtypes")
+				com.mocha.unitcode.mina.pdu.SubmitTodoEntity submitItem = (com.mocha.unitcode.mina.pdu.SubmitTodoEntity) pdu;
+				@SuppressWarnings("rawtypes")
 				TodoEntityMessage tem = submitItem.getEntityMessage();
-				TodoEntity todoEntity = tem.getTodoEntity();
+				Logger.getLogger(MinaConstant.LOG_CONNECT).info(
+						"====UNITE_TODO_SUBMIT=======getEntityMessage============="
+								+ tem.getEntityMessage());
+				 Logger.getLogger(MinaConstant.LOG_CONNECT).info(
+				 "====UNITE_TODO_SUBMIT=======getClazz============="
+				 + new String(tem.getClazz()));
+//				Object todoEntity = tem.getTodoEntity();
+				 //判断单条还是批量传输
+				if (tem.getType()==tem.TODO_TYPE_SINGLE) {
+					
+					
+				}else if (tem.getType()==tem.TODO_TYPE_BATCH) {
+					
+				}
 				Logger.getLogger(MinaConstant.LOG_CONNECT).info(
 						"====UNITE_TODO_SUBMIT=======getMsgFormat============="
 								+ tem.getMsgFormat());
 				Logger.getLogger(MinaConstant.LOG_CONNECT).info(
-						"=====UNITE_TODO_SUBMIT======TodoEntity============="
+						"=====UNITE_TODO_SUBMIT======getEncoding============="
 								+ tem.getEncoding());
-				Logger.getLogger(MinaConstant.LOG_CONNECT).info(
-						"====UNITE_TODO_SUBMIT=======TodoEntity============="
-								+ todoEntity.getItemTitle());
+				// Logger.getLogger(MinaConstant.LOG_CONNECT).info(
+				// "====UNITE_TODO_SUBMIT=======TodoEntity============="
+				// + todoEntity.getItemTitle());
 				submitItem.dump();
-				com.mocha.unitcode.mina.pdu.SubmitItemResp subItemresp = (com.mocha.unitcode.mina.pdu.SubmitItemResp) submitItem
+				com.mocha.unitcode.mina.pdu.SubmitTodoEntityResp subItemresp = (com.mocha.unitcode.mina.pdu.SubmitTodoEntityResp) submitItem
 						.getResponse();
 				subItemresp.setMsgId(com.mocha.unitcode.mina.pdu.Tools
 						.GetRspid());

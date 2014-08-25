@@ -1,7 +1,6 @@
 package com.mocha.unitcode.mina.pdu;
 
 import java.io.UnsupportedEncodingException;
-import java.util.List;
 
 import org.apache.log4j.Logger;
 
@@ -11,7 +10,6 @@ import com.mocha.unitcode.mina.code.ByteBuffer;
 import com.mocha.unitcode.mina.code.ByteData;
 import com.mocha.unitcode.mina.code.PDUException;
 import com.mocha.unitcode.mina.common.MinaConstant;
-import com.mocha.unitcode.mina.util.ListUtil;
 import com.mocha.unitcode.mina.util.ObjectUtil;
 
 /**
@@ -33,31 +31,10 @@ import com.mocha.unitcode.mina.util.ObjectUtil;
  * <br>
  * @param <E>
  */
-public class TodoEntityMessage<E> extends ByteData {
-	/**
-	 * 单条类型
-	 */
-	 public static byte TODO_TYPE_SINGLE =0 ;
-	/**
-	 * 批量类型
-	 */
-	public static byte TODO_TYPE_BATCH =1;
-	/**
-	 * 字符编码
-	 */
+public class TodoListMessage<E> extends ByteData {
 	byte msgFormat = 0;
-	/**
-	 * 消息数据
-	 */
 	byte[] messageData = null;
-	/**
-	 * 传输实体
-	 */
 	byte[] clazz = null;
-	/**
-	 * 发送方式 0 单条发送 1-批量发送
-	 */
-	byte type = TODO_TYPE_SINGLE;
 	String encoding = "US-ASCII";
 
 	public byte[] getMessageData() {
@@ -74,14 +51,6 @@ public class TodoEntityMessage<E> extends ByteData {
 
 	public void setEncoding(String encoding) {
 		this.encoding = encoding;
-	}
-
-	public byte getType() {
-		return type;
-	}
-
-	public void setType(byte type) {
-		this.type = type;
 	}
 
 	public ByteBuffer getData() {
@@ -128,14 +97,8 @@ public class TodoEntityMessage<E> extends ByteData {
 	 *            15-gbk <br>
 	 *            10-UTF
 	 */
-	public void setEntityMessage(E e, byte msgFormat, byte type) {
-		if (type == TODO_TYPE_SINGLE) {
-			this.messageData = JSON.toJSONString(e).getBytes();
-		} else if (type == TODO_TYPE_BATCH) {
-			List<String> list=ListUtil.ToObjectString((List<E>) e);
-			this.messageData = JSON.toJSONString(list).getBytes();
-		}
-		this.type=type;
+	public void setEntityMessage(E e, byte msgFormat) {
+		this.messageData = JSON.toJSONString(e).getBytes();
 		this.msgFormat = msgFormat;
 		this.clazz = e.getClass().getCanonicalName().getBytes();
 		setMsgFormat(msgFormat);
@@ -155,15 +118,8 @@ public class TodoEntityMessage<E> extends ByteData {
 			Logger.getLogger(MinaConstant.LOG_TODO)
 					.info("======getTodoEntity============str================="
 							+ str);
-			if (type==TODO_TYPE_SINGLE) {
-				todo = (E) JSON.parseObject(str, ObjectUtil.getClass(Class.forName(
-						new String(clazz)).newInstance()));
-			}else if (type==TODO_TYPE_BATCH) {
-				List<String> list=JSON.parseObject(str, List.class);
-				todo=(E) ListUtil.ToStringObject(list, ObjectUtil.getClass(Class.forName(
-						new String(clazz)).newInstance()));
-			}
-			
+			todo = (E) JSON.parseObject(str, ObjectUtil.getClass(Class.forName(
+					new String(clazz)).newInstance()));
 		} catch (UnsupportedEncodingException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -209,8 +165,7 @@ public class TodoEntityMessage<E> extends ByteData {
 	}
 
 	public int getLength() {
-		return messageData == null ? 0 : messageData.length + clazz.length + 1
-				+ type;
+		return messageData == null ? 0 : messageData.length + clazz.length;
 	}
 
 	public int getClassLength() {
@@ -226,7 +181,7 @@ public class TodoEntityMessage<E> extends ByteData {
 	public byte getMsgFormat() {
 		return msgFormat;
 	}
-	
+
 	public void setData(ByteBuffer buffer) throws PDUException {
 		this.messageData = buffer.getBuffer();
 	}

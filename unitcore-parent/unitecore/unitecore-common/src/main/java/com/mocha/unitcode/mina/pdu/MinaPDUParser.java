@@ -48,22 +48,22 @@ public class MinaPDUParser extends MinaObject {
 				pdu = loginResp;
 				break;
 			case MinaConstant.UNITE_TODO_SUBMIT:
-				System.out.println("=====UNITE_TODO_SUBMIT========="
-						+ MinaConstant.UNITE_TODO_SUBMIT);
 				Logger.getLogger(MinaConstant.LOG_TODO).warn(
 						"MinaConstant.UNITE_TODO_SUBMIT Header: "
 								+ MinaConstant.UNITE_TODO_SUBMIT);
-				SubmitItem submitItem = new SubmitItem();
+				SubmitTodoEntity submitItem = new SubmitTodoEntity();
 				submitItem.header = pduHeader;
-				submitItem.setBody(buffer);
-				System.out.println("=====UNITE_TODO_SUBMIT=======buffer=="
-						+ buffer.toString());
 				Logger.getLogger(MinaConstant.LOG_TODO).warn(
-						"MinaConstant.UNITE_TODO_SUBMIT buffer: " + buffer);
+						"MinaConstant.UNITE_TODO_SUBMIT getCommandLength: "
+								+ pduHeader.getCommandLength());
+				submitItem.setBody(buffer);
+				Logger.getLogger(MinaConstant.LOG_TODO).warn(
+						"MinaConstant.UNITE_TODO_SUBMIT buffer getHexDump: "
+								+ buffer.getHexDump());
 				pdu = submitItem;
 				break;
 			case MinaConstant.UNITE_TODO_SUBMIT_RESP:
-				SubmitItemResp submitItemResp = new SubmitItemResp();
+				SubmitTodoEntityResp submitItemResp = new SubmitTodoEntityResp();
 				submitItemResp.header = pduHeader;
 				submitItemResp.setBody(buffer);
 				pdu = submitItemResp;

@@ -4,9 +4,8 @@ import org.apache.mina.core.session.IoSession;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.mocha.tydb_common.entity.TodoEntity;
 import com.mocha.unitcode.mina.pdu.ActiveTest;
-import com.mocha.unitcode.mina.pdu.SubmitItem;
+import com.mocha.unitcode.mina.pdu.SubmitTodoEntity;
 import com.mocha.unitcode.mina.pdu.TodoEntityMessage;
 import com.mocha.unitcode.mina.pdu.Tools;
 
@@ -60,14 +59,14 @@ public class ActiveThread extends Thread {
 	private void test1() {
 		// TODO Auto-generated method stub
 		byte[] msgid = Tools.GetMsgid();
-		SubmitItem submitItem = new SubmitItem();
+		SubmitTodoEntity submitItem = new SubmitTodoEntity();
 		TodoEntity todo = new TodoEntity();
 		submitItem.setMsgId(msgid);
 		todo.setAppItemId("ascvv");
 		String title = "多应用系统应用的都不是标准的web service或XML等";
 		todo.setItemTitle(title);
 		TodoEntityMessage tm = new TodoEntityMessage();
-		tm.setEntityMessage(todo, (byte) 15);
+		// tm.setEntityMessage(todo, (byte) 15);
 		submitItem.setEntityMessage(tm);
 		session.write(submitItem);
 	}

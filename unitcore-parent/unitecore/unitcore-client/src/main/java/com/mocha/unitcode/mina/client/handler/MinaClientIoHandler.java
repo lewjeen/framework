@@ -120,6 +120,13 @@ public class MinaClientIoHandler extends IoHandlerAdapter {
 					session.close(true);
 				}
 				break;
+			case MinaConstant.UNITE_TODO_SUBMIT_RESP:
+				com.mocha.unitcode.mina.pdu.SubmitTodoEntityResp subItemresp = (com.mocha.unitcode.mina.pdu.SubmitTodoEntityResp) pdu;
+				subItemresp.dump();
+				logger.info("subItemresp:"
+						+ subItemresp.header.getSequenceNumber()
+						+ " on session " + session.getId());
+				break;
 			case MinaConstant.UNITE_ACTIVE_TEST_RESP:
 				ActiveTestResp activeTestRsp = (ActiveTestResp) pdu;
 				pdu.dump();

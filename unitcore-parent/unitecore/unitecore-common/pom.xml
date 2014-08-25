@@ -50,6 +50,11 @@
 			<version>${commons-lang.version}</version>
 		</dependency>
 		<dependency>
+                <groupId>org.apache.commons</groupId>
+                <artifactId>commons-lang3</artifactId>
+                <version>${commons-lang3.version}</version>
+            </dependency>
+		<dependency>
 			<groupId>commons-logging</groupId>
 			<artifactId>commons-logging</artifactId>
 			<version>${commons-logging.version}</version>
@@ -70,8 +75,18 @@
 			<version>${slf4j.version}</version>
 		</dependency>
 		<dependency>
+  <groupId>com.alibaba</groupId>
+ 	 <artifactId>fastjson</artifactId>
+  	 <version>1.1.29</version>
+	</dependency>
+		<dependency>
   <groupId>com.mocha</groupId>
   <artifactId>tydb_common</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+</dependency>
+<dependency>
+  <groupId>com.mocha</groupId>
+  <artifactId>common-utils</artifactId>
   <version>0.0.1-SNAPSHOT</version>
 </dependency>
 		<dependency>
