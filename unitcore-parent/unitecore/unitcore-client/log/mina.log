@@ -1,0 +1,169 @@
+2014-08-20 18:34:54-710  INFO [main] (SubmitItem.java:94) - ===getBody====msgId===========[B@867e89
+2014-08-20 18:34:54-711  INFO [main] (SubmitItem.java:97) - ===getBody====msgId===========[B@867e89
+2014-08-20 18:34:54-711  INFO [main] (SubmitItem.java:100) - ===getBody====entityMessage.getLength()===========524
+2014-08-20 18:34:54-711  INFO [main] (SubmitItem.java:104) - entityMessage.getData()com.mocha.unitcode.mina.code.ByteBuffer@276af2
+2014-08-20 18:34:54-711  INFO [main] (SubmitItem.java:94) - ===getBody====msgId===========[B@867e89
+2014-08-20 18:34:54-712  INFO [main] (SubmitItem.java:97) - ===getBody====msgId===========[B@867e89
+2014-08-20 18:34:54-712  INFO [main] (SubmitItem.java:100) - ===getBody====entityMessage.getLength()===========524
+2014-08-20 18:34:54-712  INFO [main] (SubmitItem.java:104) - entityMessage.getData()com.mocha.unitcode.mina.code.ByteBuffer@e86da0
+2014-08-20 18:34:54-712  INFO [main] (MinaClient.java:47) -   初始化通道 init()
+2014-08-20 18:34:54-712  INFO [main] (MinaClient.java:73) - MinaClient。getConnectFuture  connector == null未连接，重新创建
+2014-08-20 18:34:54-794  INFO [NioProcessor-1] (MinaClientIoHandler.java:81) - Creation of session 1
+2014-08-20 18:34:54-794  INFO [NioProcessor-1] (MinaClientIoHandler.java:57) - Session 1 is opened
+2014-08-20 18:34:54-794  INFO [main] (MinaClient.java:52) - 进入MTClient。init  awaitUninterruptibly 结束
+2014-08-20 18:34:54-795  INFO [main] (MinaClient.java:57) - 进入MTClient。init  结束 sessionid=1
+2014-08-20 18:34:54-795  INFO [main] (MinaClient.java:59) - CONNECT() sessionid=1
+2014-08-20 18:34:54-798  INFO [main] (MinaClient.java:159) - 
+Login************************************
+clientId:		91947
+authClient:	ᅖ4�!�l�`W�`��
+version:		48
+timeStamp:	820183454
+sharedSecret:	91947
+************************************Login
+2014-08-20 18:34:54-801  INFO [main] (MinaClient.java:159) - 
+Login************************************
+clientId:		91947
+authClient:	ᅖ4�!�l�`W�`��
+version:		48
+timeStamp:	820183454
+sharedSecret:	91947
+************************************Login
+2014-08-20 18:34:54-801  INFO [main] (SubmitItem.java:94) - ===getBody====msgId===========[B@867e89
+2014-08-20 18:34:54-801  INFO [main] (SubmitItem.java:97) - ===getBody====msgId===========[B@867e89
+2014-08-20 18:34:54-801  INFO [main] (SubmitItem.java:100) - ===getBody====entityMessage.getLength()===========524
+2014-08-20 18:34:54-801  INFO [main] (SubmitItem.java:104) - entityMessage.getData()com.mocha.unitcode.mina.code.ByteBuffer@388993
+2014-08-20 18:34:55-827  INFO [NioProcessor-1] (MinaRequestDecoder.java:48) - resv msg HeapBuffer[pos=0 lim=66 cap=10240000: 00 00 00 21 80 00 00 01 00 00 00 01 00 00 00 00...]
+2014-08-20 18:34:55-827  INFO [NioProcessor-1] (MinaRequestDecoder.java:51) - length=33,in.limit=66,in.remaining=62
+2014-08-20 18:34:55-828  INFO [NioProcessor-1] (MinaRequestDecoder.java:66) - 
+nConnectResp******************************************
+status:		0
+authServer:	
+version:		0
+ConnectResp******************************************
+2014-08-20 18:34:55-828  INFO [NioProcessor-1] (MinaRequestDecoder.java:48) - resv msg HeapBuffer[pos=33 lim=66 cap=10240000: 00 00 00 21 80 00 00 01 00 00 00 02 00 00 00 00...]
+2014-08-20 18:34:55-828  INFO [NioProcessor-1] (MinaRequestDecoder.java:51) - length=33,in.limit=66,in.remaining=29
+2014-08-20 18:34:55-828  INFO [NioProcessor-1] (MinaRequestDecoder.java:66) - 
+nConnectResp******************************************
+status:		0
+authServer:	
+version:		0
+ConnectResp******************************************
+2014-08-20 18:34:55-828  INFO [NioProcessor-1] (MinaClientIoHandler.java:104) - MESSAGE: -2147483647:1on session 1
+2014-08-20 18:34:55-828  INFO [NioProcessor-1] (MinaClientIoHandler.java:114) - conresp:1 on session 1
+2014-08-20 18:34:55-829  INFO [NioProcessor-1] (MinaClientIoHandler.java:104) - MESSAGE: -2147483647:2on session 1
+2014-08-20 18:34:55-829  INFO [NioProcessor-1] (MinaClientIoHandler.java:114) - conresp:2 on session 1
+2014-08-20 18:34:55-885  INFO [NioProcessor-1] (MinaClientIoHandler.java:90) - 1> Session closed
+2014-08-20 18:37:57-388  INFO [main] (SubmitItem.java:94) - ===getBody====msgId===========[B@10ef90c
+2014-08-20 18:37:57-389  INFO [main] (SubmitItem.java:97) - ===getBody====msgId===========[B@10ef90c
+2014-08-20 18:37:57-390  INFO [main] (SubmitItem.java:100) - ===getBody====entityMessage.getLength()===========524
+2014-08-20 18:37:57-390  INFO [main] (SubmitItem.java:104) - entityMessage.getData()com.mocha.unitcode.mina.code.ByteBuffer@3ee284
+2014-08-20 18:37:57-390  INFO [main] (SubmitItem.java:94) - ===getBody====msgId===========[B@10ef90c
+2014-08-20 18:37:57-390  INFO [main] (SubmitItem.java:97) - ===getBody====msgId===========[B@10ef90c
+2014-08-20 18:37:57-390  INFO [main] (SubmitItem.java:100) - ===getBody====entityMessage.getLength()===========524
+2014-08-20 18:37:57-390  INFO [main] (SubmitItem.java:104) - entityMessage.getData()com.mocha.unitcode.mina.code.ByteBuffer@fa3ac1
+2014-08-20 18:37:57-390  INFO [main] (MinaClient.java:47) -   初始化通道 init()
+2014-08-20 18:37:57-391  INFO [main] (MinaClient.java:73) - MinaClient。getConnectFuture  connector == null未连接，重新创建
+2014-08-20 18:37:57-470  INFO [NioProcessor-1] (MinaClientIoHandler.java:81) - Creation of session 1
+2014-08-20 18:37:57-471  INFO [NioProcessor-1] (MinaClientIoHandler.java:57) - Session 1 is opened
+2014-08-20 18:37:57-471  INFO [main] (MinaClient.java:52) - 进入MTClient。init  awaitUninterruptibly 结束
+2014-08-20 18:37:57-471  INFO [main] (MinaClient.java:57) - 进入MTClient。init  结束 sessionid=1
+2014-08-20 18:37:57-471  INFO [main] (MinaClient.java:59) - CONNECT() sessionid=1
+2014-08-20 18:37:57-475  INFO [main] (MinaClient.java:159) - 
+Login************************************
+clientId:		91947
+authClient:	�x�m)I�N�&Qf
+version:		48
+timeStamp:	820183757
+sharedSecret:	91947
+************************************Login
+2014-08-20 18:37:57-479  INFO [main] (MinaClient.java:159) - 
+Login************************************
+clientId:		91947
+authClient:	�x�m)I�N�&Qf
+version:		48
+timeStamp:	820183757
+sharedSecret:	91947
+************************************Login
+2014-08-20 18:37:57-479  INFO [main] (SubmitItem.java:94) - ===getBody====msgId===========[B@10ef90c
+2014-08-20 18:37:57-479  INFO [main] (SubmitItem.java:97) - ===getBody====msgId===========[B@10ef90c
+2014-08-20 18:37:57-479  INFO [main] (SubmitItem.java:100) - ===getBody====entityMessage.getLength()===========524
+2014-08-20 18:37:57-479  INFO [main] (SubmitItem.java:104) - entityMessage.getData()com.mocha.unitcode.mina.code.ByteBuffer@b988a6
+2014-08-20 18:37:58-501  INFO [NioProcessor-1] (MinaRequestDecoder.java:48) - resv msg HeapBuffer[pos=0 lim=66 cap=10240000: 00 00 00 21 80 00 00 01 00 00 00 01 00 00 00 00...]
+2014-08-20 18:37:58-501  INFO [NioProcessor-1] (MinaRequestDecoder.java:51) - length=33,in.limit=66,in.remaining=62
+2014-08-20 18:37:58-502  INFO [NioProcessor-1] (MinaRequestDecoder.java:66) - 
+nConnectResp******************************************
+status:		0
+authServer:	
+version:		0
+ConnectResp******************************************
+2014-08-20 18:37:58-502  INFO [NioProcessor-1] (MinaRequestDecoder.java:48) - resv msg HeapBuffer[pos=33 lim=66 cap=10240000: 00 00 00 21 80 00 00 01 00 00 00 02 00 00 00 00...]
+2014-08-20 18:37:58-502  INFO [NioProcessor-1] (MinaRequestDecoder.java:51) - length=33,in.limit=66,in.remaining=29
+2014-08-20 18:37:58-502  INFO [NioProcessor-1] (MinaRequestDecoder.java:66) - 
+nConnectResp******************************************
+status:		0
+authServer:	
+version:		0
+ConnectResp******************************************
+2014-08-20 18:37:58-502  INFO [NioProcessor-1] (MinaClientIoHandler.java:104) - MESSAGE: -2147483647:1on session 1
+2014-08-20 18:37:58-502  INFO [NioProcessor-1] (MinaClientIoHandler.java:114) - conresp:1 on session 1
+2014-08-20 18:37:58-503  INFO [NioProcessor-1] (MinaClientIoHandler.java:104) - MESSAGE: -2147483647:2on session 1
+2014-08-20 18:37:58-503  INFO [NioProcessor-1] (MinaClientIoHandler.java:114) - conresp:2 on session 1
+2014-08-20 18:37:58-558  INFO [NioProcessor-1] (MinaClientIoHandler.java:90) - 1> Session closed
+2014-08-20 19:00:39-085  INFO [main] (SubmitItem.java:94) - ===getBody====msgId===========[B@10ef90c
+2014-08-20 19:00:39-087  INFO [main] (SubmitItem.java:97) - ===getBody====msgId===========[B@10ef90c
+2014-08-20 19:00:39-087  INFO [main] (SubmitItem.java:100) - ===getBody====entityMessage.getLength()===========393
+2014-08-20 19:00:39-087  INFO [main] (SubmitItem.java:104) - entityMessage.getData()com.mocha.unitcode.mina.code.ByteBuffer@3ee284
+2014-08-20 19:00:39-087  INFO [main] (SubmitItem.java:94) - ===getBody====msgId===========[B@10ef90c
+2014-08-20 19:00:39-087  INFO [main] (SubmitItem.java:97) - ===getBody====msgId===========[B@10ef90c
+2014-08-20 19:00:39-087  INFO [main] (SubmitItem.java:100) - ===getBody====entityMessage.getLength()===========393
+2014-08-20 19:00:39-087  INFO [main] (SubmitItem.java:104) - entityMessage.getData()com.mocha.unitcode.mina.code.ByteBuffer@fa3ac1
+2014-08-20 19:00:39-087  INFO [main] (MinaClient.java:47) -   初始化通道 init()
+2014-08-20 19:00:39-088  INFO [main] (MinaClient.java:73) - MinaClient。getConnectFuture  connector == null未连接，重新创建
+2014-08-20 19:00:39-168  INFO [NioProcessor-1] (MinaClientIoHandler.java:81) - Creation of session 1
+2014-08-20 19:00:39-168  INFO [NioProcessor-1] (MinaClientIoHandler.java:57) - Session 1 is opened
+2014-08-20 19:00:39-168  INFO [main] (MinaClient.java:52) - 进入MTClient。init  awaitUninterruptibly 结束
+2014-08-20 19:00:39-169  INFO [main] (MinaClient.java:57) - 进入MTClient。init  结束 sessionid=1
+2014-08-20 19:00:39-169  INFO [main] (MinaClient.java:59) - CONNECT() sessionid=1
+2014-08-20 19:00:39-171  INFO [main] (MinaClient.java:159) - 
+Login************************************
+clientId:		91947
+authClient:	<�2�2j6P�\&�%
+version:		48
+timeStamp:	820190039
+sharedSecret:	91947
+************************************Login
+2014-08-20 19:00:39-175  INFO [main] (MinaClient.java:159) - 
+Login************************************
+clientId:		91947
+authClient:	<�2�2j6P�\&�%
+version:		48
+timeStamp:	820190039
+sharedSecret:	91947
+************************************Login
+2014-08-20 19:00:39-175  INFO [main] (SubmitItem.java:94) - ===getBody====msgId===========[B@10ef90c
+2014-08-20 19:00:39-175  INFO [main] (SubmitItem.java:97) - ===getBody====msgId===========[B@10ef90c
+2014-08-20 19:00:39-175  INFO [main] (SubmitItem.java:100) - ===getBody====entityMessage.getLength()===========393
+2014-08-20 19:00:39-176  INFO [main] (SubmitItem.java:104) - entityMessage.getData()com.mocha.unitcode.mina.code.ByteBuffer@b988a6
+2014-08-20 19:00:40-202  INFO [NioProcessor-1] (MinaRequestDecoder.java:48) - resv msg HeapBuffer[pos=0 lim=66 cap=10240000: 00 00 00 21 80 00 00 01 00 00 00 01 00 00 00 00...]
+2014-08-20 19:00:40-202  INFO [NioProcessor-1] (MinaRequestDecoder.java:51) - length=33,in.limit=66,in.remaining=62
+2014-08-20 19:00:40-203  INFO [NioProcessor-1] (MinaRequestDecoder.java:66) - 
+nConnectResp******************************************
+status:		0
+authServer:	
+version:		0
+ConnectResp******************************************
+2014-08-20 19:00:40-203  INFO [NioProcessor-1] (MinaRequestDecoder.java:48) - resv msg HeapBuffer[pos=33 lim=66 cap=10240000: 00 00 00 21 80 00 00 01 00 00 00 02 00 00 00 00...]
+2014-08-20 19:00:40-204  INFO [NioProcessor-1] (MinaRequestDecoder.java:51) - length=33,in.limit=66,in.remaining=29
+2014-08-20 19:00:40-204  INFO [NioProcessor-1] (MinaRequestDecoder.java:66) - 
+nConnectResp******************************************
+status:		0
+authServer:	
+version:		0
+ConnectResp******************************************
+2014-08-20 19:00:40-204  INFO [NioProcessor-1] (MinaClientIoHandler.java:104) - MESSAGE: -2147483647:1on session 1
+2014-08-20 19:00:40-204  INFO [NioProcessor-1] (MinaClientIoHandler.java:114) - conresp:1 on session 1
+2014-08-20 19:00:40-204  INFO [NioProcessor-1] (MinaClientIoHandler.java:104) - MESSAGE: -2147483647:2on session 1
+2014-08-20 19:00:40-204  INFO [NioProcessor-1] (MinaClientIoHandler.java:114) - conresp:2 on session 1
+2014-08-20 19:00:49-647  INFO [NioProcessor-1] (MinaClientIoHandler.java:50) - I/O error: 远程主机强迫关闭了一个现有的连接。
+2014-08-20 19:00:49-649  INFO [NioProcessor-1] (MinaClientIoHandler.java:90) - 1> Session closed

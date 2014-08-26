@@ -1,0 +1,149 @@
+[INFO] 2014-08-20-14:04:32 com.mocha.unitcode.mina.pdu.SubmitItem.setBody(SubmitItem.java:66) ==setBody=====msgId===========[B@115273a 
+[INFO] 2014-08-20-14:04:32 com.mocha.unitcode.mina.pdu.SubmitItem.setBody(SubmitItem.java:69) ===setBody====msgFormat===========15 
+[INFO] 2014-08-20-14:04:32 com.mocha.unitcode.mina.pdu.SubmitItem.setBody(SubmitItem.java:72) ===setBody====signbyte===========98 
+[INFO] 2014-08-20-14:04:32 com.mocha.unitcode.mina.pdu.SubmitItem.setBody(SubmitItem.java:75) ==setBody=====msgLength===========98 
+[INFO] 2014-08-20-14:08:13 com.mocha.unitcode.mina.pdu.SubmitItem.setBody(SubmitItem.java:66) ==setBody=====msgId===========[B@641e9a 
+[INFO] 2014-08-20-14:08:13 com.mocha.unitcode.mina.pdu.SubmitItem.setBody(SubmitItem.java:70) ===setBody====msgFormat===========15 
+[INFO] 2014-08-20-14:08:13 com.mocha.unitcode.mina.pdu.SubmitItem.setBody(SubmitItem.java:75) ===setBody====signbyte===========98 
+[INFO] 2014-08-20-14:08:13 com.mocha.unitcode.mina.pdu.SubmitItem.setBody(SubmitItem.java:79) ==setBody=====msgLength===========98 
+[WARN] 2014-08-20-14:37:30 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:49) MinaConstant.UNITE_TODO_SUBMIT Header: 3 
+[INFO] 2014-08-20-14:37:30 com.mocha.unitcode.mina.pdu.SubmitItem.setBody(SubmitItem.java:66) ==setBody=====msgId===========[B@11a64ed 
+[INFO] 2014-08-20-14:37:30 com.mocha.unitcode.mina.pdu.SubmitItem.setBody(SubmitItem.java:70) ===setBody====msgFormat===========15 
+[INFO] 2014-08-20-14:37:30 com.mocha.unitcode.mina.pdu.SubmitItem.setBody(SubmitItem.java:75) ===setBody====signbyte===========98 
+[INFO] 2014-08-20-14:37:30 com.mocha.unitcode.mina.pdu.SubmitItem.setBody(SubmitItem.java:79) ==setBody=====msgLength===========98 
+[WARN] 2014-08-20-14:37:30 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:55) MinaConstant.UNITE_TODO_SUBMIT buffer: com.mocha.unitcode.mina.code.ByteBuffer@1d80e6d 
+[WARN] 2014-08-20-14:37:30 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:150) MinaConstant.UNITE_TODO_SUBMIT Header: 3 
+[WARN] 2014-08-20-15:32:35 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:49) MinaConstant.UNITE_TODO_SUBMIT Header: 3 
+[INFO] 2014-08-20-15:32:35 com.mocha.unitcode.mina.pdu.SubmitItem.setBody(SubmitItem.java:66) ==setBody=====msgId===========[B@11a64ed 
+[INFO] 2014-08-20-15:32:35 com.mocha.unitcode.mina.pdu.SubmitItem.setBody(SubmitItem.java:70) ===setBody====msgFormat===========15 
+[INFO] 2014-08-20-15:32:35 com.mocha.unitcode.mina.pdu.SubmitItem.setBody(SubmitItem.java:75) ===setBody====signbyte===========98 
+[INFO] 2014-08-20-15:32:35 com.mocha.unitcode.mina.pdu.SubmitItem.setBody(SubmitItem.java:79) ==setBody=====msgLength===========98 
+[WARN] 2014-08-20-15:32:35 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:55) MinaConstant.UNITE_TODO_SUBMIT buffer: com.mocha.unitcode.mina.code.ByteBuffer@1d80e6d 
+[WARN] 2014-08-20-15:32:35 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:152) MinaConstant.UNITE_TODO_SUBMIT Header: 3 
+[WARN] 2014-08-20-15:36:50 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:49) MinaConstant.UNITE_TODO_SUBMIT Header: 3 
+[INFO] 2014-08-20-15:36:50 com.mocha.unitcode.mina.pdu.SubmitItem.setBody(SubmitItem.java:66) ==setBody=====msgId===========[B@1c282a1 
+[INFO] 2014-08-20-15:36:50 com.mocha.unitcode.mina.pdu.SubmitItem.setBody(SubmitItem.java:70) ===setBody====msgFormat===========15 
+[INFO] 2014-08-20-15:36:50 com.mocha.unitcode.mina.pdu.SubmitItem.setBody(SubmitItem.java:75) ===setBody====signbyte===========98 
+[INFO] 2014-08-20-15:36:50 com.mocha.unitcode.mina.pdu.SubmitItem.setBody(SubmitItem.java:79) ==setBody=====msgLength===========98 
+[WARN] 2014-08-20-15:36:50 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:55) MinaConstant.UNITE_TODO_SUBMIT buffer: com.mocha.unitcode.mina.code.ByteBuffer@10e3293 
+[WARN] 2014-08-20-15:36:50 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:152) MinaConstant.UNITE_TODO_SUBMIT Header: 3 
+[WARN] 2014-08-20-16:58:38 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:49) MinaConstant.UNITE_TODO_SUBMIT Header: 3 
+[INFO] 2014-08-20-16:58:38 com.mocha.unitcode.mina.pdu.SubmitItem.setBody(SubmitItem.java:66) ==setBody=====msgId===========[B@1c282a1 
+[INFO] 2014-08-20-16:58:38 com.mocha.unitcode.mina.pdu.SubmitItem.setBody(SubmitItem.java:70) ===setBody====msgFormat===========15 
+[INFO] 2014-08-20-16:58:38 com.mocha.unitcode.mina.pdu.SubmitItem.setBody(SubmitItem.java:75) ===setBody====signbyte===========98 
+[INFO] 2014-08-20-16:58:38 com.mocha.unitcode.mina.pdu.SubmitItem.setBody(SubmitItem.java:79) ==setBody=====msgLength===========98 
+[WARN] 2014-08-20-16:58:38 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:55) MinaConstant.UNITE_TODO_SUBMIT buffer: com.mocha.unitcode.mina.code.ByteBuffer@10e3293 
+[WARN] 2014-08-20-16:58:38 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:152) MinaConstant.UNITE_TODO_SUBMIT Header: 3 
+[WARN] 2014-08-20-17:00:36 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:49) MinaConstant.UNITE_TODO_SUBMIT Header: 3 
+[INFO] 2014-08-20-17:00:36 com.mocha.unitcode.mina.pdu.SubmitItem.setBody(SubmitItem.java:66) ==setBody=====msgId===========[B@641e9a 
+[INFO] 2014-08-20-17:00:36 com.mocha.unitcode.mina.pdu.SubmitItem.setBody(SubmitItem.java:70) ===setBody====msgFormat===========15 
+[INFO] 2014-08-20-17:00:36 com.mocha.unitcode.mina.pdu.SubmitItem.setBody(SubmitItem.java:75) ===setBody====signbyte===========98 
+[INFO] 2014-08-20-17:00:36 com.mocha.unitcode.mina.pdu.SubmitItem.setBody(SubmitItem.java:79) ==setBody=====msgLength===========98 
+[WARN] 2014-08-20-17:00:36 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:55) MinaConstant.UNITE_TODO_SUBMIT buffer: com.mocha.unitcode.mina.code.ByteBuffer@115273a 
+[WARN] 2014-08-20-17:00:36 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:152) MinaConstant.UNITE_TODO_SUBMIT Header: 3 
+[WARN] 2014-08-20-17:02:33 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:49) MinaConstant.UNITE_TODO_SUBMIT Header: 3 
+[INFO] 2014-08-20-17:02:33 com.mocha.unitcode.mina.pdu.SubmitItem.setBody(SubmitItem.java:66) ==setBody=====msgId===========[B@115273a 
+[INFO] 2014-08-20-17:02:33 com.mocha.unitcode.mina.pdu.SubmitItem.setBody(SubmitItem.java:70) ===setBody====msgFormat===========15 
+[INFO] 2014-08-20-17:02:33 com.mocha.unitcode.mina.pdu.SubmitItem.setBody(SubmitItem.java:75) ===setBody====signbyte===========98 
+[INFO] 2014-08-20-17:02:33 com.mocha.unitcode.mina.pdu.SubmitItem.setBody(SubmitItem.java:79) ==setBody=====msgLength===========98 
+[WARN] 2014-08-20-17:02:33 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:55) MinaConstant.UNITE_TODO_SUBMIT buffer: com.mocha.unitcode.mina.code.ByteBuffer@1c282a1 
+[WARN] 2014-08-20-17:02:33 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:152) MinaConstant.UNITE_TODO_SUBMIT Header: 3 
+[WARN] 2014-08-20-17:06:52 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:49) MinaConstant.UNITE_TODO_SUBMIT Header: 3 
+[INFO] 2014-08-20-17:06:52 com.mocha.unitcode.mina.pdu.SubmitItem.setBody(SubmitItem.java:66) ==setBody=====msgId===========[B@641e9a 
+[INFO] 2014-08-20-17:06:52 com.mocha.unitcode.mina.pdu.SubmitItem.setBody(SubmitItem.java:70) ===setBody====msgFormat===========15 
+[INFO] 2014-08-20-17:06:52 com.mocha.unitcode.mina.pdu.SubmitItem.setBody(SubmitItem.java:75) ===setBody====signbyte===========98 
+[INFO] 2014-08-20-17:06:52 com.mocha.unitcode.mina.pdu.SubmitItem.setBody(SubmitItem.java:79) ==setBody=====msgLength===========98 
+[WARN] 2014-08-20-17:06:52 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:55) MinaConstant.UNITE_TODO_SUBMIT buffer: com.mocha.unitcode.mina.code.ByteBuffer@115273a 
+[WARN] 2014-08-20-17:06:52 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:152) MinaConstant.UNITE_TODO_SUBMIT Header: 3 
+[WARN] 2014-08-20-17:10:04 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:49) MinaConstant.UNITE_TODO_SUBMIT Header: 3 
+[INFO] 2014-08-20-17:10:04 com.mocha.unitcode.mina.pdu.SubmitItem.setBody(SubmitItem.java:66) ==setBody=====msgId===========[B@1c282a1 
+[INFO] 2014-08-20-17:10:04 com.mocha.unitcode.mina.pdu.SubmitItem.setBody(SubmitItem.java:70) ===setBody====msgFormat===========15 
+[INFO] 2014-08-20-17:10:04 com.mocha.unitcode.mina.pdu.SubmitItem.setBody(SubmitItem.java:75) ===setBody====signbyte===========98 
+[INFO] 2014-08-20-17:10:04 com.mocha.unitcode.mina.pdu.SubmitItem.setBody(SubmitItem.java:79) ==setBody=====msgLength===========98 
+[WARN] 2014-08-20-17:10:04 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:55) MinaConstant.UNITE_TODO_SUBMIT buffer: com.mocha.unitcode.mina.code.ByteBuffer@10e3293 
+[WARN] 2014-08-20-17:10:04 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:152) MinaConstant.UNITE_TODO_SUBMIT Header: 3 
+[WARN] 2014-08-20-17:11:44 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:49) MinaConstant.UNITE_TODO_SUBMIT Header: 3 
+[INFO] 2014-08-20-17:11:44 com.mocha.unitcode.mina.pdu.SubmitItem.setBody(SubmitItem.java:66) ==setBody=====msgId===========[B@10e3293 
+[INFO] 2014-08-20-17:11:44 com.mocha.unitcode.mina.pdu.SubmitItem.setBody(SubmitItem.java:70) ===setBody====msgFormat===========10 
+[INFO] 2014-08-20-17:11:44 com.mocha.unitcode.mina.pdu.SubmitItem.setBody(SubmitItem.java:75) ===setBody====signbyte===========98 
+[INFO] 2014-08-20-17:11:44 com.mocha.unitcode.mina.pdu.SubmitItem.setBody(SubmitItem.java:79) ==setBody=====msgLength===========98 
+[WARN] 2014-08-20-17:11:44 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:55) MinaConstant.UNITE_TODO_SUBMIT buffer: com.mocha.unitcode.mina.code.ByteBuffer@11a64ed 
+[WARN] 2014-08-20-17:11:44 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:152) MinaConstant.UNITE_TODO_SUBMIT Header: 3 
+[WARN] 2014-08-20-17:13:53 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:49) MinaConstant.UNITE_TODO_SUBMIT Header: 3 
+[INFO] 2014-08-20-17:13:53 com.mocha.unitcode.mina.pdu.SubmitItem.setBody(SubmitItem.java:66) ==setBody=====msgId===========[B@9f5011 
+[INFO] 2014-08-20-17:13:53 com.mocha.unitcode.mina.pdu.SubmitItem.setBody(SubmitItem.java:70) ===setBody====msgFormat===========10 
+[INFO] 2014-08-20-17:13:53 com.mocha.unitcode.mina.pdu.SubmitItem.setBody(SubmitItem.java:75) ===setBody====signbyte===========15 
+[INFO] 2014-08-20-17:13:53 com.mocha.unitcode.mina.pdu.SubmitItem.setBody(SubmitItem.java:79) ==setBody=====msgLength===========15 
+[WARN] 2014-08-20-17:13:53 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:55) MinaConstant.UNITE_TODO_SUBMIT buffer: com.mocha.unitcode.mina.code.ByteBuffer@141b571 
+[WARN] 2014-08-20-17:13:53 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:152) MinaConstant.UNITE_TODO_SUBMIT Header: 3 
+[WARN] 2014-08-20-17:15:15 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:49) MinaConstant.UNITE_TODO_SUBMIT Header: 3 
+[INFO] 2014-08-20-17:15:15 com.mocha.unitcode.mina.pdu.SubmitItem.setBody(SubmitItem.java:66) ==setBody=====msgId===========[B@11a64ed 
+[INFO] 2014-08-20-17:15:15 com.mocha.unitcode.mina.pdu.SubmitItem.setBody(SubmitItem.java:70) ===setBody====msgFormat===========10 
+[INFO] 2014-08-20-17:15:15 com.mocha.unitcode.mina.pdu.SubmitItem.setBody(SubmitItem.java:75) ===setBody====signbyte===========12 
+[INFO] 2014-08-20-17:15:15 com.mocha.unitcode.mina.pdu.SubmitItem.setBody(SubmitItem.java:79) ==setBody=====msgLength===========12 
+[WARN] 2014-08-20-17:15:15 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:55) MinaConstant.UNITE_TODO_SUBMIT buffer: com.mocha.unitcode.mina.code.ByteBuffer@1d80e6d 
+[WARN] 2014-08-20-17:15:15 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:152) MinaConstant.UNITE_TODO_SUBMIT Header: 3 
+[WARN] 2014-08-20-17:16:26 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:49) MinaConstant.UNITE_TODO_SUBMIT Header: 3 
+[INFO] 2014-08-20-17:16:26 com.mocha.unitcode.mina.pdu.SubmitItem.setBody(SubmitItem.java:66) ==setBody=====msgId===========[B@adb1d4 
+[INFO] 2014-08-20-17:16:26 com.mocha.unitcode.mina.pdu.SubmitItem.setBody(SubmitItem.java:70) ===setBody====msgFormat===========10 
+[INFO] 2014-08-20-17:16:26 com.mocha.unitcode.mina.pdu.SubmitItem.setBody(SubmitItem.java:75) ===setBody====signbyte===========-110 
+[INFO] 2014-08-20-17:16:26 com.mocha.unitcode.mina.pdu.SubmitItem.setBody(SubmitItem.java:79) ==setBody=====msgLength===========146 
+[WARN] 2014-08-20-17:16:26 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:55) MinaConstant.UNITE_TODO_SUBMIT buffer: com.mocha.unitcode.mina.code.ByteBuffer@175d6ab 
+[WARN] 2014-08-20-17:16:26 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:152) MinaConstant.UNITE_TODO_SUBMIT Header: 3 
+[WARN] 2014-08-20-17:18:24 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:49) MinaConstant.UNITE_TODO_SUBMIT Header: 3 
+[INFO] 2014-08-20-17:18:24 com.mocha.unitcode.mina.pdu.SubmitItem.setBody(SubmitItem.java:66) ==setBody=====msgId===========[B@115273a 
+[INFO] 2014-08-20-17:18:24 com.mocha.unitcode.mina.pdu.SubmitItem.setBody(SubmitItem.java:70) ===setBody====msgFormat===========10 
+[INFO] 2014-08-20-17:18:24 com.mocha.unitcode.mina.pdu.SubmitItem.setBody(SubmitItem.java:75) ===setBody====signbyte===========12 
+[INFO] 2014-08-20-17:18:24 com.mocha.unitcode.mina.pdu.SubmitItem.setBody(SubmitItem.java:79) ==setBody=====msgLength===========12 
+[WARN] 2014-08-20-17:18:24 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:55) MinaConstant.UNITE_TODO_SUBMIT buffer: com.mocha.unitcode.mina.code.ByteBuffer@1c282a1 
+[WARN] 2014-08-20-17:18:24 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:152) MinaConstant.UNITE_TODO_SUBMIT Header: 3 
+[WARN] 2014-08-20-17:31:14 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:49) MinaConstant.UNITE_TODO_SUBMIT Header: 3 
+[INFO] 2014-08-20-17:31:14 com.mocha.unitcode.mina.pdu.SubmitItem.setBody(SubmitItem.java:66) ==setBody=====msgId===========[B@115273a 
+[INFO] 2014-08-20-17:31:14 com.mocha.unitcode.mina.pdu.SubmitItem.setBody(SubmitItem.java:70) ===setBody====msgFormat===========10 
+[INFO] 2014-08-20-17:31:14 com.mocha.unitcode.mina.pdu.SubmitItem.setBody(SubmitItem.java:75) ===setBody====signbyte===========12 
+[INFO] 2014-08-20-17:31:14 com.mocha.unitcode.mina.pdu.SubmitItem.setBody(SubmitItem.java:79) ==setBody=====msgLength===========12 
+[WARN] 2014-08-20-17:31:14 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:55) MinaConstant.UNITE_TODO_SUBMIT buffer: com.mocha.unitcode.mina.code.ByteBuffer@1c282a1 
+[WARN] 2014-08-20-17:31:14 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:152) MinaConstant.UNITE_TODO_SUBMIT Header: 3 
+[WARN] 2014-08-20-18:20:56 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:49) MinaConstant.UNITE_TODO_SUBMIT Header: 3 
+[INFO] 2014-08-20-18:20:56 com.mocha.unitcode.mina.pdu.SubmitItem.setBody(SubmitItem.java:66) ==setBody=====msgId===========[B@fe748f 
+[INFO] 2014-08-20-18:20:56 com.mocha.unitcode.mina.pdu.SubmitItem.setBody(SubmitItem.java:70) ===setBody====msgFormat===========10 
+[INFO] 2014-08-20-18:20:56 com.mocha.unitcode.mina.pdu.SubmitItem.setBody(SubmitItem.java:75) ===setBody====signbyte===========12 
+[INFO] 2014-08-20-18:20:56 com.mocha.unitcode.mina.pdu.SubmitItem.setBody(SubmitItem.java:79) ==setBody=====msgLength===========12 
+[WARN] 2014-08-20-18:20:56 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:55) MinaConstant.UNITE_TODO_SUBMIT buffer: com.mocha.unitcode.mina.code.ByteBuffer@10e3293 
+[WARN] 2014-08-20-18:20:56 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:152) MinaConstant.UNITE_TODO_SUBMIT Header: 3 
+[WARN] 2014-08-20-18:27:59 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:49) MinaConstant.UNITE_TODO_SUBMIT Header: 3 
+[INFO] 2014-08-20-18:27:59 com.mocha.unitcode.mina.pdu.SubmitItem.setBody(SubmitItem.java:66) ==setBody=====msgId===========[B@fe748f 
+[INFO] 2014-08-20-18:27:59 com.mocha.unitcode.mina.pdu.SubmitItem.setBody(SubmitItem.java:70) ===setBody====msgFormat===========10 
+[INFO] 2014-08-20-18:27:59 com.mocha.unitcode.mina.pdu.SubmitItem.setBody(SubmitItem.java:75) ===setBody====signbyte===========12 
+[INFO] 2014-08-20-18:27:59 com.mocha.unitcode.mina.pdu.SubmitItem.setBody(SubmitItem.java:79) ==setBody=====msgLength===========12 
+[WARN] 2014-08-20-18:27:59 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:55) MinaConstant.UNITE_TODO_SUBMIT buffer: com.mocha.unitcode.mina.code.ByteBuffer@10e3293 
+[WARN] 2014-08-20-18:27:59 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:152) MinaConstant.UNITE_TODO_SUBMIT Header: 3 
+[WARN] 2014-08-20-18:34:55 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:53) MinaConstant.UNITE_TODO_SUBMIT Header: 3 
+[INFO] 2014-08-20-18:34:55 com.mocha.unitcode.mina.pdu.SubmitItem.setBody(SubmitItem.java:66) ==setBody=====msgId===========[B@14da8f4 
+[INFO] 2014-08-20-18:34:55 com.mocha.unitcode.mina.pdu.SubmitItem.setBody(SubmitItem.java:70) ===setBody====msgFormat===========10 
+[INFO] 2014-08-20-18:34:55 com.mocha.unitcode.mina.pdu.SubmitItem.setBody(SubmitItem.java:75) ===setBody====signbyte===========12 
+[INFO] 2014-08-20-18:34:55 com.mocha.unitcode.mina.pdu.SubmitItem.setBody(SubmitItem.java:79) ==setBody=====msgLength===========12 
+[WARN] 2014-08-20-18:34:55 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:61) MinaConstant.UNITE_TODO_SUBMIT buffer: com.mocha.unitcode.mina.code.ByteBuffer@1d80e6d 
+[WARN] 2014-08-20-18:34:55 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:152) MinaConstant.UNITE_TODO_SUBMIT Header: 3 
+[WARN] 2014-08-20-18:37:58 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:53) MinaConstant.UNITE_TODO_SUBMIT Header: 3 
+[INFO] 2014-08-20-18:37:58 com.mocha.unitcode.mina.pdu.SubmitItem.setBody(SubmitItem.java:66) ==setBody=====msgId===========[B@18f6235 
+[INFO] 2014-08-20-18:37:58 com.mocha.unitcode.mina.pdu.SubmitItem.setBody(SubmitItem.java:70) ===setBody====msgFormat===========10 
+[INFO] 2014-08-20-18:37:58 com.mocha.unitcode.mina.pdu.SubmitItem.setBody(SubmitItem.java:75) ===setBody====signbyte===========12 
+[INFO] 2014-08-20-18:37:58 com.mocha.unitcode.mina.pdu.SubmitItem.setBody(SubmitItem.java:79) ==setBody=====msgLength===========12 
+[WARN] 2014-08-20-18:37:58 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:61) MinaConstant.UNITE_TODO_SUBMIT buffer: com.mocha.unitcode.mina.code.ByteBuffer@19b5393 
+[WARN] 2014-08-20-18:37:58 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:152) MinaConstant.UNITE_TODO_SUBMIT Header: 3 
+[WARN] 2014-08-20-19:00:40 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:53) MinaConstant.UNITE_TODO_SUBMIT Header: 3 
+[INFO] 2014-08-20-19:00:40 com.mocha.unitcode.mina.pdu.SubmitItem.setBody(SubmitItem.java:66) ==setBody=====msgId===========[B@1d85f79 
+[INFO] 2014-08-20-19:00:40 com.mocha.unitcode.mina.pdu.SubmitItem.setBody(SubmitItem.java:70) ===setBody====msgFormat===========10 
+[INFO] 2014-08-20-19:00:40 com.mocha.unitcode.mina.pdu.SubmitItem.setBody(SubmitItem.java:75) ===setBody====signbyte===========-119 
+[INFO] 2014-08-20-19:00:40 com.mocha.unitcode.mina.pdu.SubmitItem.setBody(SubmitItem.java:79) ==setBody=====msgLength===========2441 
+[WARN] 2014-08-20-19:01:34 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:53) MinaConstant.UNITE_TODO_SUBMIT Header: 3 
+[INFO] 2014-08-20-19:01:34 com.mocha.unitcode.mina.pdu.SubmitItem.setBody(SubmitItem.java:66) ==setBody=====msgId===========[B@115273a 
+[INFO] 2014-08-20-19:01:34 com.mocha.unitcode.mina.pdu.SubmitItem.setBody(SubmitItem.java:70) ===setBody====msgFormat===========10 
+[INFO] 2014-08-20-19:01:34 com.mocha.unitcode.mina.pdu.SubmitItem.setBody(SubmitItem.java:75) ===setBody====signbyte===========-119 
+[INFO] 2014-08-20-19:01:34 com.mocha.unitcode.mina.pdu.SubmitItem.setBody(SubmitItem.java:79) ==setBody=====msgLength===========2441 
+[WARN] 2014-08-20-19:09:17 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:53) MinaConstant.UNITE_TODO_SUBMIT Header: 3 
+[INFO] 2014-08-20-19:09:17 com.mocha.unitcode.mina.pdu.SubmitItem.setBody(SubmitItem.java:66) ==setBody=====msgId===========[B@1c282a1 
+[INFO] 2014-08-20-19:09:17 com.mocha.unitcode.mina.pdu.SubmitItem.setBody(SubmitItem.java:70) ===setBody====msgFormat===========10 
+[INFO] 2014-08-20-19:09:17 com.mocha.unitcode.mina.pdu.SubmitItem.setBody(SubmitItem.java:75) ===setBody====signbyte===========-119 
+[INFO] 2014-08-20-19:09:17 com.mocha.unitcode.mina.pdu.SubmitItem.setBody(SubmitItem.java:79) ==setBody=====msgLength===========2441 
