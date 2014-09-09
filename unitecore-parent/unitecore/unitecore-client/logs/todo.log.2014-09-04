@@ -1,0 +1,4 @@
+[INFO] 2014-09-04-15:52:50 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.getBody(SubmitTodoEntity.java:96) ===getBody====msgId===========[B@e753 
+[INFO] 2014-09-04-15:52:50 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.getBody(SubmitTodoEntity.java:100) ===getBody====msgId===========[B@e753 
+[INFO] 2014-09-04-15:52:50 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.getBody(SubmitTodoEntity.java:105) ===getBody====entityMessage.getLength()===========3009041 
+[INFO] 2014-09-04-15:52:50 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.getBody(SubmitTodoEntity.java:109) entityMessage.getData()com.mocha.unitcode.mina.code.ByteBuffer@b1aebf 

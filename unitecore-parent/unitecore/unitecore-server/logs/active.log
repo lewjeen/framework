@@ -1,0 +1,12 @@
+[INFO] 2014-09-04-15:53:50 com.mocha.unitcode.mina.server.thread.ActiveThread.run(ActiveThread.java:47) CmppSession.checkConnection 
+[INFO] 2014-09-04-15:53:50 com.mocha.unitcode.mina.server.thread.ActiveThread.run(ActiveThread.java:50) send ActiveTest 
+[INFO] 2014-09-04-15:54:50 com.mocha.unitcode.mina.server.thread.ActiveThread.run(ActiveThread.java:47) CmppSession.checkConnection 
+[INFO] 2014-09-04-15:54:50 com.mocha.unitcode.mina.server.thread.ActiveThread.run(ActiveThread.java:50) send ActiveTest 
+[INFO] 2014-09-04-15:55:50 com.mocha.unitcode.mina.server.thread.ActiveThread.run(ActiveThread.java:47) CmppSession.checkConnection 
+[INFO] 2014-09-04-15:55:50 com.mocha.unitcode.mina.server.thread.ActiveThread.run(ActiveThread.java:50) send ActiveTest 
+[INFO] 2014-09-04-15:56:50 com.mocha.unitcode.mina.server.thread.ActiveThread.run(ActiveThread.java:47) CmppSession.checkConnection 
+[INFO] 2014-09-04-15:56:50 com.mocha.unitcode.mina.server.thread.ActiveThread.run(ActiveThread.java:50) send ActiveTest 
+[INFO] 2014-09-04-15:57:50 com.mocha.unitcode.mina.server.thread.ActiveThread.run(ActiveThread.java:47) CmppSession.checkConnection 
+[INFO] 2014-09-04-15:57:50 com.mocha.unitcode.mina.server.thread.ActiveThread.run(ActiveThread.java:50) send ActiveTest 
+[INFO] 2014-09-04-15:58:50 com.mocha.unitcode.mina.server.thread.ActiveThread.run(ActiveThread.java:47) CmppSession.checkConnection 
+[INFO] 2014-09-04-15:58:50 com.mocha.unitcode.mina.server.thread.ActiveThread.run(ActiveThread.java:50) send ActiveTest 

@@ -1,8 +1,0 @@
-Manifest-Version: 1.0
-Implementation-Title: unitcore-server
-Implementation-Version: 0.0.1-SNAPSHOT
-Implementation-Vendor-Id: com.unitcore
-Build-Jdk: 1.7.0_09
-Built-By: Administrator
-Created-By: Maven Integration for Eclipse
-

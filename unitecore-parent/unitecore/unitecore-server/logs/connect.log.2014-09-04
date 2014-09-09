@@ -1,0 +1,1736 @@
+[INFO] 2014-09-04-15:52:35 com.mocha.unitcode.mina.server.MinaServer.<init>(MinaServer.java:76) 設置线程池corePoolSize=0  maximumPoolSize=1000 keepAliveTime=60  unit=SECONDS  threadFactory 
+[INFO] 2014-09-04-15:52:35 com.mocha.unitcode.mina.server.MinaServer.<init>(MinaServer.java:86) 线程的数量: 81 
+[INFO] 2014-09-04-15:52:36 com.mocha.unitcode.mina.server.MinaServer.start(MinaServer.java:146) MinaServer服务已启动，端口是7890 
+[INFO] 2014-09-04-15:52:50 com.mocha.unitcode.mina.server.handler.MinaIoHandler.sessionCreated(MinaIoHandler.java:95) Creation of session 2 
+[INFO] 2014-09-04-15:52:50 com.mocha.unitcode.mina.server.handler.MinaIoHandler.sessionOpened(MinaIoHandler.java:74) Session 2 is opened 
+[INFO] 2014-09-04-15:52:50 com.mocha.unitcode.mina.server.handler.MinaIoHandler.sessionOpened(MinaIoHandler.java:78) Session  is opened maxNumberConnections=3     NumberConnections=1 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 1:1on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:144) com.mocha.unitcode.mina.pdu.Connect   
+Login************************************
+clientId:		91947
+authClient:	�f��L�◛�8�F
+version:		48
+timeStamp:	904155250
+sharedSecret:	
+************************************Login 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:148) UNITE_CONNECT   
+nConnectResp******************************************
+status:		0
+authServer:	
+version:		0
+ConnectResp****************************************** 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:151) conresp:1 on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 1:2on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:144) com.mocha.unitcode.mina.pdu.Connect   
+Login************************************
+clientId:		91947
+authClient:	�f��L�◛�8�F
+version:		48
+timeStamp:	904155250
+sharedSecret:	
+************************************Login 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:148) UNITE_CONNECT   
+nConnectResp******************************************
+status:		0
+authServer:	
+version:		0
+ConnectResp****************************************** 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:151) conresp:2 on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 1:1on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:144) com.mocha.unitcode.mina.pdu.Connect   
+Login************************************
+clientId:		91947
+authClient:	�f��L�◛�8�F
+version:		48
+timeStamp:	904155250
+sharedSecret:	
+************************************Login 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:148) UNITE_CONNECT   
+nConnectResp******************************************
+status:		0
+authServer:	
+version:		0
+ConnectResp****************************************** 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:151) conresp:1 on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 1:2on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:144) com.mocha.unitcode.mina.pdu.Connect   
+Login************************************
+clientId:		91947
+authClient:	�f��L�◛�8�F
+version:		48
+timeStamp:	904155250
+sharedSecret:	
+************************************Login 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:148) UNITE_CONNECT   
+nConnectResp******************************************
+status:		0
+authServer:	
+version:		0
+ConnectResp****************************************** 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:151) conresp:2 on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 1:1on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:144) com.mocha.unitcode.mina.pdu.Connect   
+Login************************************
+clientId:		91947
+authClient:	�f��L�◛�8�F
+version:		48
+timeStamp:	904155250
+sharedSecret:	
+************************************Login 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:148) UNITE_CONNECT   
+nConnectResp******************************************
+status:		0
+authServer:	
+version:		0
+ConnectResp****************************************** 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:151) conresp:1 on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 1:2on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:144) com.mocha.unitcode.mina.pdu.Connect   
+Login************************************
+clientId:		91947
+authClient:	�f��L�◛�8�F
+version:		48
+timeStamp:	904155250
+sharedSecret:	
+************************************Login 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:148) UNITE_CONNECT   
+nConnectResp******************************************
+status:		0
+authServer:	
+version:		0
+ConnectResp****************************************** 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:151) conresp:2 on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 1:1on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:144) com.mocha.unitcode.mina.pdu.Connect   
+Login************************************
+clientId:		91947
+authClient:	�f��L�◛�8�F
+version:		48
+timeStamp:	904155250
+sharedSecret:	
+************************************Login 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:148) UNITE_CONNECT   
+nConnectResp******************************************
+status:		0
+authServer:	
+version:		0
+ConnectResp****************************************** 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:151) conresp:1 on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 1:2on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:144) com.mocha.unitcode.mina.pdu.Connect   
+Login************************************
+clientId:		91947
+authClient:	�f��L�◛�8�F
+version:		48
+timeStamp:	904155250
+sharedSecret:	
+************************************Login 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:148) UNITE_CONNECT   
+nConnectResp******************************************
+status:		0
+authServer:	
+version:		0
+ConnectResp****************************************** 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:151) conresp:2 on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 1:1on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:144) com.mocha.unitcode.mina.pdu.Connect   
+Login************************************
+clientId:		91947
+authClient:	�f��L�◛�8�F
+version:		48
+timeStamp:	904155250
+sharedSecret:	
+************************************Login 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:148) UNITE_CONNECT   
+nConnectResp******************************************
+status:		0
+authServer:	
+version:		0
+ConnectResp****************************************** 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:151) conresp:1 on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 1:2on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:144) com.mocha.unitcode.mina.pdu.Connect   
+Login************************************
+clientId:		91947
+authClient:	�f��L�◛�8�F
+version:		48
+timeStamp:	904155250
+sharedSecret:	
+************************************Login 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:148) UNITE_CONNECT   
+nConnectResp******************************************
+status:		0
+authServer:	
+version:		0
+ConnectResp****************************************** 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:151) conresp:2 on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 1:1on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:144) com.mocha.unitcode.mina.pdu.Connect   
+Login************************************
+clientId:		91947
+authClient:	�f��L�◛�8�F
+version:		48
+timeStamp:	904155250
+sharedSecret:	
+************************************Login 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:148) UNITE_CONNECT   
+nConnectResp******************************************
+status:		0
+authServer:	
+version:		0
+ConnectResp****************************************** 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:151) conresp:1 on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 1:2on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:144) com.mocha.unitcode.mina.pdu.Connect   
+Login************************************
+clientId:		91947
+authClient:	�f��L�◛�8�F
+version:		48
+timeStamp:	904155250
+sharedSecret:	
+************************************Login 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:148) UNITE_CONNECT   
+nConnectResp******************************************
+status:		0
+authServer:	
+version:		0
+ConnectResp****************************************** 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:151) conresp:2 on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 1:1on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:144) com.mocha.unitcode.mina.pdu.Connect   
+Login************************************
+clientId:		91947
+authClient:	�f��L�◛�8�F
+version:		48
+timeStamp:	904155250
+sharedSecret:	
+************************************Login 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:148) UNITE_CONNECT   
+nConnectResp******************************************
+status:		0
+authServer:	
+version:		0
+ConnectResp****************************************** 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:151) conresp:1 on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 1:2on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:144) com.mocha.unitcode.mina.pdu.Connect   
+Login************************************
+clientId:		91947
+authClient:	�f��L�◛�8�F
+version:		48
+timeStamp:	904155250
+sharedSecret:	
+************************************Login 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:148) UNITE_CONNECT   
+nConnectResp******************************************
+status:		0
+authServer:	
+version:		0
+ConnectResp****************************************** 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:151) conresp:2 on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 1:1on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:144) com.mocha.unitcode.mina.pdu.Connect   
+Login************************************
+clientId:		91947
+authClient:	�f��L�◛�8�F
+version:		48
+timeStamp:	904155250
+sharedSecret:	
+************************************Login 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:148) UNITE_CONNECT   
+nConnectResp******************************************
+status:		0
+authServer:	
+version:		0
+ConnectResp****************************************** 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:151) conresp:1 on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 1:2on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:144) com.mocha.unitcode.mina.pdu.Connect   
+Login************************************
+clientId:		91947
+authClient:	�f��L�◛�8�F
+version:		48
+timeStamp:	904155250
+sharedSecret:	
+************************************Login 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:148) UNITE_CONNECT   
+nConnectResp******************************************
+status:		0
+authServer:	
+version:		0
+ConnectResp****************************************** 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:151) conresp:2 on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 1:1on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:144) com.mocha.unitcode.mina.pdu.Connect   
+Login************************************
+clientId:		91947
+authClient:	�f��L�◛�8�F
+version:		48
+timeStamp:	904155250
+sharedSecret:	
+************************************Login 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:148) UNITE_CONNECT   
+nConnectResp******************************************
+status:		0
+authServer:	
+version:		0
+ConnectResp****************************************** 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:151) conresp:1 on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 1:2on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:144) com.mocha.unitcode.mina.pdu.Connect   
+Login************************************
+clientId:		91947
+authClient:	�f��L�◛�8�F
+version:		48
+timeStamp:	904155250
+sharedSecret:	
+************************************Login 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:148) UNITE_CONNECT   
+nConnectResp******************************************
+status:		0
+authServer:	
+version:		0
+ConnectResp****************************************** 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:151) conresp:2 on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 1:1on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:144) com.mocha.unitcode.mina.pdu.Connect   
+Login************************************
+clientId:		91947
+authClient:	�f��L�◛�8�F
+version:		48
+timeStamp:	904155250
+sharedSecret:	
+************************************Login 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:148) UNITE_CONNECT   
+nConnectResp******************************************
+status:		0
+authServer:	
+version:		0
+ConnectResp****************************************** 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:151) conresp:1 on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 1:2on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:144) com.mocha.unitcode.mina.pdu.Connect   
+Login************************************
+clientId:		91947
+authClient:	�f��L�◛�8�F
+version:		48
+timeStamp:	904155250
+sharedSecret:	
+************************************Login 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:148) UNITE_CONNECT   
+nConnectResp******************************************
+status:		0
+authServer:	
+version:		0
+ConnectResp****************************************** 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:151) conresp:2 on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 1:1on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:144) com.mocha.unitcode.mina.pdu.Connect   
+Login************************************
+clientId:		91947
+authClient:	�f��L�◛�8�F
+version:		48
+timeStamp:	904155250
+sharedSecret:	
+************************************Login 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:148) UNITE_CONNECT   
+nConnectResp******************************************
+status:		0
+authServer:	
+version:		0
+ConnectResp****************************************** 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:151) conresp:1 on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 1:2on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:144) com.mocha.unitcode.mina.pdu.Connect   
+Login************************************
+clientId:		91947
+authClient:	�f��L�◛�8�F
+version:		48
+timeStamp:	904155250
+sharedSecret:	
+************************************Login 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:148) UNITE_CONNECT   
+nConnectResp******************************************
+status:		0
+authServer:	
+version:		0
+ConnectResp****************************************** 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:151) conresp:2 on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 1:1on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:144) com.mocha.unitcode.mina.pdu.Connect   
+Login************************************
+clientId:		91947
+authClient:	�f��L�◛�8�F
+version:		48
+timeStamp:	904155250
+sharedSecret:	
+************************************Login 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:148) UNITE_CONNECT   
+nConnectResp******************************************
+status:		0
+authServer:	
+version:		0
+ConnectResp****************************************** 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:151) conresp:1 on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 1:2on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:144) com.mocha.unitcode.mina.pdu.Connect   
+Login************************************
+clientId:		91947
+authClient:	�f��L�◛�8�F
+version:		48
+timeStamp:	904155250
+sharedSecret:	
+************************************Login 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:148) UNITE_CONNECT   
+nConnectResp******************************************
+status:		0
+authServer:	
+version:		0
+ConnectResp****************************************** 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:151) conresp:2 on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 1:1on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:144) com.mocha.unitcode.mina.pdu.Connect   
+Login************************************
+clientId:		91947
+authClient:	�f��L�◛�8�F
+version:		48
+timeStamp:	904155250
+sharedSecret:	
+************************************Login 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:148) UNITE_CONNECT   
+nConnectResp******************************************
+status:		0
+authServer:	
+version:		0
+ConnectResp****************************************** 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:151) conresp:1 on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 1:2on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:144) com.mocha.unitcode.mina.pdu.Connect   
+Login************************************
+clientId:		91947
+authClient:	�f��L�◛�8�F
+version:		48
+timeStamp:	904155250
+sharedSecret:	
+************************************Login 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:148) UNITE_CONNECT   
+nConnectResp******************************************
+status:		0
+authServer:	
+version:		0
+ConnectResp****************************************** 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:151) conresp:2 on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 1:1on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:144) com.mocha.unitcode.mina.pdu.Connect   
+Login************************************
+clientId:		91947
+authClient:	�f��L�◛�8�F
+version:		48
+timeStamp:	904155250
+sharedSecret:	
+************************************Login 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:148) UNITE_CONNECT   
+nConnectResp******************************************
+status:		0
+authServer:	
+version:		0
+ConnectResp****************************************** 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:151) conresp:1 on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 1:2on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:144) com.mocha.unitcode.mina.pdu.Connect   
+Login************************************
+clientId:		91947
+authClient:	�f��L�◛�8�F
+version:		48
+timeStamp:	904155250
+sharedSecret:	
+************************************Login 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:148) UNITE_CONNECT   
+nConnectResp******************************************
+status:		0
+authServer:	
+version:		0
+ConnectResp****************************************** 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:151) conresp:2 on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 1:1on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:144) com.mocha.unitcode.mina.pdu.Connect   
+Login************************************
+clientId:		91947
+authClient:	�f��L�◛�8�F
+version:		48
+timeStamp:	904155250
+sharedSecret:	
+************************************Login 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:148) UNITE_CONNECT   
+nConnectResp******************************************
+status:		0
+authServer:	
+version:		0
+ConnectResp****************************************** 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:151) conresp:1 on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 1:2on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:144) com.mocha.unitcode.mina.pdu.Connect   
+Login************************************
+clientId:		91947
+authClient:	�f��L�◛�8�F
+version:		48
+timeStamp:	904155250
+sharedSecret:	
+************************************Login 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:148) UNITE_CONNECT   
+nConnectResp******************************************
+status:		0
+authServer:	
+version:		0
+ConnectResp****************************************** 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:151) conresp:2 on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 1:1on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:144) com.mocha.unitcode.mina.pdu.Connect   
+Login************************************
+clientId:		91947
+authClient:	�f��L�◛�8�F
+version:		48
+timeStamp:	904155250
+sharedSecret:	
+************************************Login 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:148) UNITE_CONNECT   
+nConnectResp******************************************
+status:		0
+authServer:	
+version:		0
+ConnectResp****************************************** 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:151) conresp:1 on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 1:2on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:144) com.mocha.unitcode.mina.pdu.Connect   
+Login************************************
+clientId:		91947
+authClient:	�f��L�◛�8�F
+version:		48
+timeStamp:	904155250
+sharedSecret:	
+************************************Login 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:148) UNITE_CONNECT   
+nConnectResp******************************************
+status:		0
+authServer:	
+version:		0
+ConnectResp****************************************** 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:151) conresp:2 on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 1:1on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:144) com.mocha.unitcode.mina.pdu.Connect   
+Login************************************
+clientId:		91947
+authClient:	�f��L�◛�8�F
+version:		48
+timeStamp:	904155250
+sharedSecret:	
+************************************Login 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:148) UNITE_CONNECT   
+nConnectResp******************************************
+status:		0
+authServer:	
+version:		0
+ConnectResp****************************************** 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:151) conresp:1 on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 1:2on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:144) com.mocha.unitcode.mina.pdu.Connect   
+Login************************************
+clientId:		91947
+authClient:	�f��L�◛�8�F
+version:		48
+timeStamp:	904155250
+sharedSecret:	
+************************************Login 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:148) UNITE_CONNECT   
+nConnectResp******************************************
+status:		0
+authServer:	
+version:		0
+ConnectResp****************************************** 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:151) conresp:2 on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 1:1on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:144) com.mocha.unitcode.mina.pdu.Connect   
+Login************************************
+clientId:		91947
+authClient:	�f��L�◛�8�F
+version:		48
+timeStamp:	904155250
+sharedSecret:	
+************************************Login 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:148) UNITE_CONNECT   
+nConnectResp******************************************
+status:		0
+authServer:	
+version:		0
+ConnectResp****************************************** 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:151) conresp:1 on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 1:2on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:144) com.mocha.unitcode.mina.pdu.Connect   
+Login************************************
+clientId:		91947
+authClient:	�f��L�◛�8�F
+version:		48
+timeStamp:	904155250
+sharedSecret:	
+************************************Login 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:148) UNITE_CONNECT   
+nConnectResp******************************************
+status:		0
+authServer:	
+version:		0
+ConnectResp****************************************** 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:151) conresp:2 on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 1:1on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:144) com.mocha.unitcode.mina.pdu.Connect   
+Login************************************
+clientId:		91947
+authClient:	�f��L�◛�8�F
+version:		48
+timeStamp:	904155250
+sharedSecret:	
+************************************Login 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:148) UNITE_CONNECT   
+nConnectResp******************************************
+status:		0
+authServer:	
+version:		0
+ConnectResp****************************************** 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:151) conresp:1 on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 1:2on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:144) com.mocha.unitcode.mina.pdu.Connect   
+Login************************************
+clientId:		91947
+authClient:	�f��L�◛�8�F
+version:		48
+timeStamp:	904155250
+sharedSecret:	
+************************************Login 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:148) UNITE_CONNECT   
+nConnectResp******************************************
+status:		0
+authServer:	
+version:		0
+ConnectResp****************************************** 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:151) conresp:2 on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 1:1on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:144) com.mocha.unitcode.mina.pdu.Connect   
+Login************************************
+clientId:		91947
+authClient:	�f��L�◛�8�F
+version:		48
+timeStamp:	904155250
+sharedSecret:	
+************************************Login 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:148) UNITE_CONNECT   
+nConnectResp******************************************
+status:		0
+authServer:	
+version:		0
+ConnectResp****************************************** 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:151) conresp:1 on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 1:2on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:144) com.mocha.unitcode.mina.pdu.Connect   
+Login************************************
+clientId:		91947
+authClient:	�f��L�◛�8�F
+version:		48
+timeStamp:	904155250
+sharedSecret:	
+************************************Login 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:148) UNITE_CONNECT   
+nConnectResp******************************************
+status:		0
+authServer:	
+version:		0
+ConnectResp****************************************** 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:151) conresp:2 on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 1:1on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:144) com.mocha.unitcode.mina.pdu.Connect   
+Login************************************
+clientId:		91947
+authClient:	�f��L�◛�8�F
+version:		48
+timeStamp:	904155250
+sharedSecret:	
+************************************Login 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:148) UNITE_CONNECT   
+nConnectResp******************************************
+status:		0
+authServer:	
+version:		0
+ConnectResp****************************************** 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:151) conresp:1 on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 1:2on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:144) com.mocha.unitcode.mina.pdu.Connect   
+Login************************************
+clientId:		91947
+authClient:	�f��L�◛�8�F
+version:		48
+timeStamp:	904155250
+sharedSecret:	
+************************************Login 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:148) UNITE_CONNECT   
+nConnectResp******************************************
+status:		0
+authServer:	
+version:		0
+ConnectResp****************************************** 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:151) conresp:2 on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 1:1on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:144) com.mocha.unitcode.mina.pdu.Connect   
+Login************************************
+clientId:		91947
+authClient:	�f��L�◛�8�F
+version:		48
+timeStamp:	904155250
+sharedSecret:	
+************************************Login 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:148) UNITE_CONNECT   
+nConnectResp******************************************
+status:		0
+authServer:	
+version:		0
+ConnectResp****************************************** 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:151) conresp:1 on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 1:2on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:144) com.mocha.unitcode.mina.pdu.Connect   
+Login************************************
+clientId:		91947
+authClient:	�f��L�◛�8�F
+version:		48
+timeStamp:	904155250
+sharedSecret:	
+************************************Login 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:148) UNITE_CONNECT   
+nConnectResp******************************************
+status:		0
+authServer:	
+version:		0
+ConnectResp****************************************** 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:151) conresp:2 on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 1:1on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:144) com.mocha.unitcode.mina.pdu.Connect   
+Login************************************
+clientId:		91947
+authClient:	�f��L�◛�8�F
+version:		48
+timeStamp:	904155250
+sharedSecret:	
+************************************Login 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:148) UNITE_CONNECT   
+nConnectResp******************************************
+status:		0
+authServer:	
+version:		0
+ConnectResp****************************************** 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:151) conresp:1 on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 1:2on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:144) com.mocha.unitcode.mina.pdu.Connect   
+Login************************************
+clientId:		91947
+authClient:	�f��L�◛�8�F
+version:		48
+timeStamp:	904155250
+sharedSecret:	
+************************************Login 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:148) UNITE_CONNECT   
+nConnectResp******************************************
+status:		0
+authServer:	
+version:		0
+ConnectResp****************************************** 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:151) conresp:2 on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 1:1on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:144) com.mocha.unitcode.mina.pdu.Connect   
+Login************************************
+clientId:		91947
+authClient:	�f��L�◛�8�F
+version:		48
+timeStamp:	904155250
+sharedSecret:	
+************************************Login 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:148) UNITE_CONNECT   
+nConnectResp******************************************
+status:		0
+authServer:	
+version:		0
+ConnectResp****************************************** 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:151) conresp:1 on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 1:2on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:144) com.mocha.unitcode.mina.pdu.Connect   
+Login************************************
+clientId:		91947
+authClient:	�f��L�◛�8�F
+version:		48
+timeStamp:	904155250
+sharedSecret:	
+************************************Login 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:148) UNITE_CONNECT   
+nConnectResp******************************************
+status:		0
+authServer:	
+version:		0
+ConnectResp****************************************** 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:151) conresp:2 on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 1:1on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:144) com.mocha.unitcode.mina.pdu.Connect   
+Login************************************
+clientId:		91947
+authClient:	�f��L�◛�8�F
+version:		48
+timeStamp:	904155250
+sharedSecret:	
+************************************Login 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:148) UNITE_CONNECT   
+nConnectResp******************************************
+status:		0
+authServer:	
+version:		0
+ConnectResp****************************************** 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:151) conresp:1 on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 1:2on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:144) com.mocha.unitcode.mina.pdu.Connect   
+Login************************************
+clientId:		91947
+authClient:	�f��L�◛�8�F
+version:		48
+timeStamp:	904155250
+sharedSecret:	
+************************************Login 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:148) UNITE_CONNECT   
+nConnectResp******************************************
+status:		0
+authServer:	
+version:		0
+ConnectResp****************************************** 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:151) conresp:2 on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 1:1on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:144) com.mocha.unitcode.mina.pdu.Connect   
+Login************************************
+clientId:		91947
+authClient:	�f��L�◛�8�F
+version:		48
+timeStamp:	904155250
+sharedSecret:	
+************************************Login 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:148) UNITE_CONNECT   
+nConnectResp******************************************
+status:		0
+authServer:	
+version:		0
+ConnectResp****************************************** 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:151) conresp:1 on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 1:2on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:144) com.mocha.unitcode.mina.pdu.Connect   
+Login************************************
+clientId:		91947
+authClient:	�f��L�◛�8�F
+version:		48
+timeStamp:	904155250
+sharedSecret:	
+************************************Login 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:148) UNITE_CONNECT   
+nConnectResp******************************************
+status:		0
+authServer:	
+version:		0
+ConnectResp****************************************** 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:151) conresp:2 on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 1:1on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:144) com.mocha.unitcode.mina.pdu.Connect   
+Login************************************
+clientId:		91947
+authClient:	�f��L�◛�8�F
+version:		48
+timeStamp:	904155250
+sharedSecret:	
+************************************Login 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:148) UNITE_CONNECT   
+nConnectResp******************************************
+status:		0
+authServer:	
+version:		0
+ConnectResp****************************************** 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:151) conresp:1 on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 1:2on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:144) com.mocha.unitcode.mina.pdu.Connect   
+Login************************************
+clientId:		91947
+authClient:	�f��L�◛�8�F
+version:		48
+timeStamp:	904155250
+sharedSecret:	
+************************************Login 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:148) UNITE_CONNECT   
+nConnectResp******************************************
+status:		0
+authServer:	
+version:		0
+ConnectResp****************************************** 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:151) conresp:2 on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 1:1on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:144) com.mocha.unitcode.mina.pdu.Connect   
+Login************************************
+clientId:		91947
+authClient:	�f��L�◛�8�F
+version:		48
+timeStamp:	904155250
+sharedSecret:	
+************************************Login 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:148) UNITE_CONNECT   
+nConnectResp******************************************
+status:		0
+authServer:	
+version:		0
+ConnectResp****************************************** 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:151) conresp:1 on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 1:2on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:144) com.mocha.unitcode.mina.pdu.Connect   
+Login************************************
+clientId:		91947
+authClient:	�f��L�◛�8�F
+version:		48
+timeStamp:	904155250
+sharedSecret:	
+************************************Login 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:148) UNITE_CONNECT   
+nConnectResp******************************************
+status:		0
+authServer:	
+version:		0
+ConnectResp****************************************** 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:151) conresp:2 on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 1:1on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:144) com.mocha.unitcode.mina.pdu.Connect   
+Login************************************
+clientId:		91947
+authClient:	�f��L�◛�8�F
+version:		48
+timeStamp:	904155250
+sharedSecret:	
+************************************Login 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:148) UNITE_CONNECT   
+nConnectResp******************************************
+status:		0
+authServer:	
+version:		0
+ConnectResp****************************************** 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:151) conresp:1 on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 1:2on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:144) com.mocha.unitcode.mina.pdu.Connect   
+Login************************************
+clientId:		91947
+authClient:	�f��L�◛�8�F
+version:		48
+timeStamp:	904155250
+sharedSecret:	
+************************************Login 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:148) UNITE_CONNECT   
+nConnectResp******************************************
+status:		0
+authServer:	
+version:		0
+ConnectResp****************************************** 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:151) conresp:2 on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 1:1on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:144) com.mocha.unitcode.mina.pdu.Connect   
+Login************************************
+clientId:		91947
+authClient:	�f��L�◛�8�F
+version:		48
+timeStamp:	904155250
+sharedSecret:	
+************************************Login 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:148) UNITE_CONNECT   
+nConnectResp******************************************
+status:		0
+authServer:	
+version:		0
+ConnectResp****************************************** 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:151) conresp:1 on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 1:2on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:144) com.mocha.unitcode.mina.pdu.Connect   
+Login************************************
+clientId:		91947
+authClient:	�f��L�◛�8�F
+version:		48
+timeStamp:	904155250
+sharedSecret:	
+************************************Login 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:148) UNITE_CONNECT   
+nConnectResp******************************************
+status:		0
+authServer:	
+version:		0
+ConnectResp****************************************** 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:151) conresp:2 on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 1:1on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:144) com.mocha.unitcode.mina.pdu.Connect   
+Login************************************
+clientId:		91947
+authClient:	�f��L�◛�8�F
+version:		48
+timeStamp:	904155250
+sharedSecret:	
+************************************Login 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:148) UNITE_CONNECT   
+nConnectResp******************************************
+status:		0
+authServer:	
+version:		0
+ConnectResp****************************************** 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:151) conresp:1 on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 1:2on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:144) com.mocha.unitcode.mina.pdu.Connect   
+Login************************************
+clientId:		91947
+authClient:	�f��L�◛�8�F
+version:		48
+timeStamp:	904155250
+sharedSecret:	
+************************************Login 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:148) UNITE_CONNECT   
+nConnectResp******************************************
+status:		0
+authServer:	
+version:		0
+ConnectResp****************************************** 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:151) conresp:2 on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 1:1on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:144) com.mocha.unitcode.mina.pdu.Connect   
+Login************************************
+clientId:		91947
+authClient:	�f��L�◛�8�F
+version:		48
+timeStamp:	904155250
+sharedSecret:	
+************************************Login 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:148) UNITE_CONNECT   
+nConnectResp******************************************
+status:		0
+authServer:	
+version:		0
+ConnectResp****************************************** 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:151) conresp:1 on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 1:2on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:144) com.mocha.unitcode.mina.pdu.Connect   
+Login************************************
+clientId:		91947
+authClient:	�f��L�◛�8�F
+version:		48
+timeStamp:	904155250
+sharedSecret:	
+************************************Login 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:148) UNITE_CONNECT   
+nConnectResp******************************************
+status:		0
+authServer:	
+version:		0
+ConnectResp****************************************** 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:151) conresp:2 on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 1:1on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:144) com.mocha.unitcode.mina.pdu.Connect   
+Login************************************
+clientId:		91947
+authClient:	�f��L�◛�8�F
+version:		48
+timeStamp:	904155250
+sharedSecret:	
+************************************Login 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:148) UNITE_CONNECT   
+nConnectResp******************************************
+status:		0
+authServer:	
+version:		0
+ConnectResp****************************************** 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:151) conresp:1 on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 1:2on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:144) com.mocha.unitcode.mina.pdu.Connect   
+Login************************************
+clientId:		91947
+authClient:	�f��L�◛�8�F
+version:		48
+timeStamp:	904155250
+sharedSecret:	
+************************************Login 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:148) UNITE_CONNECT   
+nConnectResp******************************************
+status:		0
+authServer:	
+version:		0
+ConnectResp****************************************** 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:151) conresp:2 on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 1:1on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:144) com.mocha.unitcode.mina.pdu.Connect   
+Login************************************
+clientId:		91947
+authClient:	�f��L�◛�8�F
+version:		48
+timeStamp:	904155250
+sharedSecret:	
+************************************Login 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:148) UNITE_CONNECT   
+nConnectResp******************************************
+status:		0
+authServer:	
+version:		0
+ConnectResp****************************************** 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:151) conresp:1 on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 1:2on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:144) com.mocha.unitcode.mina.pdu.Connect   
+Login************************************
+clientId:		91947
+authClient:	�f��L�◛�8�F
+version:		48
+timeStamp:	904155250
+sharedSecret:	
+************************************Login 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:148) UNITE_CONNECT   
+nConnectResp******************************************
+status:		0
+authServer:	
+version:		0
+ConnectResp****************************************** 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:151) conresp:2 on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 1:1on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:144) com.mocha.unitcode.mina.pdu.Connect   
+Login************************************
+clientId:		91947
+authClient:	�f��L�◛�8�F
+version:		48
+timeStamp:	904155250
+sharedSecret:	
+************************************Login 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:148) UNITE_CONNECT   
+nConnectResp******************************************
+status:		0
+authServer:	
+version:		0
+ConnectResp****************************************** 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:151) conresp:1 on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 1:2on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:144) com.mocha.unitcode.mina.pdu.Connect   
+Login************************************
+clientId:		91947
+authClient:	�f��L�◛�8�F
+version:		48
+timeStamp:	904155250
+sharedSecret:	
+************************************Login 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:148) UNITE_CONNECT   
+nConnectResp******************************************
+status:		0
+authServer:	
+version:		0
+ConnectResp****************************************** 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:151) conresp:2 on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 1:1on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:144) com.mocha.unitcode.mina.pdu.Connect   
+Login************************************
+clientId:		91947
+authClient:	�f��L�◛�8�F
+version:		48
+timeStamp:	904155250
+sharedSecret:	
+************************************Login 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:148) UNITE_CONNECT   
+nConnectResp******************************************
+status:		0
+authServer:	
+version:		0
+ConnectResp****************************************** 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:151) conresp:1 on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 1:2on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:144) com.mocha.unitcode.mina.pdu.Connect   
+Login************************************
+clientId:		91947
+authClient:	�f��L�◛�8�F
+version:		48
+timeStamp:	904155250
+sharedSecret:	
+************************************Login 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:148) UNITE_CONNECT   
+nConnectResp******************************************
+status:		0
+authServer:	
+version:		0
+ConnectResp****************************************** 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:151) conresp:2 on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 1:1on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:144) com.mocha.unitcode.mina.pdu.Connect   
+Login************************************
+clientId:		91947
+authClient:	�f��L�◛�8�F
+version:		48
+timeStamp:	904155250
+sharedSecret:	
+************************************Login 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:148) UNITE_CONNECT   
+nConnectResp******************************************
+status:		0
+authServer:	
+version:		0
+ConnectResp****************************************** 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:151) conresp:1 on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 1:2on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:144) com.mocha.unitcode.mina.pdu.Connect   
+Login************************************
+clientId:		91947
+authClient:	�f��L�◛�8�F
+version:		48
+timeStamp:	904155250
+sharedSecret:	
+************************************Login 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:148) UNITE_CONNECT   
+nConnectResp******************************************
+status:		0
+authServer:	
+version:		0
+ConnectResp****************************************** 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:151) conresp:2 on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 1:1on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:144) com.mocha.unitcode.mina.pdu.Connect   
+Login************************************
+clientId:		91947
+authClient:	�f��L�◛�8�F
+version:		48
+timeStamp:	904155250
+sharedSecret:	
+************************************Login 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:148) UNITE_CONNECT   
+nConnectResp******************************************
+status:		0
+authServer:	
+version:		0
+ConnectResp****************************************** 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:151) conresp:1 on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 1:2on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:144) com.mocha.unitcode.mina.pdu.Connect   
+Login************************************
+clientId:		91947
+authClient:	�f��L�◛�8�F
+version:		48
+timeStamp:	904155250
+sharedSecret:	
+************************************Login 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:148) UNITE_CONNECT   
+nConnectResp******************************************
+status:		0
+authServer:	
+version:		0
+ConnectResp****************************************** 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:151) conresp:2 on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 1:1on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:144) com.mocha.unitcode.mina.pdu.Connect   
+Login************************************
+clientId:		91947
+authClient:	�f��L�◛�8�F
+version:		48
+timeStamp:	904155250
+sharedSecret:	
+************************************Login 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:148) UNITE_CONNECT   
+nConnectResp******************************************
+status:		0
+authServer:	
+version:		0
+ConnectResp****************************************** 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:151) conresp:1 on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 1:2on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:144) com.mocha.unitcode.mina.pdu.Connect   
+Login************************************
+clientId:		91947
+authClient:	�f��L�◛�8�F
+version:		48
+timeStamp:	904155250
+sharedSecret:	
+************************************Login 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:148) UNITE_CONNECT   
+nConnectResp******************************************
+status:		0
+authServer:	
+version:		0
+ConnectResp****************************************** 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:151) conresp:2 on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 1:1on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:144) com.mocha.unitcode.mina.pdu.Connect   
+Login************************************
+clientId:		91947
+authClient:	�f��L�◛�8�F
+version:		48
+timeStamp:	904155250
+sharedSecret:	
+************************************Login 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:148) UNITE_CONNECT   
+nConnectResp******************************************
+status:		0
+authServer:	
+version:		0
+ConnectResp****************************************** 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:151) conresp:1 on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 1:2on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:144) com.mocha.unitcode.mina.pdu.Connect   
+Login************************************
+clientId:		91947
+authClient:	�f��L�◛�8�F
+version:		48
+timeStamp:	904155250
+sharedSecret:	
+************************************Login 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:148) UNITE_CONNECT   
+nConnectResp******************************************
+status:		0
+authServer:	
+version:		0
+ConnectResp****************************************** 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:151) conresp:2 on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 1:1on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:144) com.mocha.unitcode.mina.pdu.Connect   
+Login************************************
+clientId:		91947
+authClient:	�f��L�◛�8�F
+version:		48
+timeStamp:	904155250
+sharedSecret:	
+************************************Login 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:148) UNITE_CONNECT   
+nConnectResp******************************************
+status:		0
+authServer:	
+version:		0
+ConnectResp****************************************** 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:151) conresp:1 on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 1:2on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:144) com.mocha.unitcode.mina.pdu.Connect   
+Login************************************
+clientId:		91947
+authClient:	�f��L�◛�8�F
+version:		48
+timeStamp:	904155250
+sharedSecret:	
+************************************Login 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:148) UNITE_CONNECT   
+nConnectResp******************************************
+status:		0
+authServer:	
+version:		0
+ConnectResp****************************************** 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:151) conresp:2 on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 1:1on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:144) com.mocha.unitcode.mina.pdu.Connect   
+Login************************************
+clientId:		91947
+authClient:	�f��L�◛�8�F
+version:		48
+timeStamp:	904155250
+sharedSecret:	
+************************************Login 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:148) UNITE_CONNECT   
+nConnectResp******************************************
+status:		0
+authServer:	
+version:		0
+ConnectResp****************************************** 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:151) conresp:1 on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 1:2on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:144) com.mocha.unitcode.mina.pdu.Connect   
+Login************************************
+clientId:		91947
+authClient:	�f��L�◛�8�F
+version:		48
+timeStamp:	904155250
+sharedSecret:	
+************************************Login 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:148) UNITE_CONNECT   
+nConnectResp******************************************
+status:		0
+authServer:	
+version:		0
+ConnectResp****************************************** 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:151) conresp:2 on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 1:1on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:144) com.mocha.unitcode.mina.pdu.Connect   
+Login************************************
+clientId:		91947
+authClient:	�f��L�◛�8�F
+version:		48
+timeStamp:	904155250
+sharedSecret:	
+************************************Login 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:148) UNITE_CONNECT   
+nConnectResp******************************************
+status:		0
+authServer:	
+version:		0
+ConnectResp****************************************** 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:151) conresp:1 on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 1:2on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:144) com.mocha.unitcode.mina.pdu.Connect   
+Login************************************
+clientId:		91947
+authClient:	�f��L�◛�8�F
+version:		48
+timeStamp:	904155250
+sharedSecret:	
+************************************Login 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:148) UNITE_CONNECT   
+nConnectResp******************************************
+status:		0
+authServer:	
+version:		0
+ConnectResp****************************************** 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:151) conresp:2 on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 1:1on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:144) com.mocha.unitcode.mina.pdu.Connect   
+Login************************************
+clientId:		91947
+authClient:	�f��L�◛�8�F
+version:		48
+timeStamp:	904155250
+sharedSecret:	
+************************************Login 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:148) UNITE_CONNECT   
+nConnectResp******************************************
+status:		0
+authServer:	
+version:		0
+ConnectResp****************************************** 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:151) conresp:1 on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 1:2on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:144) com.mocha.unitcode.mina.pdu.Connect   
+Login************************************
+clientId:		91947
+authClient:	�f��L�◛�8�F
+version:		48
+timeStamp:	904155250
+sharedSecret:	
+************************************Login 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:148) UNITE_CONNECT   
+nConnectResp******************************************
+status:		0
+authServer:	
+version:		0
+ConnectResp****************************************** 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:151) conresp:2 on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 1:1on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:144) com.mocha.unitcode.mina.pdu.Connect   
+Login************************************
+clientId:		91947
+authClient:	�f��L�◛�8�F
+version:		48
+timeStamp:	904155250
+sharedSecret:	
+************************************Login 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:148) UNITE_CONNECT   
+nConnectResp******************************************
+status:		0
+authServer:	
+version:		0
+ConnectResp****************************************** 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:151) conresp:1 on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 1:2on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:144) com.mocha.unitcode.mina.pdu.Connect   
+Login************************************
+clientId:		91947
+authClient:	�f��L�◛�8�F
+version:		48
+timeStamp:	904155250
+sharedSecret:	
+************************************Login 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:148) UNITE_CONNECT   
+nConnectResp******************************************
+status:		0
+authServer:	
+version:		0
+ConnectResp****************************************** 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:151) conresp:2 on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 1:1on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:144) com.mocha.unitcode.mina.pdu.Connect   
+Login************************************
+clientId:		91947
+authClient:	�f��L�◛�8�F
+version:		48
+timeStamp:	904155250
+sharedSecret:	
+************************************Login 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:148) UNITE_CONNECT   
+nConnectResp******************************************
+status:		0
+authServer:	
+version:		0
+ConnectResp****************************************** 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:151) conresp:1 on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 1:2on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:144) com.mocha.unitcode.mina.pdu.Connect   
+Login************************************
+clientId:		91947
+authClient:	�f��L�◛�8�F
+version:		48
+timeStamp:	904155250
+sharedSecret:	
+************************************Login 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:148) UNITE_CONNECT   
+nConnectResp******************************************
+status:		0
+authServer:	
+version:		0
+ConnectResp****************************************** 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:151) conresp:2 on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 1:1on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:144) com.mocha.unitcode.mina.pdu.Connect   
+Login************************************
+clientId:		91947
+authClient:	�f��L�◛�8�F
+version:		48
+timeStamp:	904155250
+sharedSecret:	
+************************************Login 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:148) UNITE_CONNECT   
+nConnectResp******************************************
+status:		0
+authServer:	
+version:		0
+ConnectResp****************************************** 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:151) conresp:1 on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 1:2on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:144) com.mocha.unitcode.mina.pdu.Connect   
+Login************************************
+clientId:		91947
+authClient:	�f��L�◛�8�F
+version:		48
+timeStamp:	904155250
+sharedSecret:	
+************************************Login 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:148) UNITE_CONNECT   
+nConnectResp******************************************
+status:		0
+authServer:	
+version:		0
+ConnectResp****************************************** 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:151) conresp:2 on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 1:1on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:144) com.mocha.unitcode.mina.pdu.Connect   
+Login************************************
+clientId:		91947
+authClient:	�f��L�◛�8�F
+version:		48
+timeStamp:	904155250
+sharedSecret:	
+************************************Login 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:148) UNITE_CONNECT   
+nConnectResp******************************************
+status:		0
+authServer:	
+version:		0
+ConnectResp****************************************** 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:151) conresp:1 on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 1:2on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:144) com.mocha.unitcode.mina.pdu.Connect   
+Login************************************
+clientId:		91947
+authClient:	�f��L�◛�8�F
+version:		48
+timeStamp:	904155250
+sharedSecret:	
+************************************Login 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:148) UNITE_CONNECT   
+nConnectResp******************************************
+status:		0
+authServer:	
+version:		0
+ConnectResp****************************************** 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:151) conresp:2 on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 1:1on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:144) com.mocha.unitcode.mina.pdu.Connect   
+Login************************************
+clientId:		91947
+authClient:	�f��L�◛�8�F
+version:		48
+timeStamp:	904155250
+sharedSecret:	
+************************************Login 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:148) UNITE_CONNECT   
+nConnectResp******************************************
+status:		0
+authServer:	
+version:		0
+ConnectResp****************************************** 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:151) conresp:1 on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 1:2on session 2 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:144) com.mocha.unitcode.mina.pdu.Connect   
+Login************************************
+clientId:		91947
+authClient:	�f��L�◛�8�F
+version:		48
+timeStamp:	904155250
+sharedSecret:	
+************************************Login 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:148) UNITE_CONNECT   
+nConnectResp******************************************
+status:		0
+authServer:	
+version:		0
+ConnectResp****************************************** 
+[INFO] 2014-09-04-15:52:51 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:151) conresp:2 on session 2 
+[INFO] 2014-09-04-15:52:56 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 1:1on session 2 
+[INFO] 2014-09-04-15:52:56 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-04-15:52:56 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:144) com.mocha.unitcode.mina.pdu.Connect   
+Login************************************
+clientId:		91947
+authClient:	�f��L�◛�8�F
+version:		48
+timeStamp:	904155250
+sharedSecret:	
+************************************Login 
+[INFO] 2014-09-04-15:52:56 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:148) UNITE_CONNECT   
+nConnectResp******************************************
+status:		0
+authServer:	
+version:		0
+ConnectResp****************************************** 
+[INFO] 2014-09-04-15:52:56 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:151) conresp:1 on session 2 
+[INFO] 2014-09-04-15:52:56 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 1:2on session 2 
+[INFO] 2014-09-04-15:52:56 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-04-15:52:56 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:144) com.mocha.unitcode.mina.pdu.Connect   
+Login************************************
+clientId:		91947
+authClient:	�f��L�◛�8�F
+version:		48
+timeStamp:	904155250
+sharedSecret:	
+************************************Login 
+[INFO] 2014-09-04-15:52:56 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:148) UNITE_CONNECT   
+nConnectResp******************************************
+status:		0
+authServer:	
+version:		0
+ConnectResp****************************************** 
+[INFO] 2014-09-04-15:52:56 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:151) conresp:2 on session 2 
+[INFO] 2014-09-04-15:52:56 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 3:0on session 2 
+[INFO] 2014-09-04-15:52:56 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-04-15:52:56 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:188) ==messageReceived==UNITE_TODO_SUBMIT=======getClazz=============com.mocha.tydb_common.entity.TodoEntity 
+[INFO] 2014-09-04-15:53:50 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: -2147483641:1on session 2 
+[INFO] 2014-09-04-15:53:50 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-04-15:53:50 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:171) activeTestRsp:1 on session 2 
+[INFO] 2014-09-04-15:54:50 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: -2147483641:2on session 2 
+[INFO] 2014-09-04-15:54:50 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-04-15:54:50 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:171) activeTestRsp:2 on session 2 
+[INFO] 2014-09-04-15:55:50 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: -2147483641:3on session 2 
+[INFO] 2014-09-04-15:55:50 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-04-15:55:50 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:171) activeTestRsp:3 on session 2 
+[INFO] 2014-09-04-15:56:50 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: -2147483641:4on session 2 
+[INFO] 2014-09-04-15:56:50 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-04-15:56:50 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:171) activeTestRsp:4 on session 2 
+[INFO] 2014-09-04-15:57:50 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: -2147483641:5on session 2 
+[INFO] 2014-09-04-15:57:50 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-04-15:57:50 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:171) activeTestRsp:5 on session 2 
+[INFO] 2014-09-04-15:58:50 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: -2147483641:6on session 2 
+[INFO] 2014-09-04-15:58:50 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-04-15:58:50 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:171) activeTestRsp:6 on session 2 
+[INFO] 2014-09-04-15:59:18 com.mocha.unitcode.mina.server.handler.MinaIoHandler.exceptionCaught(MinaIoHandler.java:66) I/O error: 远程主机强迫关闭了一个现有的连接。 
+[INFO] 2014-09-04-15:59:18 com.mocha.unitcode.mina.server.handler.MinaIoHandler.sessionClosed(MinaIoHandler.java:105) {}> Session closed2 
+[INFO] 2014-09-04-16:07:14 com.mocha.unitcode.mina.server.MinaServer.<init>(MinaServer.java:76) 設置线程池corePoolSize=0  maximumPoolSize=1000 keepAliveTime=60  unit=SECONDS  threadFactory 
+[INFO] 2014-09-04-16:07:14 com.mocha.unitcode.mina.server.MinaServer.<init>(MinaServer.java:86) 线程的数量: 81 
+[INFO] 2014-09-04-16:07:14 com.mocha.unitcode.mina.server.MinaServer.start(MinaServer.java:146) MinaServer服务已启动，端口是7890 
+[INFO] 2014-09-04-16:14:11 com.mocha.unitcode.mina.server.handler.MinaIoHandler.sessionCreated(MinaIoHandler.java:95) Creation of session 2 
+[INFO] 2014-09-04-16:14:11 com.mocha.unitcode.mina.server.handler.MinaIoHandler.sessionOpened(MinaIoHandler.java:74) Session 2 is opened 
+[INFO] 2014-09-04-16:14:11 com.mocha.unitcode.mina.server.handler.MinaIoHandler.sessionOpened(MinaIoHandler.java:78) Session  is opened maxNumberConnections=3     NumberConnections=1 
+[INFO] 2014-09-04-16:14:20 com.mocha.unitcode.mina.server.handler.MinaIoHandler.sessionClosed(MinaIoHandler.java:105) {}> Session closed2 

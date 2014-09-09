@@ -1,0 +1,168 @@
+[INFO] 2014-09-02-14:59:57 com.mocha.unitcode.mina.client.MinaClient.init(MinaClient.java:50)   初始化通道 init() 
+[INFO] 2014-09-02-14:59:57 com.mocha.unitcode.mina.client.MinaClient.getConnectFuture(MinaClient.java:76) MinaClient。getConnectFuture  connector == null未连接，重新创建 
+[INFO] 2014-09-02-14:59:57 com.mocha.unitcode.mina.client.MinaClient.init(MinaClient.java:55) 进入MTClient。init  awaitUninterruptibly 结束 
+[INFO] 2014-09-02-14:59:57 com.mocha.unitcode.mina.client.MinaClient.init(MinaClient.java:60) 进入MTClient。init  结束 sessionid=1 
+[INFO] 2014-09-02-14:59:57 com.mocha.unitcode.mina.client.MinaClient.init(MinaClient.java:62) CONNECT() sessionid=1 
+[INFO] 2014-09-02-14:59:57 com.mocha.unitcode.mina.client.MinaClient.CONNECT(MinaClient.java:175) 
+Login************************************
+clientId:		91947
+authClient:	�\��7�>�.�
+version:		48
+timeStamp:	902145957
+sharedSecret:	91947
+************************************Login 
+[INFO] 2014-09-02-14:59:57 com.mocha.unitcode.mina.client.MinaClient.CONNECT(MinaClient.java:175) 
+Login************************************
+clientId:		91947
+authClient:	�\��7�>�.�
+version:		48
+timeStamp:	902145957
+sharedSecret:	91947
+************************************Login 
+[INFO] 2014-09-02-14:59:57 com.mocha.unitcode.mina.client.MinaClient.send(MinaClient.java:122) ------------开始发送数据-------- 
+[INFO] 2014-09-02-14:59:57 com.mocha.unitcode.mina.client.MinaClient.send(MinaClient.java:125) --------------------连接初始话成功----------------5294604 
+[INFO] 2014-09-02-14:59:57 com.mocha.unitcode.mina.client.MinaClient.send(MinaClient.java:129) --------------------发送消息成功----------------5294604 
+[INFO] 2014-09-02-15:05:40 com.mocha.unitcode.mina.client.MinaClient.init(MinaClient.java:50)   初始化通道 init() 
+[INFO] 2014-09-02-15:05:40 com.mocha.unitcode.mina.client.MinaClient.getConnectFuture(MinaClient.java:76) MinaClient。getConnectFuture  connector == null未连接，重新创建 
+[INFO] 2014-09-02-15:05:40 com.mocha.unitcode.mina.client.MinaClient.init(MinaClient.java:55) 进入MTClient。init  awaitUninterruptibly 结束 
+[INFO] 2014-09-02-15:05:40 com.mocha.unitcode.mina.client.MinaClient.init(MinaClient.java:60) 进入MTClient。init  结束 sessionid=1 
+[INFO] 2014-09-02-15:05:40 com.mocha.unitcode.mina.client.MinaClient.init(MinaClient.java:62) CONNECT() sessionid=1 
+[INFO] 2014-09-02-15:05:40 com.mocha.unitcode.mina.client.MinaClient.CONNECT(MinaClient.java:175) 
+Login************************************
+clientId:		91947
+authClient:	?�kc�@�b���8u
+version:		48
+timeStamp:	902150540
+sharedSecret:	91947
+************************************Login 
+[INFO] 2014-09-02-15:05:40 com.mocha.unitcode.mina.client.MinaClient.CONNECT(MinaClient.java:175) 
+Login************************************
+clientId:		91947
+authClient:	?�kc�@�b���8u
+version:		48
+timeStamp:	902150540
+sharedSecret:	91947
+************************************Login 
+[INFO] 2014-09-02-15:05:40 com.mocha.unitcode.mina.client.MinaClient.send(MinaClient.java:122) ------------开始发送数据-------- 
+[INFO] 2014-09-02-15:05:40 com.mocha.unitcode.mina.client.MinaClient.send(MinaClient.java:125) --------------------连接初始话成功----------------5294604 
+[INFO] 2014-09-02-15:05:40 com.mocha.unitcode.mina.client.MinaClient.send(MinaClient.java:129) --------------------发送消息成功----------------5294604 
+[INFO] 2014-09-02-15:09:44 com.mocha.unitcode.mina.client.MinaClient.init(MinaClient.java:50)   初始化通道 init() 
+[INFO] 2014-09-02-15:09:44 com.mocha.unitcode.mina.client.MinaClient.getConnectFuture(MinaClient.java:76) MinaClient。getConnectFuture  connector == null未连接，重新创建 
+[INFO] 2014-09-02-15:09:44 com.mocha.unitcode.mina.client.MinaClient.init(MinaClient.java:55) 进入MTClient。init  awaitUninterruptibly 结束 
+[INFO] 2014-09-02-15:09:44 com.mocha.unitcode.mina.client.MinaClient.init(MinaClient.java:60) 进入MTClient。init  结束 sessionid=1 
+[INFO] 2014-09-02-15:09:44 com.mocha.unitcode.mina.client.MinaClient.init(MinaClient.java:62) CONNECT() sessionid=1 
+[INFO] 2014-09-02-15:09:44 com.mocha.unitcode.mina.client.MinaClient.CONNECT(MinaClient.java:175) 
+Login************************************
+clientId:		91947
+authClient:	��b�b�4I��G=�
+version:		48
+timeStamp:	902150944
+sharedSecret:	91947
+************************************Login 
+[INFO] 2014-09-02-15:09:44 com.mocha.unitcode.mina.client.MinaClient.CONNECT(MinaClient.java:175) 
+Login************************************
+clientId:		91947
+authClient:	��b�b�4I��G=�
+version:		48
+timeStamp:	902150944
+sharedSecret:	91947
+************************************Login 
+[INFO] 2014-09-02-15:09:44 com.mocha.unitcode.mina.client.MinaClient.send(MinaClient.java:122) ------------开始发送数据-------- 
+[INFO] 2014-09-02-15:09:44 com.mocha.unitcode.mina.client.MinaClient.send(MinaClient.java:125) --------------------连接初始话成功----------------5294604 
+[INFO] 2014-09-02-15:09:44 com.mocha.unitcode.mina.client.MinaClient.send(MinaClient.java:129) --------------------发送消息成功----------------5294604 
+[INFO] 2014-09-02-15:11:31 com.mocha.unitcode.mina.client.MinaClient.init(MinaClient.java:50)   初始化通道 init() 
+[INFO] 2014-09-02-15:11:31 com.mocha.unitcode.mina.client.MinaClient.getConnectFuture(MinaClient.java:76) MinaClient。getConnectFuture  connector == null未连接，重新创建 
+[INFO] 2014-09-02-15:11:31 com.mocha.unitcode.mina.client.MinaClient.init(MinaClient.java:55) 进入MTClient。init  awaitUninterruptibly 结束 
+[INFO] 2014-09-02-15:11:31 com.mocha.unitcode.mina.client.MinaClient.init(MinaClient.java:60) 进入MTClient。init  结束 sessionid=1 
+[INFO] 2014-09-02-15:11:31 com.mocha.unitcode.mina.client.MinaClient.init(MinaClient.java:62) CONNECT() sessionid=1 
+[INFO] 2014-09-02-15:11:31 com.mocha.unitcode.mina.client.MinaClient.CONNECT(MinaClient.java:175) 
+Login************************************
+clientId:		91947
+authClient:	�z��?��.���E��
+version:		48
+timeStamp:	902151131
+sharedSecret:	91947
+************************************Login 
+[INFO] 2014-09-02-15:11:31 com.mocha.unitcode.mina.client.MinaClient.CONNECT(MinaClient.java:175) 
+Login************************************
+clientId:		91947
+authClient:	�z��?��.���E��
+version:		48
+timeStamp:	902151131
+sharedSecret:	91947
+************************************Login 
+[INFO] 2014-09-02-15:11:31 com.mocha.unitcode.mina.client.MinaClient.send(MinaClient.java:122) ------------开始发送数据-------- 
+[INFO] 2014-09-02-15:11:31 com.mocha.unitcode.mina.client.MinaClient.send(MinaClient.java:125) --------------------连接初始话成功----------------59219 
+[INFO] 2014-09-02-15:11:31 com.mocha.unitcode.mina.client.MinaClient.send(MinaClient.java:129) --------------------发送消息成功----------------59219 
+[INFO] 2014-09-02-15:33:43 com.mocha.unitcode.mina.client.MinaClient.init(MinaClient.java:50)   初始化通道 init() 
+[INFO] 2014-09-02-15:33:43 com.mocha.unitcode.mina.client.MinaClient.getConnectFuture(MinaClient.java:76) MinaClient。getConnectFuture  connector == null未连接，重新创建 
+[INFO] 2014-09-02-15:33:43 com.mocha.unitcode.mina.client.MinaClient.init(MinaClient.java:55) 进入MTClient。init  awaitUninterruptibly 结束 
+[INFO] 2014-09-02-15:33:43 com.mocha.unitcode.mina.client.MinaClient.init(MinaClient.java:60) 进入MTClient。init  结束 sessionid=1 
+[INFO] 2014-09-02-15:33:43 com.mocha.unitcode.mina.client.MinaClient.init(MinaClient.java:62) CONNECT() sessionid=1 
+[INFO] 2014-09-02-15:33:43 com.mocha.unitcode.mina.client.MinaClient.CONNECT(MinaClient.java:175) 
+Login************************************
+clientId:		91947
+authClient:	63�O���Roں$@0
+version:		48
+timeStamp:	902153343
+sharedSecret:	91947
+************************************Login 
+[INFO] 2014-09-02-15:33:43 com.mocha.unitcode.mina.client.MinaClient.CONNECT(MinaClient.java:175) 
+Login************************************
+clientId:		91947
+authClient:	63�O���Roں$@0
+version:		48
+timeStamp:	902153343
+sharedSecret:	91947
+************************************Login 
+[INFO] 2014-09-02-15:33:43 com.mocha.unitcode.mina.client.MinaClient.send(MinaClient.java:122) ------------开始发送数据-------- 
+[INFO] 2014-09-02-15:33:43 com.mocha.unitcode.mina.client.MinaClient.send(MinaClient.java:125) --------------------连接初始话成功----------------5294604 
+[INFO] 2014-09-02-15:33:43 com.mocha.unitcode.mina.client.MinaClient.send(MinaClient.java:129) --------------------发送消息成功----------------5294604 
+[INFO] 2014-09-02-15:35:20 com.mocha.unitcode.mina.client.MinaClient.init(MinaClient.java:50)   初始化通道 init() 
+[INFO] 2014-09-02-15:35:20 com.mocha.unitcode.mina.client.MinaClient.getConnectFuture(MinaClient.java:76) MinaClient。getConnectFuture  connector == null未连接，重新创建 
+[INFO] 2014-09-02-15:35:20 com.mocha.unitcode.mina.client.MinaClient.init(MinaClient.java:55) 进入MTClient。init  awaitUninterruptibly 结束 
+[INFO] 2014-09-02-15:35:20 com.mocha.unitcode.mina.client.MinaClient.init(MinaClient.java:60) 进入MTClient。init  结束 sessionid=1 
+[INFO] 2014-09-02-15:35:20 com.mocha.unitcode.mina.client.MinaClient.init(MinaClient.java:62) CONNECT() sessionid=1 
+[INFO] 2014-09-02-15:35:20 com.mocha.unitcode.mina.client.MinaClient.CONNECT(MinaClient.java:175) 
+Login************************************
+clientId:		91947
+authClient:	g�[x���"�}��ڋ�
+version:		48
+timeStamp:	902153520
+sharedSecret:	91947
+************************************Login 
+[INFO] 2014-09-02-15:35:20 com.mocha.unitcode.mina.client.MinaClient.CONNECT(MinaClient.java:175) 
+Login************************************
+clientId:		91947
+authClient:	g�[x���"�}��ڋ�
+version:		48
+timeStamp:	902153520
+sharedSecret:	91947
+************************************Login 
+[INFO] 2014-09-02-15:35:20 com.mocha.unitcode.mina.client.MinaClient.send(MinaClient.java:122) ------------开始发送数据-------- 
+[INFO] 2014-09-02-15:35:20 com.mocha.unitcode.mina.client.MinaClient.send(MinaClient.java:125) --------------------连接初始话成功----------------5294604 
+[INFO] 2014-09-02-15:35:20 com.mocha.unitcode.mina.client.MinaClient.send(MinaClient.java:129) --------------------发送消息成功----------------5294604 
+[INFO] 2014-09-02-15:37:46 com.mocha.unitcode.mina.client.MinaClient.init(MinaClient.java:50)   初始化通道 init() 
+[INFO] 2014-09-02-15:37:46 com.mocha.unitcode.mina.client.MinaClient.getConnectFuture(MinaClient.java:76) MinaClient。getConnectFuture  connector == null未连接，重新创建 
+[INFO] 2014-09-02-15:37:46 com.mocha.unitcode.mina.client.MinaClient.init(MinaClient.java:55) 进入MTClient。init  awaitUninterruptibly 结束 
+[INFO] 2014-09-02-15:37:46 com.mocha.unitcode.mina.client.MinaClient.init(MinaClient.java:60) 进入MTClient。init  结束 sessionid=1 
+[INFO] 2014-09-02-15:37:46 com.mocha.unitcode.mina.client.MinaClient.init(MinaClient.java:62) CONNECT() sessionid=1 
+[INFO] 2014-09-02-15:37:46 com.mocha.unitcode.mina.client.MinaClient.CONNECT(MinaClient.java:175) 
+Login************************************
+clientId:		91947
+authClient:	 �<�^U3��*�&�K�
+version:		48
+timeStamp:	902153746
+sharedSecret:	91947
+************************************Login 
+[INFO] 2014-09-02-15:37:46 com.mocha.unitcode.mina.client.MinaClient.CONNECT(MinaClient.java:175) 
+Login************************************
+clientId:		91947
+authClient:	 �<�^U3��*�&�K�
+version:		48
+timeStamp:	902153746
+sharedSecret:	91947
+************************************Login 
+[INFO] 2014-09-02-15:37:46 com.mocha.unitcode.mina.client.MinaClient.send(MinaClient.java:122) ------------开始发送数据-------- 
+[INFO] 2014-09-02-15:37:46 com.mocha.unitcode.mina.client.MinaClient.send(MinaClient.java:125) --------------------连接初始话成功----------------5294604 
+[INFO] 2014-09-02-15:37:46 com.mocha.unitcode.mina.client.MinaClient.send(MinaClient.java:129) --------------------发送消息成功----------------5294604 
