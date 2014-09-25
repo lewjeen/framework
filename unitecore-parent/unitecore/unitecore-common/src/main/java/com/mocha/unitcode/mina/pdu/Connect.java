@@ -13,7 +13,7 @@ import com.mocha.unitcode.mina.common.MinaConstant;
 /**
  * 
  * <strong>Title : Connect </strong>. <br>
- * <strong>Description : 类的描述信息.</strong> <br>
+ * <strong>Description : 连接请求.</strong> <br>
  * <strong>Create on : 2014年8月8日 下午3:42:12 </strong>. <br>
  * <p>
  * <strong>Copyright (C) Mocha Software Co.,Ltd.</strong> <br>
@@ -216,5 +216,11 @@ public class Connect extends Request {
 				+ sharedSecret
 				+ "\r\n************************************Login";
 		return rt;
+	}
+
+	@Override
+	protected Response createResponse(int commandId) {
+		// TODO Auto-generated method stub
+		return null;
 	}
 }

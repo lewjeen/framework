@@ -6,6 +6,7 @@ import com.mocha.unitcode.mina.code.ByteBuffer;
 import com.mocha.unitcode.mina.code.NotEnoughDataInByteBufferException;
 import com.mocha.unitcode.mina.code.PDUException;
 import com.mocha.unitcode.mina.common.MinaConstant;
+import com.mocha.util.verify.CRC16Verifier;
 
 /**
  * 
@@ -32,17 +33,24 @@ public class SubmitTodoEntity<E> extends Request {
 	 */
 	private byte[] msgId = new byte[8];
 	/**
+	 * Crc16校验码
+	 */
+	private byte[] crc16Code;
+
+	private byte[] nodeId;
+	/**
 	 * 待办数据消息
 	 */
+	private Message<E> entityMessage = new Message<E>();
 
-	private TodoEntityMessage<E> entityMessage = new TodoEntityMessage<E>();
-
-	public TodoEntityMessage<E> getEntityMessage() {
+	public Message<E> getEntityMessage() {
 		return entityMessage;
 	}
 
-	public void setEntityMessage(TodoEntityMessage<E> entityMessage) {
+	public void setEntityMessage(Message<E> entityMessage) {
 		this.entityMessage = entityMessage;
+		CRC16Verifier crc16Verifier = CRC16Verifier.getInstance();
+		// this.crc16Code = crc16Verifier.getVerifyCode(code, true);
 	}
 
 	public byte[] getMsgId() {
@@ -53,19 +61,60 @@ public class SubmitTodoEntity<E> extends Request {
 		this.msgId = msgId;
 	}
 
-	public SubmitTodoEntity() {
-		super(MinaConstant.UNITE_TODO_SUBMIT);
+	public byte[] getCrc16Code() {
+		return crc16Code;
+	}
+
+	public void setCrc16Code(byte[] crc16Code) {
+		this.crc16Code = crc16Code;
+	}
+
+	public byte[] getNodeId() {
+		return nodeId;
+	}
+
+	public void setNodeId(byte[] nodeId) {
+		this.nodeId = nodeId;
+	}
+
+	public int getDataLength(byte[] data) {
+		return data == null ? 0 : data.length;
+	}
+
+	public SubmitTodoEntity(int commandId) {
+		super(commandId);
+	}
+
+	protected Response createResponse(int commandId) {
+		return new SubmitTodoEntityResp(commandId);
 	}
 
 	protected Response createResponse() {
-		return new SubmitTodoEntityResp();
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public ByteBuffer getByteBuffer(byte[] data) {
+		ByteBuffer buffer = null;
+		buffer = new ByteBuffer(data);
+		return buffer;
 	}
 
 	public void setBody(ByteBuffer buffer) throws PDUException {
 		try {
+			// 解析消息ID
 			msgId = buffer.removeBytes(8).getBuffer();
 			Logger.getLogger(MinaConstant.LOG_TODO).info(
 					"==setBody=====msgId===========" + msgId.toString());
+			// 解析消息验证码
+			byte crc16CodeLgs = buffer.removeByte();
+			int crc16CodeLh = crc16CodeLgs;
+			crc16Code = buffer.removeBuffer(crc16CodeLh).getBuffer();
+			// 解析消息节点信息
+			byte nodeIdLgs = buffer.removeByte();
+			int nodeIdLh = nodeIdLgs;
+			nodeId = buffer.removeBuffer(nodeIdLh).getBuffer();
+			// 解析待办数据
 			byte msgFormat = buffer.removeByte();
 			byte type = buffer.removeByte();
 			Logger.getLogger(MinaConstant.LOG_TODO).info(
@@ -93,6 +142,12 @@ public class SubmitTodoEntity<E> extends Request {
 		ByteBuffer buffer = new ByteBuffer();
 		// 设置消息id
 		buffer.appendBytes(msgId, 8);
+		// 设置验证码
+		buffer.appendByte((byte) getDataLength(crc16Code));
+		buffer.appendBuffer(getByteBuffer(crc16Code));
+		// 设置前置节点信息
+		buffer.appendByte((byte) getDataLength(nodeId));
+		buffer.appendBuffer(getByteBuffer(nodeId));
 		Logger.getLogger(MinaConstant.LOG_TODO).info(
 				"===getBody====msgId===========" + msgId);
 		buffer.appendByte(entityMessage.getMsgFormat());

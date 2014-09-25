@@ -92,6 +92,36 @@ public class ConcurrentLinkedQueueExtendsHandler<E> implements QueueHandler<E> {
 	}
 
 	/**
+	 * 根据名称参数动态创建不包含任何元素的空队列
+	 * 
+	 * @param name
+	 *            队列的名字
+	 * @return
+	 * @throws Exception
+	 */
+	@Override
+	public void createQueueByNames(String[] names) throws Exception {
+		for (String name : names) {
+			if (null == name || "".equals(name)) {
+				throw new Exception("队列名称不能为空。");
+			}
+
+			if (queueNames.contains(name)) {
+				throw new Exception("此名称已被使用，请另起其他名字。");
+			}
+
+			ConcurrentLinkedQueueExtends<E> queue = new ConcurrentLinkedQueueExtends<E>(
+					name);
+
+			// 将队列加到容器中
+			queueList.add(queue);
+			// 将本队列名加入容器中
+			queueNames.add(name);
+		}
+
+	}
+
+	/**
 	 * 根据名称参数动态创建不包含任何元素的空队列, 并设置队列的大小。
 	 * 
 	 * @param name
@@ -418,6 +448,12 @@ public class ConcurrentLinkedQueueExtendsHandler<E> implements QueueHandler<E> {
 	@Override
 	public Iterator<E> iterator(String queueName) throws Exception {
 		return this.getQueueByName(queueName).iterator();
+	}
+
+	@Override
+	public Iterator<E> iterator(String[] queueName) throws Exception {
+		// TODO Auto-generated method stub
+		return null;
 	}
 
 }

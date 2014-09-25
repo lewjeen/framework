@@ -78,4 +78,9 @@ public interface QueueHandler<E> {
 	public <T> T[] toArray(String queueName, T[] a) throws Exception;
 
 	public Iterator<E> iterator(String queueName) throws Exception;
+
+	public Iterator<E> iterator(String[] queueName) throws Exception;
+
+	void createQueueByNames(String[] names) throws Exception;
+
 }

@@ -21,8 +21,9 @@ import com.mocha.cache.count.CounterFactory;
 import com.mocha.tydb_common.entity.TodoChangeEntity;
 import com.mocha.tydb_common.entity.TodoEntity;
 import com.mocha.unitcode.mina.common.MinaConstant;
+import com.mocha.unitcode.mina.pdu.Message;
 import com.mocha.unitcode.mina.pdu.MinaPDU;
-import com.mocha.unitcode.mina.pdu.TodoEntityMessage;
+import com.mocha.unitcode.mina.pdu.Tools;
 import com.mocha.unitcode.mina.server.thread.ActiveThread;
 import com.mocha.util.queue.ConcurrentLinkedQueueExtendsHandler;
 
@@ -180,8 +181,14 @@ public class MinaIoHandler extends IoHandlerAdapter {
 								+ MinaConstant.UNITE_TODO_SUBMIT);
 				@SuppressWarnings("rawtypes")
 				com.mocha.unitcode.mina.pdu.SubmitTodoEntity submitItem = (com.mocha.unitcode.mina.pdu.SubmitTodoEntity) pdu;
-				@SuppressWarnings("rawtypes")
-				TodoEntityMessage tem = submitItem.getEntityMessage();
+				Logger.getLogger(MinaConstant.LOG_CONNECT).info(
+						"==messageReceived==UNITE_TODO_SUBMIT=======getNodeId============="
+								+ new String(submitItem.getNodeId(),
+										MinaConstant.UTF8));
+				Logger.getLogger(MinaConstant.LOG_CONNECT).info(
+						"==messageReceived==UNITE_TODO_SUBMIT=======submitItem============="
+								+ submitItem.getCrc16Code());
+				Message tem = submitItem.getEntityMessage();
 				// Logger.getLogger(MinaConstant.LOG_TODO).info(
 				// "=messageReceived===UNITE_TODO_SUBMIT=======getEntityMessage============="
 				// + tem.getEntityMessage());
@@ -202,10 +209,51 @@ public class MinaIoHandler extends IoHandlerAdapter {
 				// + todoEntity.getItemTitle());
 				submitItem.dump();
 				com.mocha.unitcode.mina.pdu.SubmitTodoEntityResp subItemresp = (com.mocha.unitcode.mina.pdu.SubmitTodoEntityResp) submitItem
-						.getResponse();
-				subItemresp.setMsgId(com.mocha.unitcode.mina.pdu.Tools
-						.GetRspid());
-				session.write(subItemresp);
+						.getResponse(MinaConstant.UNITE_RTODO_SUBMIT_RESP);
+				subItemresp.setMsgId(Tools.GetRspid());
+				// session.write(subItemresp);
+				break;
+			// 对账待办数据
+			case MinaConstant.UNITE_RTODO_SUBMIT:
+				Logger.getLogger(MinaConstant.LOG_TODO).warn(
+						"MinaConstant.UNITE_TODO_SUBMIT Header: "
+								+ MinaConstant.UNITE_TODO_REQUEST_SUBMIT);
+
+				break;
+			// 对账待办变更数据
+			case MinaConstant.UNITE_RTODOCHANGE_SUBMIT:
+				Logger.getLogger(MinaConstant.LOG_TODO).warn(
+						"MinaConstant.UNITE_TODO_SUBMIT Header: "
+								+ MinaConstant.UNITE_TODO_REQUEST_SUBMIT);
+
+				break;
+			// 待办接收处理结果
+			case MinaConstant.UNITE_TODO_BACK_SUBMIT:
+				Logger.getLogger(MinaConstant.LOG_TODO).warn(
+						"MinaConstant.UNITE_TODO_SUBMIT Header: "
+								+ MinaConstant.UNITE_TODO_REQUEST_SUBMIT);
+
+				break;
+			// 请求前置采集待办数据更具人和应用
+			case MinaConstant.UNITE_TODO_REQUEST_SUBMIT:
+				Logger.getLogger(MinaConstant.LOG_TODO).warn(
+						"MinaConstant.UNITE_TODO_SUBMIT Header: "
+								+ MinaConstant.UNITE_TODO_REQUEST_SUBMIT);
+
+				break;
+			// VIP待办数据接收
+			case MinaConstant.UNITE_TODO_VIP_SUBMIT:
+				Logger.getLogger(MinaConstant.LOG_TODO).warn(
+						"MinaConstant.UNITE_TODO_SUBMIT Header: "
+								+ MinaConstant.UNITE_TODO_REQUEST_SUBMIT);
+
+				break;
+			// Vip待办变更数据接收
+			case MinaConstant.UNITE_TODOCHANGE_VIP_SUBMIT:
+				Logger.getLogger(MinaConstant.LOG_TODO).warn(
+						"MinaConstant.UNITE_TODO_SUBMIT Header: "
+								+ MinaConstant.UNITE_TODO_REQUEST_SUBMIT);
+
 				break;
 			default:
 				Logger.getLogger(MinaConstant.LOG_ERROR).warn(
@@ -240,10 +288,11 @@ public class MinaIoHandler extends IoHandlerAdapter {
 	}
 
 	@SuppressWarnings("unused")
-	private boolean addQueue(TodoEntityMessage tem) {
+	private boolean addQueue(Message tem) {
 		Logger.getLogger(MinaConstant.LOG_TODO).info(
 				"== addQueue====添加队列信息===========");
 		boolean flag = true;
+		@SuppressWarnings("rawtypes")
 		ConcurrentLinkedQueueExtendsHandler instance = ConcurrentLinkedQueueExtendsHandler
 				.getInstance();
 		Object todoEntity = tem.getTodoEntity();
@@ -284,17 +333,17 @@ public class MinaIoHandler extends IoHandlerAdapter {
 								+ object);
 				if (object instanceof TodoEntity) {
 					Logger.getLogger(MinaConstant.LOG_TODO).info(
-							"== addQueue==tem.TODO_TYPE_SINGLE==批量======object===TodoEntity=="
+							"== addQueue==tem.TODO_TYPE_SINGLE==批量======object====="
 									+ object);
 					Logger.getLogger(MinaConstant.LOG_TODO).info(
-							"== addQueue==tem.TODO_TYPE_SINGLE==批量======object===TodoEntity=="
+							"== addQueue==tem.TODO_TYPE_SINGLE==批量======todoEntity====="
 									+ todoEntity);
 					List<TodoEntity> list = (List<TodoEntity>) todoEntity;
 					Logger.getLogger(MinaConstant.LOG_TODO)
 							.info("== addQueue==UNITE_TODO_SUBMIT===object instanceof TodoEntity ====(list.size()============="
 									+ list.size()
 									+ " =====999========"
-									+ list.get(999).getItemTitle());
+									+ list.get(0).getItemTitle());
 					getCounterQR(list.size());
 				} else if (todoEntity instanceof TodoChangeEntity) {
 					Logger.getLogger(MinaConstant.LOG_TODO).info(
@@ -311,21 +360,17 @@ public class MinaIoHandler extends IoHandlerAdapter {
 
 			} catch (ClassNotFoundException e) {
 				flag = false;
-				Logger.getLogger(MinaConstant.LOG_TODO).info(
-						"====UNITE_TODO_SUBMIT=======ClassNotFoundException============="
-								+ e.getLocalizedMessage());
-				e.printStackTrace();
+				Logger.getLogger(MinaConstant.LOG_TODO)
+						.info("====UNITE_TODO_SUBMIT=======ClassNotFoundException=============",
+								e);
 			} catch (InstantiationException e) {
 				Logger.getLogger(MinaConstant.LOG_TODO).info(
 						"====UNITE_TODO_SUBMIT=======InstantiationException============="
-								+ e.getLocalizedMessage());
-				// TODO Auto-generated catch block
-				e.printStackTrace();
+								+ e.getLocalizedMessage(), e);
 			} catch (IllegalAccessException e) {
 				Logger.getLogger(MinaConstant.LOG_TODO).info(
 						"====UNITE_TODO_SUBMIT=======IllegalAccessException============="
-								+ e.getLocalizedMessage());
-				e.printStackTrace();
+								+ e.getLocalizedMessage(), e);
 			}
 		}
 		return flag;

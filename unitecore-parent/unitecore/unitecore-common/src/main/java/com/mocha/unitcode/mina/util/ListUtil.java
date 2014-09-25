@@ -3,9 +3,8 @@ package com.mocha.unitcode.mina.util;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.springframework.util.CollectionUtils;
-
 import com.alibaba.fastjson.JSON;
+import com.mocha.common.utils.CollectionUtils;
 
 public class ListUtil<E> {
 

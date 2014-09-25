@@ -1,0 +1,414 @@
+[INFO] 2014-09-23-15:08:56 com.mocha.unitcode.mina.server.MinaServer.<init>(MinaServer.java:76) 設置线程池corePoolSize=0  maximumPoolSize=1000 keepAliveTime=60  unit=SECONDS  threadFactory 
+[INFO] 2014-09-23-15:08:56 com.mocha.unitcode.mina.server.MinaServer.<init>(MinaServer.java:86) 线程的数量: 81 
+[INFO] 2014-09-23-15:08:56 com.mocha.unitcode.mina.server.MinaServer.start(MinaServer.java:146) MinaServer服务已启动，端口是7890 
+[INFO] 2014-09-23-15:09:22 com.mocha.unitcode.mina.server.handler.MinaIoHandler.sessionCreated(MinaIoHandler.java:95) Creation of session 2 
+[INFO] 2014-09-23-15:09:22 com.mocha.unitcode.mina.server.handler.MinaIoHandler.sessionOpened(MinaIoHandler.java:74) Session 2 is opened 
+[INFO] 2014-09-23-15:09:22 com.mocha.unitcode.mina.server.handler.MinaIoHandler.sessionOpened(MinaIoHandler.java:78) Session  is opened maxNumberConnections=3     NumberConnections=1 
+[INFO] 2014-09-23-15:09:23 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 1:1on session 2 
+[INFO] 2014-09-23-15:09:23 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-23-15:09:23 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:144) com.mocha.unitcode.mina.pdu.Connect   
+Login************************************
+clientId:		91947
+authClient:	Pq��~`L���o��h
+version:		48
+timeStamp:	923150922
+sharedSecret:	
+************************************Login 
+[INFO] 2014-09-23-15:09:23 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:148) UNITE_CONNECT   
+nConnectResp******************************************
+status:		0
+authServer:	
+version:		0
+ConnectResp****************************************** 
+[INFO] 2014-09-23-15:09:23 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:151) conresp:1 on session 2 
+[INFO] 2014-09-23-15:09:38 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 3:0on session 2 
+[INFO] 2014-09-23-15:09:38 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-23-15:09:38 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:183) ==messageReceived==UNITE_TODO_SUBMIT=======getNodeId=============test@hq.cmcc 
+[INFO] 2014-09-23-15:09:38 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:186) ==messageReceived==UNITE_TODO_SUBMIT=======submitItem=============[B@7c4c51 
+[INFO] 2014-09-23-15:09:38 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:193) ==messageReceived==UNITE_TODO_SUBMIT=======getClazz=============com.mocha.tydb_common.entity.TodoEntity 
+[INFO] 2014-09-23-15:09:39 com.mocha.unitcode.mina.server.handler.MinaIoHandler.sessionClosed(MinaIoHandler.java:105) {}> Session closed2 
+[INFO] 2014-09-23-15:11:53 com.mocha.unitcode.mina.server.MinaServer.<init>(MinaServer.java:76) 設置线程池corePoolSize=0  maximumPoolSize=1000 keepAliveTime=60  unit=SECONDS  threadFactory 
+[INFO] 2014-09-23-15:11:53 com.mocha.unitcode.mina.server.MinaServer.<init>(MinaServer.java:86) 线程的数量: 81 
+[INFO] 2014-09-23-15:11:53 com.mocha.unitcode.mina.server.MinaServer.start(MinaServer.java:146) MinaServer服务已启动，端口是7890 
+[INFO] 2014-09-23-15:12:00 com.mocha.unitcode.mina.server.handler.MinaIoHandler.sessionCreated(MinaIoHandler.java:95) Creation of session 2 
+[INFO] 2014-09-23-15:12:00 com.mocha.unitcode.mina.server.handler.MinaIoHandler.sessionOpened(MinaIoHandler.java:74) Session 2 is opened 
+[INFO] 2014-09-23-15:12:00 com.mocha.unitcode.mina.server.handler.MinaIoHandler.sessionOpened(MinaIoHandler.java:78) Session  is opened maxNumberConnections=3     NumberConnections=1 
+[INFO] 2014-09-23-15:12:01 com.mocha.unitcode.mina.server.handler.MinaIoHandler.exceptionCaught(MinaIoHandler.java:66) I/O error: 远程主机强迫关闭了一个现有的连接。 
+[INFO] 2014-09-23-15:12:01 com.mocha.unitcode.mina.server.handler.MinaIoHandler.sessionClosed(MinaIoHandler.java:105) {}> Session closed2 
+[INFO] 2014-09-23-15:12:51 com.mocha.unitcode.mina.server.MinaServer.<init>(MinaServer.java:76) 設置线程池corePoolSize=0  maximumPoolSize=1000 keepAliveTime=60  unit=SECONDS  threadFactory 
+[INFO] 2014-09-23-15:12:51 com.mocha.unitcode.mina.server.MinaServer.<init>(MinaServer.java:86) 线程的数量: 81 
+[INFO] 2014-09-23-15:12:51 com.mocha.unitcode.mina.server.MinaServer.start(MinaServer.java:146) MinaServer服务已启动，端口是7890 
+[INFO] 2014-09-23-15:13:07 com.mocha.unitcode.mina.server.handler.MinaIoHandler.sessionCreated(MinaIoHandler.java:95) Creation of session 2 
+[INFO] 2014-09-23-15:13:07 com.mocha.unitcode.mina.server.handler.MinaIoHandler.sessionOpened(MinaIoHandler.java:74) Session 2 is opened 
+[INFO] 2014-09-23-15:13:07 com.mocha.unitcode.mina.server.handler.MinaIoHandler.sessionOpened(MinaIoHandler.java:78) Session  is opened maxNumberConnections=3     NumberConnections=1 
+[INFO] 2014-09-23-15:13:08 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 1:1on session 2 
+[INFO] 2014-09-23-15:13:08 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-23-15:13:08 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:144) com.mocha.unitcode.mina.pdu.Connect   
+Login************************************
+clientId:		91947
+authClient:	
+`���ӌ�i��=~�C
+version:		48
+timeStamp:	923151307
+sharedSecret:	
+************************************Login 
+[INFO] 2014-09-23-15:13:08 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:148) UNITE_CONNECT   
+nConnectResp******************************************
+status:		0
+authServer:	
+version:		0
+ConnectResp****************************************** 
+[INFO] 2014-09-23-15:13:08 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:151) conresp:1 on session 2 
+[INFO] 2014-09-23-15:13:22 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 3:0on session 2 
+[INFO] 2014-09-23-15:13:22 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-23-15:13:22 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:183) ==messageReceived==UNITE_TODO_SUBMIT=======getNodeId=============test@hq.cmcc 
+[INFO] 2014-09-23-15:13:22 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:186) ==messageReceived==UNITE_TODO_SUBMIT=======submitItem=============[B@12d15a9 
+[INFO] 2014-09-23-15:13:22 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:193) ==messageReceived==UNITE_TODO_SUBMIT=======getClazz=============com.mocha.tydb_common.entity.TodoEntity 
+[INFO] 2014-09-23-15:14:00 com.mocha.unitcode.mina.server.handler.MinaIoHandler.exceptionCaught(MinaIoHandler.java:66) I/O error: 远程主机强迫关闭了一个现有的连接。 
+[INFO] 2014-09-23-15:14:00 com.mocha.unitcode.mina.server.handler.MinaIoHandler.sessionClosed(MinaIoHandler.java:105) {}> Session closed2 
+[INFO] 2014-09-23-15:15:54 com.mocha.unitcode.mina.server.MinaServer.<init>(MinaServer.java:76) 設置线程池corePoolSize=0  maximumPoolSize=1000 keepAliveTime=60  unit=SECONDS  threadFactory 
+[INFO] 2014-09-23-15:15:54 com.mocha.unitcode.mina.server.MinaServer.<init>(MinaServer.java:86) 线程的数量: 81 
+[INFO] 2014-09-23-15:15:54 com.mocha.unitcode.mina.server.MinaServer.start(MinaServer.java:146) MinaServer服务已启动，端口是7890 
+[INFO] 2014-09-23-15:16:03 com.mocha.unitcode.mina.server.handler.MinaIoHandler.sessionCreated(MinaIoHandler.java:95) Creation of session 2 
+[INFO] 2014-09-23-15:16:03 com.mocha.unitcode.mina.server.handler.MinaIoHandler.sessionOpened(MinaIoHandler.java:74) Session 2 is opened 
+[INFO] 2014-09-23-15:16:03 com.mocha.unitcode.mina.server.handler.MinaIoHandler.sessionOpened(MinaIoHandler.java:78) Session  is opened maxNumberConnections=3     NumberConnections=1 
+[INFO] 2014-09-23-15:16:04 com.mocha.unitcode.mina.server.handler.MinaIoHandler.exceptionCaught(MinaIoHandler.java:66) I/O error: 远程主机强迫关闭了一个现有的连接。 
+[INFO] 2014-09-23-15:16:04 com.mocha.unitcode.mina.server.handler.MinaIoHandler.sessionClosed(MinaIoHandler.java:105) {}> Session closed2 
+[INFO] 2014-09-23-15:16:24 com.mocha.unitcode.mina.server.MinaServer.<init>(MinaServer.java:76) 設置线程池corePoolSize=0  maximumPoolSize=1000 keepAliveTime=60  unit=SECONDS  threadFactory 
+[INFO] 2014-09-23-15:16:24 com.mocha.unitcode.mina.server.MinaServer.<init>(MinaServer.java:86) 线程的数量: 81 
+[INFO] 2014-09-23-15:16:24 com.mocha.unitcode.mina.server.MinaServer.start(MinaServer.java:146) MinaServer服务已启动，端口是7890 
+[INFO] 2014-09-23-15:16:33 com.mocha.unitcode.mina.server.handler.MinaIoHandler.sessionCreated(MinaIoHandler.java:95) Creation of session 2 
+[INFO] 2014-09-23-15:16:33 com.mocha.unitcode.mina.server.handler.MinaIoHandler.sessionOpened(MinaIoHandler.java:74) Session 2 is opened 
+[INFO] 2014-09-23-15:16:33 com.mocha.unitcode.mina.server.handler.MinaIoHandler.sessionOpened(MinaIoHandler.java:78) Session  is opened maxNumberConnections=3     NumberConnections=1 
+[INFO] 2014-09-23-15:16:34 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 1:1on session 2 
+[INFO] 2014-09-23-15:16:34 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-23-15:16:34 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:144) com.mocha.unitcode.mina.pdu.Connect   
+Login************************************
+clientId:		91947
+authClient:	�C��j�y�*N9���
+version:		48
+timeStamp:	923151633
+sharedSecret:	
+************************************Login 
+[INFO] 2014-09-23-15:16:34 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:148) UNITE_CONNECT   
+nConnectResp******************************************
+status:		0
+authServer:	
+version:		0
+ConnectResp****************************************** 
+[INFO] 2014-09-23-15:16:34 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:151) conresp:1 on session 2 
+[INFO] 2014-09-23-15:16:44 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 3:0on session 2 
+[INFO] 2014-09-23-15:16:44 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-23-15:16:44 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:183) ==messageReceived==UNITE_TODO_SUBMIT=======getNodeId=============test@hq.cmcc 
+[INFO] 2014-09-23-15:16:44 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:186) ==messageReceived==UNITE_TODO_SUBMIT=======submitItem=============[B@a4e743 
+[INFO] 2014-09-23-15:16:44 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:193) ==messageReceived==UNITE_TODO_SUBMIT=======getClazz=============com.mocha.tydb_common.entity.TodoEntity 
+[INFO] 2014-09-23-15:16:49 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 3:0on session 2 
+[INFO] 2014-09-23-15:16:49 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-23-15:16:49 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:183) ==messageReceived==UNITE_TODO_SUBMIT=======getNodeId=============test@hq.cmcc 
+[INFO] 2014-09-23-15:16:49 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:186) ==messageReceived==UNITE_TODO_SUBMIT=======submitItem=============[B@1d86fd3 
+[INFO] 2014-09-23-15:16:49 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:193) ==messageReceived==UNITE_TODO_SUBMIT=======getClazz=============com.mocha.tydb_common.entity.TodoEntity 
+[INFO] 2014-09-23-15:16:52 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 3:0on session 2 
+[INFO] 2014-09-23-15:16:52 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-23-15:16:52 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:183) ==messageReceived==UNITE_TODO_SUBMIT=======getNodeId=============test@hq.cmcc 
+[INFO] 2014-09-23-15:16:52 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:186) ==messageReceived==UNITE_TODO_SUBMIT=======submitItem=============[B@76fba0 
+[INFO] 2014-09-23-15:16:52 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:193) ==messageReceived==UNITE_TODO_SUBMIT=======getClazz=============com.mocha.tydb_common.entity.TodoEntity 
+[INFO] 2014-09-23-15:16:55 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 3:0on session 2 
+[INFO] 2014-09-23-15:16:55 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-23-15:16:55 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:183) ==messageReceived==UNITE_TODO_SUBMIT=======getNodeId=============test@hq.cmcc 
+[INFO] 2014-09-23-15:16:55 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:186) ==messageReceived==UNITE_TODO_SUBMIT=======submitItem=============[B@1c80b01 
+[INFO] 2014-09-23-15:16:55 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:193) ==messageReceived==UNITE_TODO_SUBMIT=======getClazz=============com.mocha.tydb_common.entity.TodoEntity 
+[INFO] 2014-09-23-15:16:58 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 3:0on session 2 
+[INFO] 2014-09-23-15:16:58 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-23-15:16:58 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:183) ==messageReceived==UNITE_TODO_SUBMIT=======getNodeId=============test@hq.cmcc 
+[INFO] 2014-09-23-15:16:58 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:186) ==messageReceived==UNITE_TODO_SUBMIT=======submitItem=============[B@12452e8 
+[INFO] 2014-09-23-15:16:58 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:193) ==messageReceived==UNITE_TODO_SUBMIT=======getClazz=============com.mocha.tydb_common.entity.TodoEntity 
+[INFO] 2014-09-23-15:17:04 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 3:0on session 2 
+[INFO] 2014-09-23-15:17:04 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-23-15:17:04 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:183) ==messageReceived==UNITE_TODO_SUBMIT=======getNodeId=============test@hq.cmcc 
+[INFO] 2014-09-23-15:17:04 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:186) ==messageReceived==UNITE_TODO_SUBMIT=======submitItem=============[B@1d0fafc 
+[INFO] 2014-09-23-15:17:04 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:193) ==messageReceived==UNITE_TODO_SUBMIT=======getClazz=============com.mocha.tydb_common.entity.TodoEntity 
+[INFO] 2014-09-23-15:17:09 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 3:0on session 2 
+[INFO] 2014-09-23-15:17:09 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-23-15:17:09 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:183) ==messageReceived==UNITE_TODO_SUBMIT=======getNodeId=============test@hq.cmcc 
+[INFO] 2014-09-23-15:17:09 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:186) ==messageReceived==UNITE_TODO_SUBMIT=======submitItem=============[B@1f6ba0f 
+[INFO] 2014-09-23-15:17:09 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:193) ==messageReceived==UNITE_TODO_SUBMIT=======getClazz=============com.mocha.tydb_common.entity.TodoEntity 
+[INFO] 2014-09-23-15:17:13 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 3:0on session 2 
+[INFO] 2014-09-23-15:17:13 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-23-15:17:13 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:183) ==messageReceived==UNITE_TODO_SUBMIT=======getNodeId=============test@hq.cmcc 
+[INFO] 2014-09-23-15:17:13 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:186) ==messageReceived==UNITE_TODO_SUBMIT=======submitItem=============[B@1eb2c1b 
+[INFO] 2014-09-23-15:17:13 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:193) ==messageReceived==UNITE_TODO_SUBMIT=======getClazz=============com.mocha.tydb_common.entity.TodoEntity 
+[INFO] 2014-09-23-15:17:17 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 3:0on session 2 
+[INFO] 2014-09-23-15:17:17 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-23-15:17:17 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:183) ==messageReceived==UNITE_TODO_SUBMIT=======getNodeId=============test@hq.cmcc 
+[INFO] 2014-09-23-15:17:17 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:186) ==messageReceived==UNITE_TODO_SUBMIT=======submitItem=============[B@142bece 
+[INFO] 2014-09-23-15:17:17 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:193) ==messageReceived==UNITE_TODO_SUBMIT=======getClazz=============com.mocha.tydb_common.entity.TodoEntity 
+[INFO] 2014-09-23-15:17:21 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 3:0on session 2 
+[INFO] 2014-09-23-15:17:21 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-23-15:17:21 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:183) ==messageReceived==UNITE_TODO_SUBMIT=======getNodeId=============test@hq.cmcc 
+[INFO] 2014-09-23-15:17:21 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:186) ==messageReceived==UNITE_TODO_SUBMIT=======submitItem=============[B@f0c85e 
+[INFO] 2014-09-23-15:17:21 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:193) ==messageReceived==UNITE_TODO_SUBMIT=======getClazz=============com.mocha.tydb_common.entity.TodoEntity 
+[INFO] 2014-09-23-15:17:21 com.mocha.unitcode.mina.server.handler.MinaIoHandler.exceptionCaught(MinaIoHandler.java:66) I/O error: 远程主机强迫关闭了一个现有的连接。 
+[INFO] 2014-09-23-15:17:21 com.mocha.unitcode.mina.server.handler.MinaIoHandler.sessionClosed(MinaIoHandler.java:105) {}> Session closed2 
+[INFO] 2014-09-23-15:24:29 com.mocha.unitcode.mina.server.handler.MinaIoHandler.sessionCreated(MinaIoHandler.java:95) Creation of session 3 
+[INFO] 2014-09-23-15:24:29 com.mocha.unitcode.mina.server.handler.MinaIoHandler.sessionOpened(MinaIoHandler.java:74) Session 3 is opened 
+[INFO] 2014-09-23-15:24:29 com.mocha.unitcode.mina.server.handler.MinaIoHandler.sessionOpened(MinaIoHandler.java:78) Session  is opened maxNumberConnections=3     NumberConnections=1 
+[INFO] 2014-09-23-15:24:30 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 1:1on session 3 
+[INFO] 2014-09-23-15:24:30 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-23-15:24:30 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:144) com.mocha.unitcode.mina.pdu.Connect   
+Login************************************
+clientId:		91947
+authClient:	I��
+gC[�%�t
+version:		48
+timeStamp:	923152429
+sharedSecret:	
+************************************Login 
+[INFO] 2014-09-23-15:24:30 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:148) UNITE_CONNECT   
+nConnectResp******************************************
+status:		0
+authServer:	
+version:		0
+ConnectResp****************************************** 
+[INFO] 2014-09-23-15:24:30 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:151) conresp:1 on session 3 
+[INFO] 2014-09-23-15:25:01 com.mocha.unitcode.mina.server.handler.MinaIoHandler.exceptionCaught(MinaIoHandler.java:66) I/O error: 远程主机强迫关闭了一个现有的连接。 
+[INFO] 2014-09-23-15:25:01 com.mocha.unitcode.mina.server.handler.MinaIoHandler.sessionClosed(MinaIoHandler.java:105) {}> Session closed3 
+[INFO] 2014-09-23-15:25:25 com.mocha.unitcode.mina.server.handler.MinaIoHandler.sessionCreated(MinaIoHandler.java:95) Creation of session 4 
+[INFO] 2014-09-23-15:25:25 com.mocha.unitcode.mina.server.handler.MinaIoHandler.sessionOpened(MinaIoHandler.java:74) Session 4 is opened 
+[INFO] 2014-09-23-15:25:25 com.mocha.unitcode.mina.server.handler.MinaIoHandler.sessionOpened(MinaIoHandler.java:78) Session  is opened maxNumberConnections=3     NumberConnections=1 
+[INFO] 2014-09-23-15:25:26 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 1:1on session 4 
+[INFO] 2014-09-23-15:25:26 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-23-15:25:26 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:144) com.mocha.unitcode.mina.pdu.Connect   
+Login************************************
+clientId:		91947
+authClient:	ɦ��ө�s/Q0��<67
+version:		48
+timeStamp:	923152525
+sharedSecret:	
+************************************Login 
+[INFO] 2014-09-23-15:25:26 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:148) UNITE_CONNECT   
+nConnectResp******************************************
+status:		0
+authServer:	
+version:		0
+ConnectResp****************************************** 
+[INFO] 2014-09-23-15:25:26 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:151) conresp:1 on session 4 
+[INFO] 2014-09-23-15:26:10 com.mocha.unitcode.mina.server.handler.MinaIoHandler.exceptionCaught(MinaIoHandler.java:66) I/O error: 远程主机强迫关闭了一个现有的连接。 
+[INFO] 2014-09-23-15:26:10 com.mocha.unitcode.mina.server.handler.MinaIoHandler.sessionClosed(MinaIoHandler.java:105) {}> Session closed4 
+[INFO] 2014-09-23-15:27:36 com.mocha.unitcode.mina.server.handler.MinaIoHandler.sessionCreated(MinaIoHandler.java:95) Creation of session 5 
+[INFO] 2014-09-23-15:27:36 com.mocha.unitcode.mina.server.handler.MinaIoHandler.sessionOpened(MinaIoHandler.java:74) Session 5 is opened 
+[INFO] 2014-09-23-15:27:36 com.mocha.unitcode.mina.server.handler.MinaIoHandler.sessionOpened(MinaIoHandler.java:78) Session  is opened maxNumberConnections=3     NumberConnections=1 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 1:1on session 5 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:144) com.mocha.unitcode.mina.pdu.Connect   
+Login************************************
+clientId:		91947
+authClient:	�A'w�{�ٰJ
+��h �
+version:		48
+timeStamp:	923152736
+sharedSecret:	
+************************************Login 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:148) UNITE_CONNECT   
+nConnectResp******************************************
+status:		0
+authServer:	
+version:		0
+ConnectResp****************************************** 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:151) conresp:1 on session 5 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 1:1on session 5 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:144) com.mocha.unitcode.mina.pdu.Connect   
+Login************************************
+clientId:		91947
+authClient:	�A'w�{�ٰJ
+��h �
+version:		48
+timeStamp:	923152736
+sharedSecret:	
+************************************Login 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:148) UNITE_CONNECT   
+nConnectResp******************************************
+status:		0
+authServer:	
+version:		0
+ConnectResp****************************************** 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:151) conresp:1 on session 5 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 3:0on session 5 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:183) ==messageReceived==UNITE_TODO_SUBMIT=======getNodeId=============test@hq.cmcc 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:186) ==messageReceived==UNITE_TODO_SUBMIT=======submitItem=============[B@125844f 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:193) ==messageReceived==UNITE_TODO_SUBMIT=======getClazz=============com.mocha.tydb_common.entity.TodoEntity 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 1:1on session 5 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:144) com.mocha.unitcode.mina.pdu.Connect   
+Login************************************
+clientId:		91947
+authClient:	�A'w�{�ٰJ
+��h �
+version:		48
+timeStamp:	923152736
+sharedSecret:	
+************************************Login 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:148) UNITE_CONNECT   
+nConnectResp******************************************
+status:		0
+authServer:	
+version:		0
+ConnectResp****************************************** 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:151) conresp:1 on session 5 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 3:0on session 5 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:183) ==messageReceived==UNITE_TODO_SUBMIT=======getNodeId=============test@hq.cmcc 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:186) ==messageReceived==UNITE_TODO_SUBMIT=======submitItem=============[B@1a06e38 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:193) ==messageReceived==UNITE_TODO_SUBMIT=======getClazz=============com.mocha.tydb_common.entity.TodoEntity 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 3:0on session 5 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:183) ==messageReceived==UNITE_TODO_SUBMIT=======getNodeId=============test@hq.cmcc 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:186) ==messageReceived==UNITE_TODO_SUBMIT=======submitItem=============[B@1a42792 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:193) ==messageReceived==UNITE_TODO_SUBMIT=======getClazz=============com.mocha.tydb_common.entity.TodoEntity 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 3:0on session 5 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:183) ==messageReceived==UNITE_TODO_SUBMIT=======getNodeId=============test@hq.cmcc 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:186) ==messageReceived==UNITE_TODO_SUBMIT=======submitItem=============[B@2200d5 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:193) ==messageReceived==UNITE_TODO_SUBMIT=======getClazz=============com.mocha.tydb_common.entity.TodoEntity 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 3:0on session 5 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:183) ==messageReceived==UNITE_TODO_SUBMIT=======getNodeId=============test@hq.cmcc 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:186) ==messageReceived==UNITE_TODO_SUBMIT=======submitItem=============[B@64ab4d 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:193) ==messageReceived==UNITE_TODO_SUBMIT=======getClazz=============com.mocha.tydb_common.entity.TodoEntity 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 1:1on session 5 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:144) com.mocha.unitcode.mina.pdu.Connect   
+Login************************************
+clientId:		91947
+authClient:	�A'w�{�ٰJ
+��h �
+version:		48
+timeStamp:	923152736
+sharedSecret:	
+************************************Login 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:148) UNITE_CONNECT   
+nConnectResp******************************************
+status:		0
+authServer:	
+version:		0
+ConnectResp****************************************** 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:151) conresp:1 on session 5 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 3:0on session 5 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:183) ==messageReceived==UNITE_TODO_SUBMIT=======getNodeId=============test@hq.cmcc 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:186) ==messageReceived==UNITE_TODO_SUBMIT=======submitItem=============[B@bad8a8 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:193) ==messageReceived==UNITE_TODO_SUBMIT=======getClazz=============com.mocha.tydb_common.entity.TodoEntity 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 3:0on session 5 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:183) ==messageReceived==UNITE_TODO_SUBMIT=======getNodeId=============test@hq.cmcc 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:186) ==messageReceived==UNITE_TODO_SUBMIT=======submitItem=============[B@331059 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:193) ==messageReceived==UNITE_TODO_SUBMIT=======getClazz=============com.mocha.tydb_common.entity.TodoEntity 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 3:0on session 5 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:183) ==messageReceived==UNITE_TODO_SUBMIT=======getNodeId=============test@hq.cmcc 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:186) ==messageReceived==UNITE_TODO_SUBMIT=======submitItem=============[B@766a24 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:193) ==messageReceived==UNITE_TODO_SUBMIT=======getClazz=============com.mocha.tydb_common.entity.TodoEntity 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 3:0on session 5 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:183) ==messageReceived==UNITE_TODO_SUBMIT=======getNodeId=============test@hq.cmcc 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:186) ==messageReceived==UNITE_TODO_SUBMIT=======submitItem=============[B@3fa5ac 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:193) ==messageReceived==UNITE_TODO_SUBMIT=======getClazz=============com.mocha.tydb_common.entity.TodoEntity 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 3:0on session 5 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:183) ==messageReceived==UNITE_TODO_SUBMIT=======getNodeId=============test@hq.cmcc 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:186) ==messageReceived==UNITE_TODO_SUBMIT=======submitItem=============[B@179dce4 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:193) ==messageReceived==UNITE_TODO_SUBMIT=======getClazz=============com.mocha.tydb_common.entity.TodoEntity 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 3:0on session 5 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:183) ==messageReceived==UNITE_TODO_SUBMIT=======getNodeId=============test@hq.cmcc 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:186) ==messageReceived==UNITE_TODO_SUBMIT=======submitItem=============[B@1950198 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:193) ==messageReceived==UNITE_TODO_SUBMIT=======getClazz=============com.mocha.tydb_common.entity.TodoEntity 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 3:0on session 5 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:183) ==messageReceived==UNITE_TODO_SUBMIT=======getNodeId=============test@hq.cmcc 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:186) ==messageReceived==UNITE_TODO_SUBMIT=======submitItem=============[B@19bb25a 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:193) ==messageReceived==UNITE_TODO_SUBMIT=======getClazz=============com.mocha.tydb_common.entity.TodoEntity 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 3:0on session 5 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:183) ==messageReceived==UNITE_TODO_SUBMIT=======getNodeId=============test@hq.cmcc 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:186) ==messageReceived==UNITE_TODO_SUBMIT=======submitItem=============[B@da6bf4 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:193) ==messageReceived==UNITE_TODO_SUBMIT=======getClazz=============com.mocha.tydb_common.entity.TodoEntity 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 3:0on session 5 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:183) ==messageReceived==UNITE_TODO_SUBMIT=======getNodeId=============test@hq.cmcc 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:186) ==messageReceived==UNITE_TODO_SUBMIT=======submitItem=============[B@1e58cb8 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:193) ==messageReceived==UNITE_TODO_SUBMIT=======getClazz=============com.mocha.tydb_common.entity.TodoEntity 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 1:1on session 5 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:144) com.mocha.unitcode.mina.pdu.Connect   
+Login************************************
+clientId:		91947
+authClient:	�A'w�{�ٰJ
+��h �
+version:		48
+timeStamp:	923152736
+sharedSecret:	
+************************************Login 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:148) UNITE_CONNECT   
+nConnectResp******************************************
+status:		0
+authServer:	
+version:		0
+ConnectResp****************************************** 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:151) conresp:1 on session 5 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 3:0on session 5 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:183) ==messageReceived==UNITE_TODO_SUBMIT=======getNodeId=============test@hq.cmcc 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:186) ==messageReceived==UNITE_TODO_SUBMIT=======submitItem=============[B@c837cd 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:193) ==messageReceived==UNITE_TODO_SUBMIT=======getClazz=============com.mocha.tydb_common.entity.TodoEntity 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 3:0on session 5 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:183) ==messageReceived==UNITE_TODO_SUBMIT=======getNodeId=============test@hq.cmcc 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:186) ==messageReceived==UNITE_TODO_SUBMIT=======submitItem=============[B@c79809 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:193) ==messageReceived==UNITE_TODO_SUBMIT=======getClazz=============com.mocha.tydb_common.entity.TodoEntity 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 3:0on session 5 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:183) ==messageReceived==UNITE_TODO_SUBMIT=======getNodeId=============test@hq.cmcc 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:186) ==messageReceived==UNITE_TODO_SUBMIT=======submitItem=============[B@1ce784b 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:193) ==messageReceived==UNITE_TODO_SUBMIT=======getClazz=============com.mocha.tydb_common.entity.TodoEntity 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 3:0on session 5 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:183) ==messageReceived==UNITE_TODO_SUBMIT=======getNodeId=============test@hq.cmcc 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:186) ==messageReceived==UNITE_TODO_SUBMIT=======submitItem=============[B@3bc473 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:193) ==messageReceived==UNITE_TODO_SUBMIT=======getClazz=============com.mocha.tydb_common.entity.TodoEntity 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 3:0on session 5 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:183) ==messageReceived==UNITE_TODO_SUBMIT=======getNodeId=============test@hq.cmcc 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:186) ==messageReceived==UNITE_TODO_SUBMIT=======submitItem=============[B@1de9ac4 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:193) ==messageReceived==UNITE_TODO_SUBMIT=======getClazz=============com.mocha.tydb_common.entity.TodoEntity 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 3:0on session 5 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:183) ==messageReceived==UNITE_TODO_SUBMIT=======getNodeId=============test@hq.cmcc 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:186) ==messageReceived==UNITE_TODO_SUBMIT=======submitItem=============[B@3dc0bb 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:193) ==messageReceived==UNITE_TODO_SUBMIT=======getClazz=============com.mocha.tydb_common.entity.TodoEntity 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 3:0on session 5 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:183) ==messageReceived==UNITE_TODO_SUBMIT=======getNodeId=============test@hq.cmcc 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:186) ==messageReceived==UNITE_TODO_SUBMIT=======submitItem=============[B@384065 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:193) ==messageReceived==UNITE_TODO_SUBMIT=======getClazz=============com.mocha.tydb_common.entity.TodoEntity 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 3:0on session 5 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:183) ==messageReceived==UNITE_TODO_SUBMIT=======getNodeId=============test@hq.cmcc 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:186) ==messageReceived==UNITE_TODO_SUBMIT=======submitItem=============[B@10bbf9e 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:193) ==messageReceived==UNITE_TODO_SUBMIT=======getClazz=============com.mocha.tydb_common.entity.TodoEntity 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 3:0on session 5 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:183) ==messageReceived==UNITE_TODO_SUBMIT=======getNodeId=============test@hq.cmcc 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:186) ==messageReceived==UNITE_TODO_SUBMIT=======submitItem=============[B@513d61 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:193) ==messageReceived==UNITE_TODO_SUBMIT=======getClazz=============com.mocha.tydb_common.entity.TodoEntity 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: 3:0on session 5 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:183) ==messageReceived==UNITE_TODO_SUBMIT=======getNodeId=============test@hq.cmcc 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:186) ==messageReceived==UNITE_TODO_SUBMIT=======submitItem=============[B@194d372 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:193) ==messageReceived==UNITE_TODO_SUBMIT=======getClazz=============com.mocha.tydb_common.entity.TodoEntity 
+[INFO] 2014-09-23-15:28:36 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:127) MESSAGE: -2147483641:1on session 5 
+[INFO] 2014-09-23-15:28:36 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:131) map=null 
+[INFO] 2014-09-23-15:28:36 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:171) activeTestRsp:1 on session 5 
+[INFO] 2014-09-23-15:28:44 com.mocha.unitcode.mina.server.handler.MinaIoHandler.exceptionCaught(MinaIoHandler.java:66) I/O error: 远程主机强迫关闭了一个现有的连接。 
+[INFO] 2014-09-23-15:28:44 com.mocha.unitcode.mina.server.handler.MinaIoHandler.sessionClosed(MinaIoHandler.java:105) {}> Session closed5 

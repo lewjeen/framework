@@ -1,8 +1,8 @@
 Manifest-Version: 1.0
 Implementation-Title: unitecore-client
-Implementation-Version: 1.0
+Implementation-Version: 0.1-SNAPSHOT
 Implementation-Vendor-Id: com.unitecore
-Build-Jdk: 1.7.0_09
+Build-Jdk: 1.7.0_67
 Built-By: Administrator
 Created-By: Maven Integration for Eclipse
 

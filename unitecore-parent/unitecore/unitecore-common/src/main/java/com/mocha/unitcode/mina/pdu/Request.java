@@ -1,11 +1,13 @@
 package com.mocha.unitcode.mina.pdu;
 
-
+import com.mocha.unitcode.mina.code.PDU;
 
 public abstract class Request extends MinaPDU {
 	/**
 	 * This method should instantiate a response corresponding to the request.
 	 */
+	protected abstract Response createResponse(int commandId);
+
 	protected abstract Response createResponse();
 
 	/** Create a request PDU with default parameters. */
@@ -13,25 +15,31 @@ public abstract class Request extends MinaPDU {
 	}
 
 	/**
-	 * Create request PDU with given command id.
-	 * Derived classes usually uses <code>super(THE_COMMAND_ID)</code>
-	 * where the <code>THE_COMMAND_ID</code> is the command id of the 
-	 * PDU the derived class represents.
+	 * Create request PDU with given command id. Derived classes usually uses
+	 * <code>super(THE_COMMAND_ID)</code> where the <code>THE_COMMAND_ID</code>
+	 * is the command id of the PDU the derived class represents.
 	 */
 	public Request(int commandId) {
 		super(commandId);
 	}
 
 	/**
-	 * This method is used to create generate a response corresponding to
-	 * this request. It creates the response using <code>createResponse</code>
-	 * and then sets the sequence number of the response to the sequence
-	 * number of this request. This way is ensured automatic matching
-	 * of the response to the request.
-	 * The created response is set this as the original request.
+	 * This method is used to create generate a response corresponding to this
+	 * request. It creates the response using <code>createResponse</code> and
+	 * then sets the sequence number of the response to the sequence number of
+	 * this request. This way is ensured automatic matching of the response to
+	 * the request. The created response is set this as the original request.
+	 * 
 	 * @see #createResponse()
 	 * @see Response#setOriginalRequest(Request)
 	 */
+	public Response getResponse(int commandId) {
+		Response response = createResponse(commandId);
+		response.setSequenceNumber(getSequenceNumber());
+		response.setOriginalRequest(this);
+		return response;
+	}
+
 	public Response getResponse() {
 		Response response = createResponse();
 		response.setSequenceNumber(getSequenceNumber());
@@ -42,14 +50,15 @@ public abstract class Request extends MinaPDU {
 	/**
 	 * Returns the command id of the corresponing response.
 	 */
-	public int getResponseCommandId() {
-		Response response = createResponse();
+	public int getResponseCommandId(int commandId) {
+		Response response = createResponse(commandId);
 		return response.getCommandId();
 	}
 
 	/**
-	 * Returns true. If the derived class cannot respond, then it must
-	 * overwrite this function to return false.
+	 * Returns true. If the derived class cannot respond, then it must overwrite
+	 * this function to return false.
+	 * 
 	 * @see PDU#canResponse()
 	 */
 	public boolean canResponse() {
@@ -57,14 +66,17 @@ public abstract class Request extends MinaPDU {
 	}
 
 	/**
-	 * Returns true. 
+	 * Returns true.
+	 * 
 	 * @see PDU#isRequest()
 	 */
 	public boolean isRequest() {
 		return true;
 	}
 
-	/** Returns false.
+	/**
+	 * Returns false.
+	 * 
 	 * @see PDU#isResponse()
 	 */
 	public boolean isResponse() {
@@ -72,4 +84,3 @@ public abstract class Request extends MinaPDU {
 	}
 
 }
-

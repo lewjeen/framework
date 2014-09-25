@@ -1,0 +1,472 @@
+[WARN] 2014-09-23-15:09:38 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:51) MinaConstant.UNITE_TODO_SUBMIT Header: 3 
+[WARN] 2014-09-23-15:09:38 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:56) MinaConstant.UNITE_TODO_SUBMIT getCommandLength: 3073 
+[INFO] 2014-09-23-15:09:38 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:102) ==setBody=====msgId===========[B@1081d2e 
+[INFO] 2014-09-23-15:09:38 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:115) ===setBody====msgFormat===========10 
+[INFO] 2014-09-23-15:09:38 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:119) ===setBody====classLength===========39 
+[INFO] 2014-09-23-15:09:38 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:123) ===setBody====signbyte===========-38 
+[INFO] 2014-09-23-15:09:38 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:126) ==setBody=====msgLength===========2994 
+[WARN] 2014-09-23-15:09:38 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:60) MinaConstant.UNITE_TODO_SUBMIT buffer getHexDump:  
+[WARN] 2014-09-23-15:09:38 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:178) MinaConstant.UNITE_TODO_SUBMIT Header: 3 
+[INFO] 2014-09-23-15:09:38 com.mocha.unitcode.mina.server.handler.MinaIoHandler.addQueue(MinaIoHandler.java:249) == addQueue====添加队列信息=========== 
+[INFO] 2014-09-23-15:09:38 com.mocha.unitcode.mina.server.handler.MinaIoHandler.addQueue(MinaIoHandler.java:257) == addQueue==tem.TODO_TYPE_SINGLE==单条=========== 
+[INFO] 2014-09-23-15:09:38 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:199) ====UNITE_TODO_SUBMIT=======getMsgFormat=============10 
+[INFO] 2014-09-23-15:09:38 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:202) =====UNITE_TODO_SUBMIT======getEncoding=============UTF-8 
+[INFO] 2014-09-23-15:09:38 com.mocha.unitcode.mina.pdu.SubmitTodoEntityResp.getBody(SubmitTodoEntityResp.java:88) ===getBody====msgId===========[B@c62c8 
+[INFO] 2014-09-23-15:09:38 com.mocha.unitcode.mina.pdu.SubmitTodoEntityResp.getBody(SubmitTodoEntityResp.java:93) ===getBody====entityMessage.getLength()===========0 
+[WARN] 2014-09-23-15:13:22 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:51) MinaConstant.UNITE_TODO_SUBMIT Header: 3 
+[WARN] 2014-09-23-15:13:22 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:56) MinaConstant.UNITE_TODO_SUBMIT getCommandLength: 3073 
+[INFO] 2014-09-23-15:13:22 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:102) ==setBody=====msgId===========[B@121ab80 
+[INFO] 2014-09-23-15:13:22 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:115) ===setBody====msgFormat===========10 
+[INFO] 2014-09-23-15:13:22 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:119) ===setBody====classLength===========39 
+[INFO] 2014-09-23-15:13:22 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:123) ===setBody====signbyte===========-38 
+[INFO] 2014-09-23-15:13:22 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:126) ==setBody=====msgLength===========2994 
+[WARN] 2014-09-23-15:13:22 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:60) MinaConstant.UNITE_TODO_SUBMIT buffer getHexDump:  
+[WARN] 2014-09-23-15:13:22 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:178) MinaConstant.UNITE_TODO_SUBMIT Header: 3 
+[INFO] 2014-09-23-15:13:22 com.mocha.unitcode.mina.server.handler.MinaIoHandler.addQueue(MinaIoHandler.java:249) == addQueue====添加队列信息=========== 
+[INFO] 2014-09-23-15:13:22 com.mocha.unitcode.mina.server.handler.MinaIoHandler.addQueue(MinaIoHandler.java:257) == addQueue==tem.TODO_TYPE_SINGLE==单条=========== 
+[INFO] 2014-09-23-15:13:22 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:199) ====UNITE_TODO_SUBMIT=======getMsgFormat=============10 
+[INFO] 2014-09-23-15:13:22 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:202) =====UNITE_TODO_SUBMIT======getEncoding=============UTF-8 
+[INFO] 2014-09-23-15:13:22 com.mocha.unitcode.mina.pdu.SubmitTodoEntityResp.getBody(SubmitTodoEntityResp.java:88) ===getBody====msgId===========[B@785d65 
+[INFO] 2014-09-23-15:13:22 com.mocha.unitcode.mina.pdu.SubmitTodoEntityResp.getBody(SubmitTodoEntityResp.java:93) ===getBody====entityMessage.getLength()===========0 
+[WARN] 2014-09-23-15:16:44 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:51) MinaConstant.UNITE_TODO_SUBMIT Header: 3 
+[WARN] 2014-09-23-15:16:44 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:56) MinaConstant.UNITE_TODO_SUBMIT getCommandLength: 3073 
+[INFO] 2014-09-23-15:16:44 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:102) ==setBody=====msgId===========[B@10a3b24 
+[INFO] 2014-09-23-15:16:44 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:115) ===setBody====msgFormat===========10 
+[INFO] 2014-09-23-15:16:44 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:119) ===setBody====classLength===========39 
+[INFO] 2014-09-23-15:16:44 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:123) ===setBody====signbyte===========-38 
+[INFO] 2014-09-23-15:16:44 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:126) ==setBody=====msgLength===========2994 
+[WARN] 2014-09-23-15:16:44 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:60) MinaConstant.UNITE_TODO_SUBMIT buffer getHexDump:  
+[WARN] 2014-09-23-15:16:44 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:178) MinaConstant.UNITE_TODO_SUBMIT Header: 3 
+[INFO] 2014-09-23-15:16:44 com.mocha.unitcode.mina.server.handler.MinaIoHandler.addQueue(MinaIoHandler.java:249) == addQueue====添加队列信息=========== 
+[INFO] 2014-09-23-15:16:44 com.mocha.unitcode.mina.server.handler.MinaIoHandler.addQueue(MinaIoHandler.java:257) == addQueue==tem.TODO_TYPE_SINGLE==单条=========== 
+[INFO] 2014-09-23-15:16:44 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:199) ====UNITE_TODO_SUBMIT=======getMsgFormat=============10 
+[INFO] 2014-09-23-15:16:44 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:202) =====UNITE_TODO_SUBMIT======getEncoding=============UTF-8 
+[WARN] 2014-09-23-15:16:49 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:51) MinaConstant.UNITE_TODO_SUBMIT Header: 3 
+[WARN] 2014-09-23-15:16:49 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:56) MinaConstant.UNITE_TODO_SUBMIT getCommandLength: 3073 
+[INFO] 2014-09-23-15:16:49 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:102) ==setBody=====msgId===========[B@1b15692 
+[INFO] 2014-09-23-15:16:49 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:115) ===setBody====msgFormat===========10 
+[INFO] 2014-09-23-15:16:49 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:119) ===setBody====classLength===========39 
+[INFO] 2014-09-23-15:16:49 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:123) ===setBody====signbyte===========-38 
+[INFO] 2014-09-23-15:16:49 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:126) ==setBody=====msgLength===========2994 
+[WARN] 2014-09-23-15:16:49 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:60) MinaConstant.UNITE_TODO_SUBMIT buffer getHexDump:  
+[WARN] 2014-09-23-15:16:49 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:178) MinaConstant.UNITE_TODO_SUBMIT Header: 3 
+[INFO] 2014-09-23-15:16:49 com.mocha.unitcode.mina.server.handler.MinaIoHandler.addQueue(MinaIoHandler.java:249) == addQueue====添加队列信息=========== 
+[INFO] 2014-09-23-15:16:49 com.mocha.unitcode.mina.server.handler.MinaIoHandler.addQueue(MinaIoHandler.java:257) == addQueue==tem.TODO_TYPE_SINGLE==单条=========== 
+[INFO] 2014-09-23-15:16:49 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:199) ====UNITE_TODO_SUBMIT=======getMsgFormat=============10 
+[INFO] 2014-09-23-15:16:49 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:202) =====UNITE_TODO_SUBMIT======getEncoding=============UTF-8 
+[WARN] 2014-09-23-15:16:52 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:51) MinaConstant.UNITE_TODO_SUBMIT Header: 3 
+[WARN] 2014-09-23-15:16:52 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:56) MinaConstant.UNITE_TODO_SUBMIT getCommandLength: 3073 
+[INFO] 2014-09-23-15:16:52 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:102) ==setBody=====msgId===========[B@5e1077 
+[INFO] 2014-09-23-15:16:52 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:115) ===setBody====msgFormat===========10 
+[INFO] 2014-09-23-15:16:52 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:119) ===setBody====classLength===========39 
+[INFO] 2014-09-23-15:16:52 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:123) ===setBody====signbyte===========-38 
+[INFO] 2014-09-23-15:16:52 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:126) ==setBody=====msgLength===========2994 
+[WARN] 2014-09-23-15:16:52 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:60) MinaConstant.UNITE_TODO_SUBMIT buffer getHexDump:  
+[WARN] 2014-09-23-15:16:52 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:178) MinaConstant.UNITE_TODO_SUBMIT Header: 3 
+[INFO] 2014-09-23-15:16:52 com.mocha.unitcode.mina.server.handler.MinaIoHandler.addQueue(MinaIoHandler.java:249) == addQueue====添加队列信息=========== 
+[INFO] 2014-09-23-15:16:52 com.mocha.unitcode.mina.server.handler.MinaIoHandler.addQueue(MinaIoHandler.java:257) == addQueue==tem.TODO_TYPE_SINGLE==单条=========== 
+[INFO] 2014-09-23-15:16:52 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:199) ====UNITE_TODO_SUBMIT=======getMsgFormat=============10 
+[INFO] 2014-09-23-15:16:52 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:202) =====UNITE_TODO_SUBMIT======getEncoding=============UTF-8 
+[WARN] 2014-09-23-15:16:55 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:51) MinaConstant.UNITE_TODO_SUBMIT Header: 3 
+[WARN] 2014-09-23-15:16:55 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:56) MinaConstant.UNITE_TODO_SUBMIT getCommandLength: 3073 
+[INFO] 2014-09-23-15:16:55 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:102) ==setBody=====msgId===========[B@16dadf9 
+[INFO] 2014-09-23-15:16:55 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:115) ===setBody====msgFormat===========10 
+[INFO] 2014-09-23-15:16:55 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:119) ===setBody====classLength===========39 
+[INFO] 2014-09-23-15:16:55 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:123) ===setBody====signbyte===========-38 
+[INFO] 2014-09-23-15:16:55 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:126) ==setBody=====msgLength===========2994 
+[WARN] 2014-09-23-15:16:55 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:60) MinaConstant.UNITE_TODO_SUBMIT buffer getHexDump:  
+[WARN] 2014-09-23-15:16:55 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:178) MinaConstant.UNITE_TODO_SUBMIT Header: 3 
+[INFO] 2014-09-23-15:16:55 com.mocha.unitcode.mina.server.handler.MinaIoHandler.addQueue(MinaIoHandler.java:249) == addQueue====添加队列信息=========== 
+[INFO] 2014-09-23-15:16:55 com.mocha.unitcode.mina.server.handler.MinaIoHandler.addQueue(MinaIoHandler.java:257) == addQueue==tem.TODO_TYPE_SINGLE==单条=========== 
+[INFO] 2014-09-23-15:16:55 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:199) ====UNITE_TODO_SUBMIT=======getMsgFormat=============10 
+[INFO] 2014-09-23-15:16:55 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:202) =====UNITE_TODO_SUBMIT======getEncoding=============UTF-8 
+[WARN] 2014-09-23-15:16:58 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:51) MinaConstant.UNITE_TODO_SUBMIT Header: 3 
+[WARN] 2014-09-23-15:16:58 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:56) MinaConstant.UNITE_TODO_SUBMIT getCommandLength: 3073 
+[INFO] 2014-09-23-15:16:58 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:102) ==setBody=====msgId===========[B@1e3cd51 
+[INFO] 2014-09-23-15:16:58 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:115) ===setBody====msgFormat===========10 
+[INFO] 2014-09-23-15:16:58 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:119) ===setBody====classLength===========39 
+[INFO] 2014-09-23-15:16:58 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:123) ===setBody====signbyte===========-38 
+[INFO] 2014-09-23-15:16:58 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:126) ==setBody=====msgLength===========2994 
+[WARN] 2014-09-23-15:16:58 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:60) MinaConstant.UNITE_TODO_SUBMIT buffer getHexDump:  
+[WARN] 2014-09-23-15:16:58 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:178) MinaConstant.UNITE_TODO_SUBMIT Header: 3 
+[INFO] 2014-09-23-15:16:58 com.mocha.unitcode.mina.server.handler.MinaIoHandler.addQueue(MinaIoHandler.java:249) == addQueue====添加队列信息=========== 
+[INFO] 2014-09-23-15:16:58 com.mocha.unitcode.mina.server.handler.MinaIoHandler.addQueue(MinaIoHandler.java:257) == addQueue==tem.TODO_TYPE_SINGLE==单条=========== 
+[INFO] 2014-09-23-15:16:58 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:199) ====UNITE_TODO_SUBMIT=======getMsgFormat=============10 
+[INFO] 2014-09-23-15:16:58 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:202) =====UNITE_TODO_SUBMIT======getEncoding=============UTF-8 
+[WARN] 2014-09-23-15:17:04 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:51) MinaConstant.UNITE_TODO_SUBMIT Header: 3 
+[WARN] 2014-09-23-15:17:04 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:56) MinaConstant.UNITE_TODO_SUBMIT getCommandLength: 3073 
+[INFO] 2014-09-23-15:17:04 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:102) ==setBody=====msgId===========[B@1e4f7c2 
+[INFO] 2014-09-23-15:17:04 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:115) ===setBody====msgFormat===========10 
+[INFO] 2014-09-23-15:17:04 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:119) ===setBody====classLength===========39 
+[INFO] 2014-09-23-15:17:04 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:123) ===setBody====signbyte===========-38 
+[INFO] 2014-09-23-15:17:04 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:126) ==setBody=====msgLength===========2994 
+[WARN] 2014-09-23-15:17:04 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:60) MinaConstant.UNITE_TODO_SUBMIT buffer getHexDump:  
+[WARN] 2014-09-23-15:17:04 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:178) MinaConstant.UNITE_TODO_SUBMIT Header: 3 
+[INFO] 2014-09-23-15:17:04 com.mocha.unitcode.mina.server.handler.MinaIoHandler.addQueue(MinaIoHandler.java:249) == addQueue====添加队列信息=========== 
+[INFO] 2014-09-23-15:17:04 com.mocha.unitcode.mina.server.handler.MinaIoHandler.addQueue(MinaIoHandler.java:257) == addQueue==tem.TODO_TYPE_SINGLE==单条=========== 
+[INFO] 2014-09-23-15:17:04 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:199) ====UNITE_TODO_SUBMIT=======getMsgFormat=============10 
+[INFO] 2014-09-23-15:17:04 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:202) =====UNITE_TODO_SUBMIT======getEncoding=============UTF-8 
+[WARN] 2014-09-23-15:17:09 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:51) MinaConstant.UNITE_TODO_SUBMIT Header: 3 
+[WARN] 2014-09-23-15:17:09 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:56) MinaConstant.UNITE_TODO_SUBMIT getCommandLength: 3073 
+[INFO] 2014-09-23-15:17:09 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:102) ==setBody=====msgId===========[B@d0af9b 
+[INFO] 2014-09-23-15:17:09 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:115) ===setBody====msgFormat===========10 
+[INFO] 2014-09-23-15:17:09 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:119) ===setBody====classLength===========39 
+[INFO] 2014-09-23-15:17:09 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:123) ===setBody====signbyte===========-38 
+[INFO] 2014-09-23-15:17:09 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:126) ==setBody=====msgLength===========2994 
+[WARN] 2014-09-23-15:17:09 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:60) MinaConstant.UNITE_TODO_SUBMIT buffer getHexDump:  
+[WARN] 2014-09-23-15:17:09 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:178) MinaConstant.UNITE_TODO_SUBMIT Header: 3 
+[INFO] 2014-09-23-15:17:09 com.mocha.unitcode.mina.server.handler.MinaIoHandler.addQueue(MinaIoHandler.java:249) == addQueue====添加队列信息=========== 
+[INFO] 2014-09-23-15:17:09 com.mocha.unitcode.mina.server.handler.MinaIoHandler.addQueue(MinaIoHandler.java:257) == addQueue==tem.TODO_TYPE_SINGLE==单条=========== 
+[INFO] 2014-09-23-15:17:09 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:199) ====UNITE_TODO_SUBMIT=======getMsgFormat=============10 
+[INFO] 2014-09-23-15:17:09 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:202) =====UNITE_TODO_SUBMIT======getEncoding=============UTF-8 
+[WARN] 2014-09-23-15:17:13 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:51) MinaConstant.UNITE_TODO_SUBMIT Header: 3 
+[WARN] 2014-09-23-15:17:13 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:56) MinaConstant.UNITE_TODO_SUBMIT getCommandLength: 3073 
+[INFO] 2014-09-23-15:17:13 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:102) ==setBody=====msgId===========[B@f47bf5 
+[INFO] 2014-09-23-15:17:13 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:115) ===setBody====msgFormat===========10 
+[INFO] 2014-09-23-15:17:13 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:119) ===setBody====classLength===========39 
+[INFO] 2014-09-23-15:17:13 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:123) ===setBody====signbyte===========-38 
+[INFO] 2014-09-23-15:17:13 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:126) ==setBody=====msgLength===========2994 
+[WARN] 2014-09-23-15:17:13 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:60) MinaConstant.UNITE_TODO_SUBMIT buffer getHexDump:  
+[WARN] 2014-09-23-15:17:13 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:178) MinaConstant.UNITE_TODO_SUBMIT Header: 3 
+[INFO] 2014-09-23-15:17:13 com.mocha.unitcode.mina.server.handler.MinaIoHandler.addQueue(MinaIoHandler.java:249) == addQueue====添加队列信息=========== 
+[INFO] 2014-09-23-15:17:13 com.mocha.unitcode.mina.server.handler.MinaIoHandler.addQueue(MinaIoHandler.java:257) == addQueue==tem.TODO_TYPE_SINGLE==单条=========== 
+[INFO] 2014-09-23-15:17:13 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:199) ====UNITE_TODO_SUBMIT=======getMsgFormat=============10 
+[INFO] 2014-09-23-15:17:13 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:202) =====UNITE_TODO_SUBMIT======getEncoding=============UTF-8 
+[WARN] 2014-09-23-15:17:17 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:51) MinaConstant.UNITE_TODO_SUBMIT Header: 3 
+[WARN] 2014-09-23-15:17:17 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:56) MinaConstant.UNITE_TODO_SUBMIT getCommandLength: 3073 
+[INFO] 2014-09-23-15:17:17 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:102) ==setBody=====msgId===========[B@29e357 
+[INFO] 2014-09-23-15:17:17 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:115) ===setBody====msgFormat===========10 
+[INFO] 2014-09-23-15:17:17 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:119) ===setBody====classLength===========39 
+[INFO] 2014-09-23-15:17:17 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:123) ===setBody====signbyte===========-38 
+[INFO] 2014-09-23-15:17:17 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:126) ==setBody=====msgLength===========2994 
+[WARN] 2014-09-23-15:17:17 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:60) MinaConstant.UNITE_TODO_SUBMIT buffer getHexDump:  
+[WARN] 2014-09-23-15:17:17 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:178) MinaConstant.UNITE_TODO_SUBMIT Header: 3 
+[INFO] 2014-09-23-15:17:17 com.mocha.unitcode.mina.server.handler.MinaIoHandler.addQueue(MinaIoHandler.java:249) == addQueue====添加队列信息=========== 
+[INFO] 2014-09-23-15:17:17 com.mocha.unitcode.mina.server.handler.MinaIoHandler.addQueue(MinaIoHandler.java:257) == addQueue==tem.TODO_TYPE_SINGLE==单条=========== 
+[INFO] 2014-09-23-15:17:17 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:199) ====UNITE_TODO_SUBMIT=======getMsgFormat=============10 
+[INFO] 2014-09-23-15:17:17 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:202) =====UNITE_TODO_SUBMIT======getEncoding=============UTF-8 
+[WARN] 2014-09-23-15:17:21 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:51) MinaConstant.UNITE_TODO_SUBMIT Header: 3 
+[WARN] 2014-09-23-15:17:21 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:56) MinaConstant.UNITE_TODO_SUBMIT getCommandLength: 3073 
+[INFO] 2014-09-23-15:17:21 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:102) ==setBody=====msgId===========[B@1fc6e42 
+[INFO] 2014-09-23-15:17:21 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:115) ===setBody====msgFormat===========10 
+[INFO] 2014-09-23-15:17:21 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:119) ===setBody====classLength===========39 
+[INFO] 2014-09-23-15:17:21 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:123) ===setBody====signbyte===========-38 
+[INFO] 2014-09-23-15:17:21 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:126) ==setBody=====msgLength===========2994 
+[WARN] 2014-09-23-15:17:21 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:60) MinaConstant.UNITE_TODO_SUBMIT buffer getHexDump:  
+[WARN] 2014-09-23-15:17:21 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:178) MinaConstant.UNITE_TODO_SUBMIT Header: 3 
+[INFO] 2014-09-23-15:17:21 com.mocha.unitcode.mina.server.handler.MinaIoHandler.addQueue(MinaIoHandler.java:249) == addQueue====添加队列信息=========== 
+[INFO] 2014-09-23-15:17:21 com.mocha.unitcode.mina.server.handler.MinaIoHandler.addQueue(MinaIoHandler.java:257) == addQueue==tem.TODO_TYPE_SINGLE==单条=========== 
+[INFO] 2014-09-23-15:17:21 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:199) ====UNITE_TODO_SUBMIT=======getMsgFormat=============10 
+[INFO] 2014-09-23-15:17:21 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:202) =====UNITE_TODO_SUBMIT======getEncoding=============UTF-8 
+[WARN] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:51) MinaConstant.UNITE_TODO_SUBMIT Header: 3 
+[WARN] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:56) MinaConstant.UNITE_TODO_SUBMIT getCommandLength: 3073 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:102) ==setBody=====msgId===========[B@ec6b00 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:115) ===setBody====msgFormat===========10 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:119) ===setBody====classLength===========39 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:123) ===setBody====signbyte===========-38 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:126) ==setBody=====msgLength===========2994 
+[WARN] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:60) MinaConstant.UNITE_TODO_SUBMIT buffer getHexDump:  
+[WARN] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:178) MinaConstant.UNITE_TODO_SUBMIT Header: 3 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.addQueue(MinaIoHandler.java:249) == addQueue====添加队列信息=========== 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.addQueue(MinaIoHandler.java:257) == addQueue==tem.TODO_TYPE_SINGLE==单条=========== 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:199) ====UNITE_TODO_SUBMIT=======getMsgFormat=============10 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:202) =====UNITE_TODO_SUBMIT======getEncoding=============UTF-8 
+[WARN] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:51) MinaConstant.UNITE_TODO_SUBMIT Header: 3 
+[WARN] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:56) MinaConstant.UNITE_TODO_SUBMIT getCommandLength: 3073 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:102) ==setBody=====msgId===========[B@f7c31d 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:115) ===setBody====msgFormat===========10 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:119) ===setBody====classLength===========39 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:123) ===setBody====signbyte===========-38 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:126) ==setBody=====msgLength===========2994 
+[WARN] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:60) MinaConstant.UNITE_TODO_SUBMIT buffer getHexDump:  
+[WARN] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:51) MinaConstant.UNITE_TODO_SUBMIT Header: 3 
+[WARN] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:56) MinaConstant.UNITE_TODO_SUBMIT getCommandLength: 3073 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:102) ==setBody=====msgId===========[B@9980d5 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:115) ===setBody====msgFormat===========10 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:119) ===setBody====classLength===========39 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:123) ===setBody====signbyte===========-38 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:126) ==setBody=====msgLength===========2994 
+[WARN] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:60) MinaConstant.UNITE_TODO_SUBMIT buffer getHexDump:  
+[WARN] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:51) MinaConstant.UNITE_TODO_SUBMIT Header: 3 
+[WARN] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:56) MinaConstant.UNITE_TODO_SUBMIT getCommandLength: 3073 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:102) ==setBody=====msgId===========[B@e0cc23 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:115) ===setBody====msgFormat===========10 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:119) ===setBody====classLength===========39 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:123) ===setBody====signbyte===========-38 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:126) ==setBody=====msgLength===========2994 
+[WARN] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:60) MinaConstant.UNITE_TODO_SUBMIT buffer getHexDump:  
+[WARN] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:51) MinaConstant.UNITE_TODO_SUBMIT Header: 3 
+[WARN] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:56) MinaConstant.UNITE_TODO_SUBMIT getCommandLength: 3073 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:102) ==setBody=====msgId===========[B@50988 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:115) ===setBody====msgFormat===========10 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:119) ===setBody====classLength===========39 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:123) ===setBody====signbyte===========-38 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:126) ==setBody=====msgLength===========2994 
+[WARN] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:60) MinaConstant.UNITE_TODO_SUBMIT buffer getHexDump:  
+[WARN] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:178) MinaConstant.UNITE_TODO_SUBMIT Header: 3 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.addQueue(MinaIoHandler.java:249) == addQueue====添加队列信息=========== 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.addQueue(MinaIoHandler.java:257) == addQueue==tem.TODO_TYPE_SINGLE==单条=========== 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:199) ====UNITE_TODO_SUBMIT=======getMsgFormat=============10 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:202) =====UNITE_TODO_SUBMIT======getEncoding=============UTF-8 
+[WARN] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:178) MinaConstant.UNITE_TODO_SUBMIT Header: 3 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.addQueue(MinaIoHandler.java:249) == addQueue====添加队列信息=========== 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.addQueue(MinaIoHandler.java:257) == addQueue==tem.TODO_TYPE_SINGLE==单条=========== 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:199) ====UNITE_TODO_SUBMIT=======getMsgFormat=============10 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:202) =====UNITE_TODO_SUBMIT======getEncoding=============UTF-8 
+[WARN] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:178) MinaConstant.UNITE_TODO_SUBMIT Header: 3 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.addQueue(MinaIoHandler.java:249) == addQueue====添加队列信息=========== 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.addQueue(MinaIoHandler.java:257) == addQueue==tem.TODO_TYPE_SINGLE==单条=========== 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:199) ====UNITE_TODO_SUBMIT=======getMsgFormat=============10 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:202) =====UNITE_TODO_SUBMIT======getEncoding=============UTF-8 
+[WARN] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:178) MinaConstant.UNITE_TODO_SUBMIT Header: 3 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.addQueue(MinaIoHandler.java:249) == addQueue====添加队列信息=========== 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.addQueue(MinaIoHandler.java:257) == addQueue==tem.TODO_TYPE_SINGLE==单条=========== 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:199) ====UNITE_TODO_SUBMIT=======getMsgFormat=============10 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:202) =====UNITE_TODO_SUBMIT======getEncoding=============UTF-8 
+[WARN] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:51) MinaConstant.UNITE_TODO_SUBMIT Header: 3 
+[WARN] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:56) MinaConstant.UNITE_TODO_SUBMIT getCommandLength: 3073 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:102) ==setBody=====msgId===========[B@11ca803 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:115) ===setBody====msgFormat===========10 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:119) ===setBody====classLength===========39 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:123) ===setBody====signbyte===========-38 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:126) ==setBody=====msgLength===========2994 
+[WARN] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:60) MinaConstant.UNITE_TODO_SUBMIT buffer getHexDump:  
+[WARN] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:51) MinaConstant.UNITE_TODO_SUBMIT Header: 3 
+[WARN] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:56) MinaConstant.UNITE_TODO_SUBMIT getCommandLength: 3073 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:102) ==setBody=====msgId===========[B@618d26 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:115) ===setBody====msgFormat===========10 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:119) ===setBody====classLength===========39 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:123) ===setBody====signbyte===========-38 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:126) ==setBody=====msgLength===========2994 
+[WARN] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:60) MinaConstant.UNITE_TODO_SUBMIT buffer getHexDump:  
+[WARN] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:51) MinaConstant.UNITE_TODO_SUBMIT Header: 3 
+[WARN] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:56) MinaConstant.UNITE_TODO_SUBMIT getCommandLength: 3073 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:102) ==setBody=====msgId===========[B@15ad5c6 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:115) ===setBody====msgFormat===========10 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:119) ===setBody====classLength===========39 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:123) ===setBody====signbyte===========-38 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:126) ==setBody=====msgLength===========2994 
+[WARN] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:60) MinaConstant.UNITE_TODO_SUBMIT buffer getHexDump:  
+[WARN] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:51) MinaConstant.UNITE_TODO_SUBMIT Header: 3 
+[WARN] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:56) MinaConstant.UNITE_TODO_SUBMIT getCommandLength: 3073 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:102) ==setBody=====msgId===========[B@1e2ca7 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:115) ===setBody====msgFormat===========10 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:119) ===setBody====classLength===========39 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:123) ===setBody====signbyte===========-38 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:126) ==setBody=====msgLength===========2994 
+[WARN] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:60) MinaConstant.UNITE_TODO_SUBMIT buffer getHexDump:  
+[WARN] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:51) MinaConstant.UNITE_TODO_SUBMIT Header: 3 
+[WARN] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:56) MinaConstant.UNITE_TODO_SUBMIT getCommandLength: 3073 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:102) ==setBody=====msgId===========[B@df1832 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:115) ===setBody====msgFormat===========10 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:119) ===setBody====classLength===========39 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:123) ===setBody====signbyte===========-38 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:126) ==setBody=====msgLength===========2994 
+[WARN] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:60) MinaConstant.UNITE_TODO_SUBMIT buffer getHexDump:  
+[WARN] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:51) MinaConstant.UNITE_TODO_SUBMIT Header: 3 
+[WARN] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:56) MinaConstant.UNITE_TODO_SUBMIT getCommandLength: 3073 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:102) ==setBody=====msgId===========[B@1576e70 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:115) ===setBody====msgFormat===========10 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:119) ===setBody====classLength===========39 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:123) ===setBody====signbyte===========-38 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:126) ==setBody=====msgLength===========2994 
+[WARN] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:60) MinaConstant.UNITE_TODO_SUBMIT buffer getHexDump:  
+[WARN] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:51) MinaConstant.UNITE_TODO_SUBMIT Header: 3 
+[WARN] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:56) MinaConstant.UNITE_TODO_SUBMIT getCommandLength: 3073 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:102) ==setBody=====msgId===========[B@e3c624 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:115) ===setBody====msgFormat===========10 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:119) ===setBody====classLength===========39 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:123) ===setBody====signbyte===========-38 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:126) ==setBody=====msgLength===========2994 
+[WARN] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:60) MinaConstant.UNITE_TODO_SUBMIT buffer getHexDump:  
+[WARN] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:51) MinaConstant.UNITE_TODO_SUBMIT Header: 3 
+[WARN] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:56) MinaConstant.UNITE_TODO_SUBMIT getCommandLength: 3073 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:102) ==setBody=====msgId===========[B@888e6c 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:115) ===setBody====msgFormat===========10 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:119) ===setBody====classLength===========39 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:123) ===setBody====signbyte===========-38 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:126) ==setBody=====msgLength===========2994 
+[WARN] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:60) MinaConstant.UNITE_TODO_SUBMIT buffer getHexDump:  
+[WARN] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:51) MinaConstant.UNITE_TODO_SUBMIT Header: 3 
+[WARN] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:56) MinaConstant.UNITE_TODO_SUBMIT getCommandLength: 3073 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:102) ==setBody=====msgId===========[B@15a6029 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:115) ===setBody====msgFormat===========10 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:119) ===setBody====classLength===========39 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:123) ===setBody====signbyte===========-38 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:126) ==setBody=====msgLength===========2994 
+[WARN] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:60) MinaConstant.UNITE_TODO_SUBMIT buffer getHexDump:  
+[WARN] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:178) MinaConstant.UNITE_TODO_SUBMIT Header: 3 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.addQueue(MinaIoHandler.java:249) == addQueue====添加队列信息=========== 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.addQueue(MinaIoHandler.java:257) == addQueue==tem.TODO_TYPE_SINGLE==单条=========== 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:199) ====UNITE_TODO_SUBMIT=======getMsgFormat=============10 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:202) =====UNITE_TODO_SUBMIT======getEncoding=============UTF-8 
+[WARN] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:178) MinaConstant.UNITE_TODO_SUBMIT Header: 3 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.addQueue(MinaIoHandler.java:249) == addQueue====添加队列信息=========== 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.addQueue(MinaIoHandler.java:257) == addQueue==tem.TODO_TYPE_SINGLE==单条=========== 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:199) ====UNITE_TODO_SUBMIT=======getMsgFormat=============10 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:202) =====UNITE_TODO_SUBMIT======getEncoding=============UTF-8 
+[WARN] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:178) MinaConstant.UNITE_TODO_SUBMIT Header: 3 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.addQueue(MinaIoHandler.java:249) == addQueue====添加队列信息=========== 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.addQueue(MinaIoHandler.java:257) == addQueue==tem.TODO_TYPE_SINGLE==单条=========== 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:199) ====UNITE_TODO_SUBMIT=======getMsgFormat=============10 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:202) =====UNITE_TODO_SUBMIT======getEncoding=============UTF-8 
+[WARN] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:178) MinaConstant.UNITE_TODO_SUBMIT Header: 3 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.addQueue(MinaIoHandler.java:249) == addQueue====添加队列信息=========== 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.addQueue(MinaIoHandler.java:257) == addQueue==tem.TODO_TYPE_SINGLE==单条=========== 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:199) ====UNITE_TODO_SUBMIT=======getMsgFormat=============10 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:202) =====UNITE_TODO_SUBMIT======getEncoding=============UTF-8 
+[WARN] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:178) MinaConstant.UNITE_TODO_SUBMIT Header: 3 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.addQueue(MinaIoHandler.java:249) == addQueue====添加队列信息=========== 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.addQueue(MinaIoHandler.java:257) == addQueue==tem.TODO_TYPE_SINGLE==单条=========== 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:199) ====UNITE_TODO_SUBMIT=======getMsgFormat=============10 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:202) =====UNITE_TODO_SUBMIT======getEncoding=============UTF-8 
+[WARN] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:178) MinaConstant.UNITE_TODO_SUBMIT Header: 3 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.addQueue(MinaIoHandler.java:249) == addQueue====添加队列信息=========== 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.addQueue(MinaIoHandler.java:257) == addQueue==tem.TODO_TYPE_SINGLE==单条=========== 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:199) ====UNITE_TODO_SUBMIT=======getMsgFormat=============10 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:202) =====UNITE_TODO_SUBMIT======getEncoding=============UTF-8 
+[WARN] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:178) MinaConstant.UNITE_TODO_SUBMIT Header: 3 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.addQueue(MinaIoHandler.java:249) == addQueue====添加队列信息=========== 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.addQueue(MinaIoHandler.java:257) == addQueue==tem.TODO_TYPE_SINGLE==单条=========== 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:199) ====UNITE_TODO_SUBMIT=======getMsgFormat=============10 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:202) =====UNITE_TODO_SUBMIT======getEncoding=============UTF-8 
+[WARN] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:178) MinaConstant.UNITE_TODO_SUBMIT Header: 3 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.addQueue(MinaIoHandler.java:249) == addQueue====添加队列信息=========== 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.addQueue(MinaIoHandler.java:257) == addQueue==tem.TODO_TYPE_SINGLE==单条=========== 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:199) ====UNITE_TODO_SUBMIT=======getMsgFormat=============10 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:202) =====UNITE_TODO_SUBMIT======getEncoding=============UTF-8 
+[WARN] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:178) MinaConstant.UNITE_TODO_SUBMIT Header: 3 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.addQueue(MinaIoHandler.java:249) == addQueue====添加队列信息=========== 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.addQueue(MinaIoHandler.java:257) == addQueue==tem.TODO_TYPE_SINGLE==单条=========== 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:199) ====UNITE_TODO_SUBMIT=======getMsgFormat=============10 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:202) =====UNITE_TODO_SUBMIT======getEncoding=============UTF-8 
+[WARN] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:51) MinaConstant.UNITE_TODO_SUBMIT Header: 3 
+[WARN] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:56) MinaConstant.UNITE_TODO_SUBMIT getCommandLength: 3073 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:102) ==setBody=====msgId===========[B@67064 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:115) ===setBody====msgFormat===========10 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:119) ===setBody====classLength===========39 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:123) ===setBody====signbyte===========-38 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:126) ==setBody=====msgLength===========2994 
+[WARN] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:60) MinaConstant.UNITE_TODO_SUBMIT buffer getHexDump:  
+[WARN] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:51) MinaConstant.UNITE_TODO_SUBMIT Header: 3 
+[WARN] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:56) MinaConstant.UNITE_TODO_SUBMIT getCommandLength: 3073 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:102) ==setBody=====msgId===========[B@feb48 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:115) ===setBody====msgFormat===========10 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:119) ===setBody====classLength===========39 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:123) ===setBody====signbyte===========-38 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:126) ==setBody=====msgLength===========2994 
+[WARN] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:60) MinaConstant.UNITE_TODO_SUBMIT buffer getHexDump:  
+[WARN] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:51) MinaConstant.UNITE_TODO_SUBMIT Header: 3 
+[WARN] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:56) MinaConstant.UNITE_TODO_SUBMIT getCommandLength: 3073 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:102) ==setBody=====msgId===========[B@b03be0 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:115) ===setBody====msgFormat===========10 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:119) ===setBody====classLength===========39 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:123) ===setBody====signbyte===========-38 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:126) ==setBody=====msgLength===========2994 
+[WARN] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:60) MinaConstant.UNITE_TODO_SUBMIT buffer getHexDump:  
+[WARN] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:51) MinaConstant.UNITE_TODO_SUBMIT Header: 3 
+[WARN] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:56) MinaConstant.UNITE_TODO_SUBMIT getCommandLength: 3073 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:102) ==setBody=====msgId===========[B@53fb57 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:115) ===setBody====msgFormat===========10 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:119) ===setBody====classLength===========39 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:123) ===setBody====signbyte===========-38 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:126) ==setBody=====msgLength===========2994 
+[WARN] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:60) MinaConstant.UNITE_TODO_SUBMIT buffer getHexDump:  
+[WARN] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:51) MinaConstant.UNITE_TODO_SUBMIT Header: 3 
+[WARN] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:56) MinaConstant.UNITE_TODO_SUBMIT getCommandLength: 3073 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:102) ==setBody=====msgId===========[B@297ffb 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:115) ===setBody====msgFormat===========10 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:119) ===setBody====classLength===========39 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:123) ===setBody====signbyte===========-38 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:126) ==setBody=====msgLength===========2994 
+[WARN] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:60) MinaConstant.UNITE_TODO_SUBMIT buffer getHexDump:  
+[WARN] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:51) MinaConstant.UNITE_TODO_SUBMIT Header: 3 
+[WARN] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:56) MinaConstant.UNITE_TODO_SUBMIT getCommandLength: 3073 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:102) ==setBody=====msgId===========[B@71dc3d 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:115) ===setBody====msgFormat===========10 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:119) ===setBody====classLength===========39 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:123) ===setBody====signbyte===========-38 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:126) ==setBody=====msgLength===========2994 
+[WARN] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:60) MinaConstant.UNITE_TODO_SUBMIT buffer getHexDump:  
+[WARN] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:51) MinaConstant.UNITE_TODO_SUBMIT Header: 3 
+[WARN] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:56) MinaConstant.UNITE_TODO_SUBMIT getCommandLength: 3073 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:102) ==setBody=====msgId===========[B@18a49e0 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:115) ===setBody====msgFormat===========10 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:119) ===setBody====classLength===========39 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:123) ===setBody====signbyte===========-38 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:126) ==setBody=====msgLength===========2994 
+[WARN] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:60) MinaConstant.UNITE_TODO_SUBMIT buffer getHexDump:  
+[WARN] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:51) MinaConstant.UNITE_TODO_SUBMIT Header: 3 
+[WARN] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:56) MinaConstant.UNITE_TODO_SUBMIT getCommandLength: 3073 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:102) ==setBody=====msgId===========[B@3c9217 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:115) ===setBody====msgFormat===========10 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:119) ===setBody====classLength===========39 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:123) ===setBody====signbyte===========-38 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:126) ==setBody=====msgLength===========2994 
+[WARN] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:60) MinaConstant.UNITE_TODO_SUBMIT buffer getHexDump:  
+[WARN] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:51) MinaConstant.UNITE_TODO_SUBMIT Header: 3 
+[WARN] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:56) MinaConstant.UNITE_TODO_SUBMIT getCommandLength: 3073 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:102) ==setBody=====msgId===========[B@acb158 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:115) ===setBody====msgFormat===========10 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:119) ===setBody====classLength===========39 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:123) ===setBody====signbyte===========-38 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:126) ==setBody=====msgLength===========2994 
+[WARN] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:60) MinaConstant.UNITE_TODO_SUBMIT buffer getHexDump:  
+[WARN] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:51) MinaConstant.UNITE_TODO_SUBMIT Header: 3 
+[WARN] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:56) MinaConstant.UNITE_TODO_SUBMIT getCommandLength: 3073 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:102) ==setBody=====msgId===========[B@b33d0a 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:115) ===setBody====msgFormat===========10 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:119) ===setBody====classLength===========39 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:123) ===setBody====signbyte===========-38 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.SubmitTodoEntity.setBody(SubmitTodoEntity.java:126) ==setBody=====msgLength===========2994 
+[WARN] 2014-09-23-15:27:37 com.mocha.unitcode.mina.pdu.MinaPDUParser.createPDUFromBuffer(MinaPDUParser.java:60) MinaConstant.UNITE_TODO_SUBMIT buffer getHexDump:  
+[WARN] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:178) MinaConstant.UNITE_TODO_SUBMIT Header: 3 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.addQueue(MinaIoHandler.java:249) == addQueue====添加队列信息=========== 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.addQueue(MinaIoHandler.java:257) == addQueue==tem.TODO_TYPE_SINGLE==单条=========== 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:199) ====UNITE_TODO_SUBMIT=======getMsgFormat=============10 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:202) =====UNITE_TODO_SUBMIT======getEncoding=============UTF-8 
+[WARN] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:178) MinaConstant.UNITE_TODO_SUBMIT Header: 3 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.addQueue(MinaIoHandler.java:249) == addQueue====添加队列信息=========== 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.addQueue(MinaIoHandler.java:257) == addQueue==tem.TODO_TYPE_SINGLE==单条=========== 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:199) ====UNITE_TODO_SUBMIT=======getMsgFormat=============10 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:202) =====UNITE_TODO_SUBMIT======getEncoding=============UTF-8 
+[WARN] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:178) MinaConstant.UNITE_TODO_SUBMIT Header: 3 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.addQueue(MinaIoHandler.java:249) == addQueue====添加队列信息=========== 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.addQueue(MinaIoHandler.java:257) == addQueue==tem.TODO_TYPE_SINGLE==单条=========== 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:199) ====UNITE_TODO_SUBMIT=======getMsgFormat=============10 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:202) =====UNITE_TODO_SUBMIT======getEncoding=============UTF-8 
+[WARN] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:178) MinaConstant.UNITE_TODO_SUBMIT Header: 3 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.addQueue(MinaIoHandler.java:249) == addQueue====添加队列信息=========== 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.addQueue(MinaIoHandler.java:257) == addQueue==tem.TODO_TYPE_SINGLE==单条=========== 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:199) ====UNITE_TODO_SUBMIT=======getMsgFormat=============10 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:202) =====UNITE_TODO_SUBMIT======getEncoding=============UTF-8 
+[WARN] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:178) MinaConstant.UNITE_TODO_SUBMIT Header: 3 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.addQueue(MinaIoHandler.java:249) == addQueue====添加队列信息=========== 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.addQueue(MinaIoHandler.java:257) == addQueue==tem.TODO_TYPE_SINGLE==单条=========== 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:199) ====UNITE_TODO_SUBMIT=======getMsgFormat=============10 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:202) =====UNITE_TODO_SUBMIT======getEncoding=============UTF-8 
+[WARN] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:178) MinaConstant.UNITE_TODO_SUBMIT Header: 3 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.addQueue(MinaIoHandler.java:249) == addQueue====添加队列信息=========== 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.addQueue(MinaIoHandler.java:257) == addQueue==tem.TODO_TYPE_SINGLE==单条=========== 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:199) ====UNITE_TODO_SUBMIT=======getMsgFormat=============10 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:202) =====UNITE_TODO_SUBMIT======getEncoding=============UTF-8 
+[WARN] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:178) MinaConstant.UNITE_TODO_SUBMIT Header: 3 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.addQueue(MinaIoHandler.java:249) == addQueue====添加队列信息=========== 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.addQueue(MinaIoHandler.java:257) == addQueue==tem.TODO_TYPE_SINGLE==单条=========== 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:199) ====UNITE_TODO_SUBMIT=======getMsgFormat=============10 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:202) =====UNITE_TODO_SUBMIT======getEncoding=============UTF-8 
+[WARN] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:178) MinaConstant.UNITE_TODO_SUBMIT Header: 3 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.addQueue(MinaIoHandler.java:249) == addQueue====添加队列信息=========== 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.addQueue(MinaIoHandler.java:257) == addQueue==tem.TODO_TYPE_SINGLE==单条=========== 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:199) ====UNITE_TODO_SUBMIT=======getMsgFormat=============10 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:202) =====UNITE_TODO_SUBMIT======getEncoding=============UTF-8 
+[WARN] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:178) MinaConstant.UNITE_TODO_SUBMIT Header: 3 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.addQueue(MinaIoHandler.java:249) == addQueue====添加队列信息=========== 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.addQueue(MinaIoHandler.java:257) == addQueue==tem.TODO_TYPE_SINGLE==单条=========== 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:199) ====UNITE_TODO_SUBMIT=======getMsgFormat=============10 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:202) =====UNITE_TODO_SUBMIT======getEncoding=============UTF-8 
+[WARN] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:178) MinaConstant.UNITE_TODO_SUBMIT Header: 3 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.addQueue(MinaIoHandler.java:249) == addQueue====添加队列信息=========== 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.addQueue(MinaIoHandler.java:257) == addQueue==tem.TODO_TYPE_SINGLE==单条=========== 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:199) ====UNITE_TODO_SUBMIT=======getMsgFormat=============10 
+[INFO] 2014-09-23-15:27:37 com.mocha.unitcode.mina.server.handler.MinaIoHandler.messageReceived(MinaIoHandler.java:202) =====UNITE_TODO_SUBMIT======getEncoding=============UTF-8 

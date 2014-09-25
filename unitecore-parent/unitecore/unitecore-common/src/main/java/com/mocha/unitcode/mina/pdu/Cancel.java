@@ -27,7 +27,7 @@ public class Cancel extends Request {
 
 	private String msgId = "";
 
-	protected Response createResponse() {
+	protected Response createResponse(int commandId) {
 		return new CancelResp();
 	}
 
@@ -69,5 +69,11 @@ public class Cancel extends Request {
 
 	public String name() {
 		return "CMPP Cancel";
+	}
+
+	@Override
+	protected Response createResponse() {
+		// TODO Auto-generated method stub
+		return null;
 	}
 }

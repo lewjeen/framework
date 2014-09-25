@@ -140,7 +140,7 @@ public class MinaServer extends IoHandlerAdapter {
 
 	public void start() throws Exception {
 		final InetSocketAddress socketAddress = new InetSocketAddress(
-				"127.0.0.1", PORT);
+				"10.1.7.41", PORT);
 		acceptor.setHandler(new MinaIoHandler(LOCK));
 		acceptor.bind(socketAddress);
 		Logger.getLogger(MinaConstant.LOG_CONNECT).info(

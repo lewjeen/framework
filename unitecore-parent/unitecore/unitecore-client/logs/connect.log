@@ -1,51 +1,162 @@
-[INFO] 2014-09-09-14:59:52 com.mocha.unitcode.mina.client.MinaClient.init(MinaClient.java:52)   初始化通道 init() 
-[INFO] 2014-09-09-14:59:52 com.mocha.unitcode.mina.client.MinaClient.getConnectFuture(MinaClient.java:78) MinaClient。getConnectFuture  connector == null未连接，重新创建 
-[INFO] 2014-09-09-14:59:53 com.mocha.unitcode.mina.client.MinaClient.init(MinaClient.java:57) 进入MTClient。init  awaitUninterruptibly 结束 
-[INFO] 2014-09-09-16:07:40 com.mocha.unitcode.mina.client.MinaClient.init(MinaClient.java:52)   初始化通道 init() 
-[INFO] 2014-09-09-16:07:40 com.mocha.unitcode.mina.client.MinaClient.getConnectFuture(MinaClient.java:78) MinaClient。getConnectFuture  connector == null未连接，重新创建 
-[INFO] 2014-09-09-16:07:40 com.mocha.unitcode.mina.client.MinaClient.init(MinaClient.java:57) 进入MTClient。init  awaitUninterruptibly 结束 
-[INFO] 2014-09-09-16:07:40 com.mocha.unitcode.mina.client.MinaClient.init(MinaClient.java:62) 进入MTClient。init  结束 sessionid=1 
-[INFO] 2014-09-09-16:07:40 com.mocha.unitcode.mina.client.MinaClient.init(MinaClient.java:64) CONNECT() sessionid=1 
-[INFO] 2014-09-09-16:07:40 com.mocha.unitcode.mina.client.MinaClient.CONNECT(MinaClient.java:177) 
+[INFO] 2014-09-23-15:09:22 com.mocha.unitcode.mina.client.CoreClientCenterStore.init(CoreClientCenterStore.java:50)   初始化通道 init() 
+[INFO] 2014-09-23-15:09:22 com.mocha.unitcode.mina.client.CoreClientCenterStore.getConnectFuture(CoreClientCenterStore.java:76) MinaClient。getConnectFuture  connector == null未连接，重新创建 
+[INFO] 2014-09-23-15:09:22 com.mocha.unitcode.mina.client.CoreClientCenterStore.init(CoreClientCenterStore.java:55) 进入MTClient。init  awaitUninterruptibly 结束 
+[INFO] 2014-09-23-15:09:22 com.mocha.unitcode.mina.client.CoreClientCenterStore.init(CoreClientCenterStore.java:60) 进入MTClient。init  结束 sessionid=1 
+[INFO] 2014-09-23-15:09:22 com.mocha.unitcode.mina.client.CoreClientCenterStore.init(CoreClientCenterStore.java:62) CONNECT() sessionid=1 
+[INFO] 2014-09-23-15:09:22 com.mocha.unitcode.mina.client.CoreClientCenterStore.CONNECT(CoreClientCenterStore.java:177) 
 Login************************************
 clientId:		91947
-authClient:	�(����g�
+authClient:	Pq��~`L���o��h
 version:		48
-timeStamp:	909160740
+timeStamp:	923150922
 sharedSecret:	91947
 ************************************Login 
-[INFO] 2014-09-09-16:07:40 com.mocha.unitcode.mina.client.MinaClient.CONNECT(MinaClient.java:177) 
+[INFO] 2014-09-23-15:09:36 com.mocha.unitcode.mina.client.CoreClientCenterStore.send(CoreClientCenterStore.java:122) ------------开始发送数据-------- 
+[INFO] 2014-09-23-15:09:36 com.mocha.unitcode.mina.client.CoreClientCenterStore.send(CoreClientCenterStore.java:125) --------------------连接初始话成功----------------22440556 session =1 
+[INFO] 2014-09-23-15:09:38 com.mocha.unitcode.mina.client.CoreClientCenterStore.send(CoreClientCenterStore.java:130) --------------------发送消息成功----------------22440556 session =1 
+[INFO] 2014-09-23-15:12:00 com.mocha.unitcode.mina.client.CoreClientCenterStore.init(CoreClientCenterStore.java:50)   初始化通道 init() 
+[INFO] 2014-09-23-15:12:00 com.mocha.unitcode.mina.client.CoreClientCenterStore.getConnectFuture(CoreClientCenterStore.java:76) MinaClient。getConnectFuture  connector == null未连接，重新创建 
+[INFO] 2014-09-23-15:12:00 com.mocha.unitcode.mina.client.CoreClientCenterStore.init(CoreClientCenterStore.java:55) 进入MTClient。init  awaitUninterruptibly 结束 
+[INFO] 2014-09-23-15:12:00 com.mocha.unitcode.mina.client.CoreClientCenterStore.init(CoreClientCenterStore.java:60) 进入MTClient。init  结束 sessionid=1 
+[INFO] 2014-09-23-15:12:00 com.mocha.unitcode.mina.client.CoreClientCenterStore.init(CoreClientCenterStore.java:62) CONNECT() sessionid=1 
+[INFO] 2014-09-23-15:12:00 com.mocha.unitcode.mina.client.CoreClientCenterStore.CONNECT(CoreClientCenterStore.java:177) 
 Login************************************
 clientId:		91947
-authClient:	�(����g�
+authClient:	�Z�Ix/� +YΖ�
 version:		48
-timeStamp:	909160740
+timeStamp:	923151200
 sharedSecret:	91947
 ************************************Login 
-[INFO] 2014-09-09-16:07:40 com.mocha.unitcode.mina.client.MinaClient.send(MinaClient.java:124) ------------开始发送数据-------- 
-[INFO] 2014-09-09-16:07:40 com.mocha.unitcode.mina.client.MinaClient.send(MinaClient.java:127) --------------------连接初始话成功----------------13121387 
-[INFO] 2014-09-09-16:07:40 com.mocha.unitcode.mina.client.MinaClient.send(MinaClient.java:131) --------------------发送消息成功----------------13121387 
-[INFO] 2014-09-09-16:10:48 com.mocha.unitcode.mina.client.MinaClient.init(MinaClient.java:52)   初始化通道 init() 
-[INFO] 2014-09-09-16:10:48 com.mocha.unitcode.mina.client.MinaClient.getConnectFuture(MinaClient.java:78) MinaClient。getConnectFuture  connector == null未连接，重新创建 
-[INFO] 2014-09-09-16:10:49 com.mocha.unitcode.mina.client.MinaClient.init(MinaClient.java:57) 进入MTClient。init  awaitUninterruptibly 结束 
-[INFO] 2014-09-09-16:10:49 com.mocha.unitcode.mina.client.MinaClient.init(MinaClient.java:62) 进入MTClient。init  结束 sessionid=1 
-[INFO] 2014-09-09-16:10:49 com.mocha.unitcode.mina.client.MinaClient.init(MinaClient.java:64) CONNECT() sessionid=1 
-[INFO] 2014-09-09-16:10:49 com.mocha.unitcode.mina.client.MinaClient.CONNECT(MinaClient.java:177) 
+[INFO] 2014-09-23-15:12:00 com.mocha.unitcode.mina.client.CoreClientCenterStore.send(CoreClientCenterStore.java:122) ------------开始发送数据-------- 
+[INFO] 2014-09-23-15:12:00 com.mocha.unitcode.mina.client.CoreClientCenterStore.send(CoreClientCenterStore.java:125) --------------------连接初始话成功----------------15277917 session =1 
+[INFO] 2014-09-23-15:12:00 com.mocha.unitcode.mina.client.CoreClientCenterStore.send(CoreClientCenterStore.java:130) --------------------发送消息成功----------------15277917 session =1 
+[INFO] 2014-09-23-15:12:00 com.mocha.unitcode.mina.client.CoreClientCenterStore.send(CoreClientCenterStore.java:122) ------------开始发送数据-------- 
+[INFO] 2014-09-23-15:12:00 com.mocha.unitcode.mina.client.CoreClientCenterStore.send(CoreClientCenterStore.java:125) --------------------连接初始话成功----------------11155366 session =1 
+[INFO] 2014-09-23-15:12:00 com.mocha.unitcode.mina.client.CoreClientCenterStore.send(CoreClientCenterStore.java:130) --------------------发送消息成功----------------11155366 session =1 
+[INFO] 2014-09-23-15:12:00 com.mocha.unitcode.mina.client.CoreClientCenterStore.send(CoreClientCenterStore.java:122) ------------开始发送数据-------- 
+[INFO] 2014-09-23-15:12:00 com.mocha.unitcode.mina.client.CoreClientCenterStore.send(CoreClientCenterStore.java:125) --------------------连接初始话成功----------------20531348 session =1 
+[INFO] 2014-09-23-15:12:00 com.mocha.unitcode.mina.client.CoreClientCenterStore.send(CoreClientCenterStore.java:130) --------------------发送消息成功----------------20531348 session =1 
+[INFO] 2014-09-23-15:12:00 com.mocha.unitcode.mina.client.CoreClientCenterStore.send(CoreClientCenterStore.java:122) ------------开始发送数据-------- 
+[INFO] 2014-09-23-15:12:00 com.mocha.unitcode.mina.client.CoreClientCenterStore.send(CoreClientCenterStore.java:125) --------------------连接初始话成功----------------29173348 session =1 
+[INFO] 2014-09-23-15:12:00 com.mocha.unitcode.mina.client.CoreClientCenterStore.send(CoreClientCenterStore.java:130) --------------------发送消息成功----------------29173348 session =1 
+[INFO] 2014-09-23-15:12:00 com.mocha.unitcode.mina.client.CoreClientCenterStore.send(CoreClientCenterStore.java:122) ------------开始发送数据-------- 
+[INFO] 2014-09-23-15:12:00 com.mocha.unitcode.mina.client.CoreClientCenterStore.send(CoreClientCenterStore.java:125) --------------------连接初始话成功----------------17007273 session =1 
+[INFO] 2014-09-23-15:12:00 com.mocha.unitcode.mina.client.CoreClientCenterStore.send(CoreClientCenterStore.java:130) --------------------发送消息成功----------------17007273 session =1 
+[INFO] 2014-09-23-15:12:00 com.mocha.unitcode.mina.client.CoreClientCenterStore.send(CoreClientCenterStore.java:122) ------------开始发送数据-------- 
+[INFO] 2014-09-23-15:12:00 com.mocha.unitcode.mina.client.CoreClientCenterStore.send(CoreClientCenterStore.java:125) --------------------连接初始话成功----------------3199106 session =1 
+[INFO] 2014-09-23-15:12:00 com.mocha.unitcode.mina.client.CoreClientCenterStore.send(CoreClientCenterStore.java:130) --------------------发送消息成功----------------3199106 session =1 
+[INFO] 2014-09-23-15:12:00 com.mocha.unitcode.mina.client.CoreClientCenterStore.send(CoreClientCenterStore.java:122) ------------开始发送数据-------- 
+[INFO] 2014-09-23-15:12:00 com.mocha.unitcode.mina.client.CoreClientCenterStore.send(CoreClientCenterStore.java:125) --------------------连接初始话成功----------------22543186 session =1 
+[INFO] 2014-09-23-15:12:00 com.mocha.unitcode.mina.client.CoreClientCenterStore.send(CoreClientCenterStore.java:130) --------------------发送消息成功----------------22543186 session =1 
+[INFO] 2014-09-23-15:12:00 com.mocha.unitcode.mina.client.CoreClientCenterStore.send(CoreClientCenterStore.java:122) ------------开始发送数据-------- 
+[INFO] 2014-09-23-15:12:00 com.mocha.unitcode.mina.client.CoreClientCenterStore.send(CoreClientCenterStore.java:125) --------------------连接初始话成功----------------9097070 session =1 
+[INFO] 2014-09-23-15:12:00 com.mocha.unitcode.mina.client.CoreClientCenterStore.send(CoreClientCenterStore.java:130) --------------------发送消息成功----------------9097070 session =1 
+[INFO] 2014-09-23-15:12:00 com.mocha.unitcode.mina.client.CoreClientCenterStore.send(CoreClientCenterStore.java:122) ------------开始发送数据-------- 
+[INFO] 2014-09-23-15:12:00 com.mocha.unitcode.mina.client.CoreClientCenterStore.send(CoreClientCenterStore.java:125) --------------------连接初始话成功----------------20324370 session =1 
+[INFO] 2014-09-23-15:12:00 com.mocha.unitcode.mina.client.CoreClientCenterStore.send(CoreClientCenterStore.java:130) --------------------发送消息成功----------------20324370 session =1 
+[INFO] 2014-09-23-15:12:00 com.mocha.unitcode.mina.client.CoreClientCenterStore.send(CoreClientCenterStore.java:122) ------------开始发送数据-------- 
+[INFO] 2014-09-23-15:12:00 com.mocha.unitcode.mina.client.CoreClientCenterStore.send(CoreClientCenterStore.java:125) --------------------连接初始话成功----------------795840 session =1 
+[INFO] 2014-09-23-15:12:00 com.mocha.unitcode.mina.client.CoreClientCenterStore.send(CoreClientCenterStore.java:130) --------------------发送消息成功----------------795840 session =1 
+[INFO] 2014-09-23-15:13:07 com.mocha.unitcode.mina.client.CoreClientCenterStore.init(CoreClientCenterStore.java:50)   初始化通道 init() 
+[INFO] 2014-09-23-15:13:07 com.mocha.unitcode.mina.client.CoreClientCenterStore.getConnectFuture(CoreClientCenterStore.java:76) MinaClient。getConnectFuture  connector == null未连接，重新创建 
+[INFO] 2014-09-23-15:13:07 com.mocha.unitcode.mina.client.CoreClientCenterStore.init(CoreClientCenterStore.java:55) 进入MTClient。init  awaitUninterruptibly 结束 
+[INFO] 2014-09-23-15:13:07 com.mocha.unitcode.mina.client.CoreClientCenterStore.init(CoreClientCenterStore.java:60) 进入MTClient。init  结束 sessionid=1 
+[INFO] 2014-09-23-15:13:07 com.mocha.unitcode.mina.client.CoreClientCenterStore.init(CoreClientCenterStore.java:62) CONNECT() sessionid=1 
+[INFO] 2014-09-23-15:13:07 com.mocha.unitcode.mina.client.CoreClientCenterStore.CONNECT(CoreClientCenterStore.java:177) 
 Login************************************
 clientId:		91947
-authClient:	Ep�d�r�cҳ�#f�
+authClient:	
+`���ӌ�i��=~�C
 version:		48
-timeStamp:	909161049
+timeStamp:	923151307
 sharedSecret:	91947
 ************************************Login 
-[INFO] 2014-09-09-16:10:49 com.mocha.unitcode.mina.client.MinaClient.CONNECT(MinaClient.java:177) 
+[INFO] 2014-09-23-15:13:20 com.mocha.unitcode.mina.client.CoreClientCenterStore.send(CoreClientCenterStore.java:122) ------------开始发送数据-------- 
+[INFO] 2014-09-23-15:13:20 com.mocha.unitcode.mina.client.CoreClientCenterStore.send(CoreClientCenterStore.java:125) --------------------连接初始话成功----------------10966839 session =1 
+[INFO] 2014-09-23-15:13:22 com.mocha.unitcode.mina.client.CoreClientCenterStore.send(CoreClientCenterStore.java:130) --------------------发送消息成功----------------10966839 session =1 
+[INFO] 2014-09-23-15:16:03 com.mocha.unitcode.mina.client.CoreClientCenterStore.init(CoreClientCenterStore.java:50)   初始化通道 init() 
+[INFO] 2014-09-23-15:16:03 com.mocha.unitcode.mina.client.CoreClientCenterStore.getConnectFuture(CoreClientCenterStore.java:76) MinaClient。getConnectFuture  connector == null未连接，重新创建 
+[INFO] 2014-09-23-15:16:03 com.mocha.unitcode.mina.client.CoreClientCenterStore.init(CoreClientCenterStore.java:55) 进入MTClient。init  awaitUninterruptibly 结束 
+[INFO] 2014-09-23-15:16:03 com.mocha.unitcode.mina.client.CoreClientCenterStore.init(CoreClientCenterStore.java:60) 进入MTClient。init  结束 sessionid=1 
+[INFO] 2014-09-23-15:16:03 com.mocha.unitcode.mina.client.CoreClientCenterStore.init(CoreClientCenterStore.java:62) CONNECT() sessionid=1 
+[INFO] 2014-09-23-15:16:03 com.mocha.unitcode.mina.client.CoreClientCenterStore.CONNECT(CoreClientCenterStore.java:177) 
 Login************************************
 clientId:		91947
-authClient:	Ep�d�r�cҳ�#f�
+authClient:	�?�N�u(62!���
 version:		48
-timeStamp:	909161049
+timeStamp:	923151603
 sharedSecret:	91947
 ************************************Login 
-[INFO] 2014-09-09-16:10:49 com.mocha.unitcode.mina.client.MinaClient.send(MinaClient.java:124) ------------开始发送数据-------- 
-[INFO] 2014-09-09-16:10:49 com.mocha.unitcode.mina.client.MinaClient.send(MinaClient.java:127) --------------------连接初始话成功----------------29215192 
-[INFO] 2014-09-09-16:10:49 com.mocha.unitcode.mina.client.MinaClient.send(MinaClient.java:131) --------------------发送消息成功----------------29215192 
+[INFO] 2014-09-23-15:16:03 com.mocha.unitcode.mina.client.CoreClientCenterStore.send(CoreClientCenterStore.java:122) ------------开始发送数据-------- 
+[INFO] 2014-09-23-15:16:03 com.mocha.unitcode.mina.client.CoreClientCenterStore.send(CoreClientCenterStore.java:125) --------------------连接初始话成功----------------15277917 session =1 
+[INFO] 2014-09-23-15:16:03 com.mocha.unitcode.mina.client.CoreClientCenterStore.send(CoreClientCenterStore.java:130) --------------------发送消息成功----------------15277917 session =1 
+[INFO] 2014-09-23-15:16:03 com.mocha.unitcode.mina.client.CoreClientCenterStore.send(CoreClientCenterStore.java:122) ------------开始发送数据-------- 
+[INFO] 2014-09-23-15:16:03 com.mocha.unitcode.mina.client.CoreClientCenterStore.send(CoreClientCenterStore.java:125) --------------------连接初始话成功----------------11155366 session =1 
+[INFO] 2014-09-23-15:16:03 com.mocha.unitcode.mina.client.CoreClientCenterStore.send(CoreClientCenterStore.java:130) --------------------发送消息成功----------------11155366 session =1 
+[INFO] 2014-09-23-15:16:03 com.mocha.unitcode.mina.client.CoreClientCenterStore.send(CoreClientCenterStore.java:122) ------------开始发送数据-------- 
+[INFO] 2014-09-23-15:16:03 com.mocha.unitcode.mina.client.CoreClientCenterStore.send(CoreClientCenterStore.java:125) --------------------连接初始话成功----------------20531348 session =1 
+[INFO] 2014-09-23-15:16:03 com.mocha.unitcode.mina.client.CoreClientCenterStore.send(CoreClientCenterStore.java:130) --------------------发送消息成功----------------20531348 session =1 
+[INFO] 2014-09-23-15:16:03 com.mocha.unitcode.mina.client.CoreClientCenterStore.send(CoreClientCenterStore.java:122) ------------开始发送数据-------- 
+[INFO] 2014-09-23-15:16:03 com.mocha.unitcode.mina.client.CoreClientCenterStore.send(CoreClientCenterStore.java:125) --------------------连接初始话成功----------------29173348 session =1 
+[INFO] 2014-09-23-15:16:03 com.mocha.unitcode.mina.client.CoreClientCenterStore.send(CoreClientCenterStore.java:130) --------------------发送消息成功----------------29173348 session =1 
+[INFO] 2014-09-23-15:16:03 com.mocha.unitcode.mina.client.CoreClientCenterStore.send(CoreClientCenterStore.java:122) ------------开始发送数据-------- 
+[INFO] 2014-09-23-15:16:03 com.mocha.unitcode.mina.client.CoreClientCenterStore.send(CoreClientCenterStore.java:125) --------------------连接初始话成功----------------17007273 session =1 
+[INFO] 2014-09-23-15:16:03 com.mocha.unitcode.mina.client.CoreClientCenterStore.send(CoreClientCenterStore.java:130) --------------------发送消息成功----------------17007273 session =1 
+[INFO] 2014-09-23-15:16:03 com.mocha.unitcode.mina.client.CoreClientCenterStore.send(CoreClientCenterStore.java:122) ------------开始发送数据-------- 
+[INFO] 2014-09-23-15:16:03 com.mocha.unitcode.mina.client.CoreClientCenterStore.send(CoreClientCenterStore.java:125) --------------------连接初始话成功----------------3199106 session =1 
+[INFO] 2014-09-23-15:16:03 com.mocha.unitcode.mina.client.CoreClientCenterStore.send(CoreClientCenterStore.java:130) --------------------发送消息成功----------------3199106 session =1 
+[INFO] 2014-09-23-15:16:03 com.mocha.unitcode.mina.client.CoreClientCenterStore.send(CoreClientCenterStore.java:122) ------------开始发送数据-------- 
+[INFO] 2014-09-23-15:16:03 com.mocha.unitcode.mina.client.CoreClientCenterStore.send(CoreClientCenterStore.java:125) --------------------连接初始话成功----------------22543186 session =1 
+[INFO] 2014-09-23-15:16:03 com.mocha.unitcode.mina.client.CoreClientCenterStore.send(CoreClientCenterStore.java:130) --------------------发送消息成功----------------22543186 session =1 
+[INFO] 2014-09-23-15:16:03 com.mocha.unitcode.mina.client.CoreClientCenterStore.send(CoreClientCenterStore.java:122) ------------开始发送数据-------- 
+[INFO] 2014-09-23-15:16:03 com.mocha.unitcode.mina.client.CoreClientCenterStore.send(CoreClientCenterStore.java:125) --------------------连接初始话成功----------------9097070 session =1 
+[INFO] 2014-09-23-15:16:03 com.mocha.unitcode.mina.client.CoreClientCenterStore.send(CoreClientCenterStore.java:130) --------------------发送消息成功----------------9097070 session =1 
+[INFO] 2014-09-23-15:16:03 com.mocha.unitcode.mina.client.CoreClientCenterStore.send(CoreClientCenterStore.java:122) ------------开始发送数据-------- 
+[INFO] 2014-09-23-15:16:03 com.mocha.unitcode.mina.client.CoreClientCenterStore.send(CoreClientCenterStore.java:125) --------------------连接初始话成功----------------20324370 session =1 
+[INFO] 2014-09-23-15:16:03 com.mocha.unitcode.mina.client.CoreClientCenterStore.send(CoreClientCenterStore.java:130) --------------------发送消息成功----------------20324370 session =1 
+[INFO] 2014-09-23-15:16:03 com.mocha.unitcode.mina.client.CoreClientCenterStore.send(CoreClientCenterStore.java:122) ------------开始发送数据-------- 
+[INFO] 2014-09-23-15:16:03 com.mocha.unitcode.mina.client.CoreClientCenterStore.send(CoreClientCenterStore.java:125) --------------------连接初始话成功----------------795840 session =1 
+[INFO] 2014-09-23-15:16:03 com.mocha.unitcode.mina.client.CoreClientCenterStore.send(CoreClientCenterStore.java:130) --------------------发送消息成功----------------795840 session =1 
+[INFO] 2014-09-23-15:16:33 com.mocha.unitcode.mina.client.CoreClientCenterStore.init(CoreClientCenterStore.java:50)   初始化通道 init() 
+[INFO] 2014-09-23-15:16:33 com.mocha.unitcode.mina.client.CoreClientCenterStore.getConnectFuture(CoreClientCenterStore.java:76) MinaClient。getConnectFuture  connector == null未连接，重新创建 
+[INFO] 2014-09-23-15:16:33 com.mocha.unitcode.mina.client.CoreClientCenterStore.init(CoreClientCenterStore.java:55) 进入MTClient。init  awaitUninterruptibly 结束 
+[INFO] 2014-09-23-15:16:33 com.mocha.unitcode.mina.client.CoreClientCenterStore.init(CoreClientCenterStore.java:60) 进入MTClient。init  结束 sessionid=1 
+[INFO] 2014-09-23-15:16:33 com.mocha.unitcode.mina.client.CoreClientCenterStore.init(CoreClientCenterStore.java:62) CONNECT() sessionid=1 
+[INFO] 2014-09-23-15:16:33 com.mocha.unitcode.mina.client.CoreClientCenterStore.CONNECT(CoreClientCenterStore.java:177) 
+Login************************************
+clientId:		91947
+authClient:	�C��j�y�*N9���
+version:		48
+timeStamp:	923151633
+sharedSecret:	91947
+************************************Login 
+[INFO] 2014-09-23-15:16:43 com.mocha.unitcode.mina.client.CoreClientCenterStore.send(CoreClientCenterStore.java:122) ------------开始发送数据-------- 
+[INFO] 2014-09-23-15:16:43 com.mocha.unitcode.mina.client.CoreClientCenterStore.send(CoreClientCenterStore.java:125) --------------------连接初始话成功----------------19874213 session =1 
+[INFO] 2014-09-23-15:16:44 com.mocha.unitcode.mina.client.CoreClientCenterStore.send(CoreClientCenterStore.java:130) --------------------发送消息成功----------------19874213 session =1 
+[INFO] 2014-09-23-15:16:48 com.mocha.unitcode.mina.client.CoreClientCenterStore.send(CoreClientCenterStore.java:122) ------------开始发送数据-------- 
+[INFO] 2014-09-23-15:16:48 com.mocha.unitcode.mina.client.CoreClientCenterStore.send(CoreClientCenterStore.java:125) --------------------连接初始话成功----------------17422995 session =1 
+[INFO] 2014-09-23-15:16:49 com.mocha.unitcode.mina.client.CoreClientCenterStore.send(CoreClientCenterStore.java:130) --------------------发送消息成功----------------17422995 session =1 
+[INFO] 2014-09-23-15:16:51 com.mocha.unitcode.mina.client.CoreClientCenterStore.send(CoreClientCenterStore.java:122) ------------开始发送数据-------- 
+[INFO] 2014-09-23-15:16:51 com.mocha.unitcode.mina.client.CoreClientCenterStore.send(CoreClientCenterStore.java:125) --------------------连接初始话成功----------------12252553 session =1 
+[INFO] 2014-09-23-15:16:52 com.mocha.unitcode.mina.client.CoreClientCenterStore.send(CoreClientCenterStore.java:130) --------------------发送消息成功----------------12252553 session =1 
+[INFO] 2014-09-23-15:16:54 com.mocha.unitcode.mina.client.CoreClientCenterStore.send(CoreClientCenterStore.java:122) ------------开始发送数据-------- 
+[INFO] 2014-09-23-15:16:54 com.mocha.unitcode.mina.client.CoreClientCenterStore.send(CoreClientCenterStore.java:125) --------------------连接初始话成功----------------17336859 session =1 
+[INFO] 2014-09-23-15:16:55 com.mocha.unitcode.mina.client.CoreClientCenterStore.send(CoreClientCenterStore.java:130) --------------------发送消息成功----------------17336859 session =1 
+[INFO] 2014-09-23-15:16:57 com.mocha.unitcode.mina.client.CoreClientCenterStore.send(CoreClientCenterStore.java:122) ------------开始发送数据-------- 
+[INFO] 2014-09-23-15:16:57 com.mocha.unitcode.mina.client.CoreClientCenterStore.send(CoreClientCenterStore.java:125) --------------------连接初始话成功----------------21846043 session =1 
+[INFO] 2014-09-23-15:16:58 com.mocha.unitcode.mina.client.CoreClientCenterStore.send(CoreClientCenterStore.java:130) --------------------发送消息成功----------------21846043 session =1 
+[INFO] 2014-09-23-15:17:01 com.mocha.unitcode.mina.client.CoreClientCenterStore.send(CoreClientCenterStore.java:122) ------------开始发送数据-------- 
+[INFO] 2014-09-23-15:17:01 com.mocha.unitcode.mina.client.CoreClientCenterStore.send(CoreClientCenterStore.java:125) --------------------连接初始话成功----------------10181026 session =1 
+[INFO] 2014-09-23-15:17:04 com.mocha.unitcode.mina.client.CoreClientCenterStore.send(CoreClientCenterStore.java:130) --------------------发送消息成功----------------10181026 session =1 
+[INFO] 2014-09-23-15:17:08 com.mocha.unitcode.mina.client.CoreClientCenterStore.send(CoreClientCenterStore.java:122) ------------开始发送数据-------- 
+[INFO] 2014-09-23-15:17:08 com.mocha.unitcode.mina.client.CoreClientCenterStore.send(CoreClientCenterStore.java:125) --------------------连接初始话成功----------------7579091 session =1 
+[INFO] 2014-09-23-15:17:09 com.mocha.unitcode.mina.client.CoreClientCenterStore.send(CoreClientCenterStore.java:130) --------------------发送消息成功----------------7579091 session =1 
+[INFO] 2014-09-23-15:17:12 com.mocha.unitcode.mina.client.CoreClientCenterStore.send(CoreClientCenterStore.java:122) ------------开始发送数据-------- 
+[INFO] 2014-09-23-15:17:12 com.mocha.unitcode.mina.client.CoreClientCenterStore.send(CoreClientCenterStore.java:125) --------------------连接初始话成功----------------8891751 session =1 
+[INFO] 2014-09-23-15:17:13 com.mocha.unitcode.mina.client.CoreClientCenterStore.send(CoreClientCenterStore.java:130) --------------------发送消息成功----------------8891751 session =1 
+[INFO] 2014-09-23-15:17:17 com.mocha.unitcode.mina.client.CoreClientCenterStore.send(CoreClientCenterStore.java:122) ------------开始发送数据-------- 
+[INFO] 2014-09-23-15:17:17 com.mocha.unitcode.mina.client.CoreClientCenterStore.send(CoreClientCenterStore.java:125) --------------------连接初始话成功----------------7751055 session =1 
+[INFO] 2014-09-23-15:17:17 com.mocha.unitcode.mina.client.CoreClientCenterStore.send(CoreClientCenterStore.java:130) --------------------发送消息成功----------------7751055 session =1 
+[INFO] 2014-09-23-15:17:20 com.mocha.unitcode.mina.client.CoreClientCenterStore.send(CoreClientCenterStore.java:122) ------------开始发送数据-------- 
+[INFO] 2014-09-23-15:17:20 com.mocha.unitcode.mina.client.CoreClientCenterStore.send(CoreClientCenterStore.java:125) --------------------连接初始话成功----------------30276889 session =1 
+[INFO] 2014-09-23-15:17:21 com.mocha.unitcode.mina.client.CoreClientCenterStore.send(CoreClientCenterStore.java:130) --------------------发送消息成功----------------30276889 session =1 

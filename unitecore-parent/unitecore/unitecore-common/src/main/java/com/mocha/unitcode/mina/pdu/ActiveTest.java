@@ -31,4 +31,10 @@ public class ActiveTest extends Request {
 	public String name() {
 		return "Mina ActiveTest";
 	}
+
+	@Override
+	protected Response createResponse(int commandId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
 }

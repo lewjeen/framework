@@ -10,6 +10,7 @@ import org.apache.mina.core.session.IoSession;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import com.mocha.unitcode.mina.client.CoreClientFactory;
 import com.mocha.unitcode.mina.client.thread.ActiveThread;
 import com.mocha.unitcode.mina.client.thread.MsgSendThread;
 import com.mocha.unitcode.mina.common.MinaConstant;
@@ -49,7 +50,7 @@ public class MinaClientIoHandler extends IoHandlerAdapter {
 		} else {
 			logger.info("I/O error: " + cause.getMessage());
 		}
-		session.close(true);
+		// session.close(true);
 	}
 
 	@Override
@@ -87,6 +88,7 @@ public class MinaClientIoHandler extends IoHandlerAdapter {
 	@Override
 	public void sessionClosed(IoSession session) throws Exception {
 		session.removeAttribute(OPEN);
+		CoreClientFactory.resetClient();
 		logger.info("{}> Session closed", session.getId());
 		final int clsd = closed.incrementAndGet();
 
@@ -123,6 +125,7 @@ public class MinaClientIoHandler extends IoHandlerAdapter {
 			case MinaConstant.UNITE_TODO_SUBMIT_RESP:
 				com.mocha.unitcode.mina.pdu.SubmitTodoEntityResp subItemresp = (com.mocha.unitcode.mina.pdu.SubmitTodoEntityResp) pdu;
 				subItemresp.dump();
+				logger.info("subItemresp:" + subItemresp.dump());
 				logger.info("subItemresp:"
 						+ subItemresp.header.getSequenceNumber()
 						+ " on session " + session.getId());

@@ -1,5 +1,7 @@
 package com.mocha.unitcode.mina.pdu;
 
+import org.apache.log4j.Logger;
+
 import com.mocha.unitcode.mina.code.ByteBuffer;
 import com.mocha.unitcode.mina.code.NotEnoughDataInByteBufferException;
 import com.mocha.unitcode.mina.code.PDUException;
@@ -22,14 +24,23 @@ import com.mocha.unitcode.mina.common.MinaConstant;
  *          -------------------------------------------<br>
  * <br>
  * <br>
+ * @param <E>
  */
-public class SubmitTodoEntityResp extends Response {
+public class SubmitTodoEntityResp<E> extends Response {
 
 	private byte[] msgId = new byte[8];
 	private int result = 0;
+	/**
+	 * 返回待办数据消息
+	 */
+	private Message<E> entityMessage = new Message<E>();
+
+	public SubmitTodoEntityResp(int commandId) {
+		super(commandId);
+	}
 
 	public SubmitTodoEntityResp() {
-		super(MinaConstant.UNITE_TODO_SUBMIT_RESP);
+		// super();
 	}
 
 	public ByteBuffer getData() {
@@ -49,6 +60,24 @@ public class SubmitTodoEntityResp extends Response {
 		try {
 			msgId = buffer.removeBytes(8).getBuffer();
 			result = buffer.removeInt();
+			byte msgFormat = buffer.removeByte();
+			byte type = buffer.removeByte();
+			Logger.getLogger(MinaConstant.LOG_TODO).info(
+					"===setBody====msgFormat===========" + msgFormat);
+			byte classLength = buffer.removeByte();
+			int classLh = classLength;
+			Logger.getLogger(MinaConstant.LOG_TODO).info(
+					"===setBody====classLength===========" + classLength);
+			entityMessage.setClassData(buffer.removeBuffer(classLh));
+			byte signbyte = buffer.removeByte();
+			Logger.getLogger(MinaConstant.LOG_TODO).info(
+					"===setBody====signbyte===========" + signbyte);
+			int msgLength = buffer.length();
+			Logger.getLogger(MinaConstant.LOG_TODO).info(
+					"==setBody=====msgLength===========" + msgLength);
+			entityMessage.setData(buffer.removeBuffer(msgLength));
+			entityMessage.setMsgFormat(msgFormat);
+			entityMessage.setType(type);
 		} catch (NotEnoughDataInByteBufferException e) {
 			throw new PDUException(e);
 		}
@@ -58,6 +87,17 @@ public class SubmitTodoEntityResp extends Response {
 		ByteBuffer buffer = new ByteBuffer();
 		buffer.appendBytes(msgId);
 		buffer.appendInt(result);
+		buffer.appendByte(entityMessage.getMsgFormat());
+		buffer.appendByte(entityMessage.getType());
+		Logger.getLogger(MinaConstant.LOG_TODO).info(
+				"===getBody====msgId===========" + msgId);
+		buffer.appendByte((byte) entityMessage.getClassLength());
+		buffer.appendBuffer(entityMessage.getClassData());
+		buffer.appendByte((byte) entityMessage.getLength());
+		Logger.getLogger(MinaConstant.LOG_TODO).info(
+				"===getBody====entityMessage.getLength()==========="
+						+ entityMessage.getLength());
+		buffer.appendBuffer(entityMessage.getData());
 		return buffer;
 	}
 
@@ -77,8 +117,16 @@ public class SubmitTodoEntityResp extends Response {
 		this.result = result;
 	}
 
+	public Message<E> getEntityMessage() {
+		return entityMessage;
+	}
+
+	public void setEntityMessage(Message<E> entityMessage) {
+		this.entityMessage = entityMessage;
+	}
+
 	public String name() {
-		return "CMPP SubmitResp";
+		return "SubmitResp";
 	}
 
 	public String dump() {

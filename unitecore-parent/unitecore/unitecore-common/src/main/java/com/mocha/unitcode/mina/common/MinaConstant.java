@@ -92,7 +92,23 @@ public class MinaConstant {
 	 * 请求前置采集采集数据回值
 	 */
 	public static final int UNITE_TODO_REQUEST_SUBMIT_RESP = 0x80000009;
+	/**
+	 * Vip待办数据发送
+	 */
+	public static final int UNITE_TODO_VIP_SUBMIT = 0x00000010;
+	/**
+	 * Vip待办数据返回
+	 */
+	public static final int UNITE_TODO_VIP_SUBMIT_RESP = 0x80000010;
 
+	/**
+	 * Vip待办变更数据发送
+	 */
+	public static final int UNITE_TODOCHANGE_VIP_SUBMIT = 0x00000011;
+	/**
+	 * Vip待办变更数据返回
+	 */
+	public static final int UNITE_TODOCHANGE_VIP_SUBMIT_RESP = 0x80000011;
 	// Command_Status Error Codes
 	public static final int ESME_ROK = 0x00000000;
 
@@ -177,16 +193,16 @@ public class MinaConstant {
 	/**
 	 * 优先级高队列
 	 */
-	public static final String QUEUE_PRIORITY_HIGH = "queue:priority:high";
+	public static final String QUEUE_PRIORITY_HIGH = "queue:high:";
 
 	/**
 	 * 普通队列
 	 */
 	public static final String QUEUE_COMMON = "queue:common:";
 	/**
-	 * 优先级低队列
+	 * VIP队列
 	 */
-	public static final String QUEUE_PRIORITY_LOW = "queue:priority:low";
+	public static final String QUEUE_VIP = "queue:vip:";
 
 	/**
 	 * 队列最大值
