@@ -2,13 +2,24 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.unitecore</groupId>
   <artifactId>unitecore-parent</artifactId>
-  <version>1.0</version>
+  <version>0.1-SNAPSHOT</version>
   <packaging>pom</packaging>
   <modules>
   	<module>unitecore</module>
   </modules>
    <properties>
         <!-- 主要依赖库的版本定义 -->
+        <todo-entity.version>0.3-SNAPSHOT</todo-entity.version>
+		<common-utils.version>0.0.1-SNAPSHOT</common-utils.version>
+        <unitecore-tools.version>0.1-SNAPSHOT</unitecore-tools.version>
+         <unitecore-client.version>0.1-SNAPSHOT</unitecore-client.version>
+         <unitecore-common.version>0.1-SNAPSHOT</unitecore-common.version>
+        <unitecore-server.version>0.1-SNAPSHOT</unitecore-server.version>
+        <unite-cache.version>0.0.2-SNAPSHOT</unite-cache.version>
+        <tydb_common.version>0.0.1-SNAPSHOT</tydb_common.version>
+        <fastjson.version>1.1.29</fastjson.version>
+        
+        
         <mina-version>2.0.0-M6</mina-version>
         <commons-lang.version>2.5</commons-lang.version>
         <commons-logging.version>1.0.3</commons-logging.version>
@@ -107,4 +118,12 @@
             </plugin>
         </plugins>
     </build>
+    <!--配置远程发布到私服，mvndeploy -->
+	   <distributionManagement>
+        <snapshotRepository>
+            <id>snapshots</id>
+            <url>http://10.1.55.226:8081/nexus/content/repositories/snapshots/</url>
+        </snapshotRepository>
+   </distributionManagement>
+   
 </project>
